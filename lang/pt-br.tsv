@@ -1,4 +1,154 @@
-# Tradução pt-BR dos textos do jogo (tabelas de strings do disco).
-# Formato: chave<TAB>texto em português. "\n" (barra + n) é quebra de linha.
-# Só as linhas preenchidas entram; o que não estiver aqui continua em inglês.
-# Gere este arquivo com: python tools/ptbr.py export   (veja lang/README.md)
+# Tradução pt-BR dos textos do jogo. Formato: chave<TAB>português. \n = quebra de linha.
+# Parte 1: menu de pausa. O que não está aqui continua em inglês.
+Pause_Achievements	CONQUISTAS
+pause_add_favorites	ADICIONAR CORRIDA AOS FAVORITOS
+pause_arcade	ARCADE
+pause_blitz	CORRIDA DE MARCO
+Pause_Car_Stats	ESTATÍSTICAS DO VEÍCULO
+Pause_Career_Stats	ESTATÍSTICAS DA CARREIRA
+pause_change_vehicle	TROCAR DE VEÍCULO
+pause_change_vehicle_conf	TROCAR DE VEÍCULO?
+pause_change_vehicle_confdesc	Tem certeza de que quer trocar de veículo?
+Pause_Character_Select	PERSONAGEM ONLINE
+pause_cheat_codes	CÓDIGOS
+pause_Cheat_Enabled	CÓDIGOS
+pause_Cheat_Menu	MENU DE CÓDIGOS
+pause_choose_race	Escolha a corrida:
+pause_choose_race_type	Escolha o tipo de corrida:
+pause_circuit	CIRCUITO
+Pause_Collectables	COLECIONÁVEIS
+pause_complete_series	CONCLUIR SÉRIE
+pause_complete_time_trial	VOLTAR AO PASSEIO
+pause_Confirm_Repair	Tem certeza de que quer reparar?
+pause_continue	CONTINUAR
+pause_continue_to_cruise	VOLTAR AO PASSEIO
+pause_credits	CRÉDITOS
+pause_deliver_again	ENTREGAR DE NOVO
+pause_delivery_next	PRÓXIMA ENTREGA
+pause_delivery_results	RESULTADOS DA ENTREGA
+Pause_DLC_Content	CONTEÚDO PARA DOWNLOAD
+pause_downloadable_content	CONTEÚDO PARA DOWNLOAD
+pause_downloadable_content_new	NOVO CONTEÚDO PARA DOWNLOAD
+pause_exit_series	SAIR DA SÉRIE DE CORRIDAS
+pause_far	LONGE
+pause_favorites	CORRIDAS FAVORITAS
+pause_first_person	PRIMEIRA PESSOA
+Pause_Game_Stats	ESTATÍSTICAS DO JOGO
+pause_go_to_garage	IR PARA A GARAGEM
+pause_goalattack	ATAQUE AO OBJETIVO
+pause_gps_map	MAPA GPS
+pause_join_race	ENTRAR NA CORRIDA
+pause_Leaderboards	RANKINGS
+pause_medium	MÉDIO
+pause_mono	MONO
+pause_next_race	PRÓXIMA CORRIDA
+Pause_Next_Rank	PRÓXIMO NÍVEL EM:  
+pause_next_series	PRÓXIMA CORRIDA DA SÉRIE
+pause_next_tournament	CONTINUAR TORNEIO
+pause_next_wager	PRÓXIMA APOSTA:  <D>REWAGERAMOUNT</D>
+Pause_No_Stats	SEM ESTATÍSTICAS PARA ESTE TIPO DE CORRIDA
+pause_ol_all_classes	TODAS AS CLASSES
+pause_ol_cancel	CANCELAR
+pause_ol_circuit	CORRIDA DE CIRCUITO
+pause_ol_connection_error	ERRO DE CONEXÃO
+pause_ol_create_event	CRIAR NOVA PARTIDA
+pause_ol_creating_event	CRIANDO PARTIDA
+pause_ol_ctf	CAPTURAR A BANDEIRA
+pause_ol_custom_match	PARTIDA PERSONALIZADA
+pause_ol_description_ContentMissing	Você precisa comprar o conteúdo para download ou baixar o pacote de compatibilidade para jogar online com este jogador.
+pause_ol_description_SessionLeave	Tem certeza de que quer sair da partida?
+pause_ol_description_VehicleCorrectionFailed	Você não tem um veículo válido para este tipo de evento.
+pause_ol_drag_race	CORRIDA DE ARRANCADA
+pause_ol_economy	CARROS ECONÔMICOS
+pause_ol_error	ERRO
+pause_ol_find_cruise	PROCURAR PASSEIOS DISPONÍVEIS
+pause_ol_find_cruises	PROCURAR PASSEIOS
+pause_ol_find_matches	PROCURAR PARTIDAS
+pause_ol_host_event	SER ANFITRIÃO
+pause_ol_join_event	ENTRAR NA PARTIDA
+pause_ol_JoinGame	ENTRANDO NA PARTIDA
+pause_ol_joining	ENTRANDO
+pause_ol_just_cruise	PASSEIO RÁPIDO
+pause_ol_matching_events	PARTIDAS
+pause_ol_new_cruise	CRIAR NOVO PASSEIO
+pause_ol_no_match	Nenhuma partida encontrada
+pause_ol_none_found	NENHUMA ENCONTRADA, CRIANDO...
+pause_ol_ok	OK
+pause_ol_preparing	PREPARANDO PARA ENTRAR...
+pause_ol_ProgressLost	Tem certeza de que quer iniciar uma partida multijogador? Todo progresso não salvo será perdido.
+pause_ol_RankedDesc	Partidas ranqueadas são restritas à classe do seu veículo atual.
+pause_ol_seach_options	OPÇÕES DE BUSCA
+pause_ol_searching	PROCURANDO
+pause_ol_searching_match	PROCURANDO PARTIDAS...
+pause_ol_session_arbfailed	Ocorreu um problema de rede com um dos participantes desta partida.  Tente criar ou entrar em outra partida.
+pause_ol_session_banned	Você foi banido da partida pelo anfitrião.
+pause_ol_session_kicked	Você foi removido da partida pelo anfitrião.
+pause_ol_session_left	ALERTA
+pause_ol_session_leftDesc	A conexão com a partida multijogador foi perdida.  Verifique suas conexões.
+pause_ol_sign_in	NÃO HÁ JOGADORES CONECTADOS.  DESEJA ENTRAR AGORA?
+pause_ol_TimeOut	O DESAFIO NÃO ESTÁ MAIS DISPONÍVEL
+pause_ol_title_ContentMissing	AVISO
+pause_ol_title_SessionLeave	SAIR DA PARTIDA
+pause_ol_title_VehicleCorrectionFailed	NÃO É POSSÍVEL ENTRAR
+pause_ol_vehicle_class	CLASSE DO VEÍCULO
+pause_opponent_vehicle	VEÍCULO ADV.
+pause_options	OPÇÕES
+pause_ordered	ENCOMENDADO
+pause_payback_results	RESULTADOS DA VINGANÇA
+pause_photo_album	ÁLBUM DE FOTOS
+pause_players_met	JOGADORES ENCONTRADOS RECENTEMENTE
+pause_playlists	LISTAS DE MÚSICAS
+pause_power_ups	POWER-UPS
+pause_progress_lost	TODO O PROGRESSO SERÁ PERDIDO.
+pause_quit_delivery	ABANDONAR ENTREGA
+pause_quit_online	SAIR DO PASSEIO MULTIJOGADOR
+pause_quit_payback	ABANDONAR VINGANÇA
+pause_quit_series	ABANDONAR SÉRIE
+pause_quit_timetrial	ABANDONAR CONTRARRELÓGIO
+pause_quit_tournament	ABANDONAR TORNEIO
+pause_race_again	CORRER DE NOVO
+pause_race_back	CORRIDA DE VOLTA
+pause_race_editor	EDITOR DE CORRIDAS
+pause_race_options	OPÇÕES DE CORRIDA
+pause_race_results	RESULTADOS DA CORRIDA
+pause_race_series_again	REPETIR SÉRIE DE CORRIDAS
+Pause_Race_Stats	ESTATÍSTICAS DA CORRIDA
+pause_racestart	PULAR PARA A LARGADA
+pause_remove_favorites	REMOVER CORRIDA DOS FAVORITOS
+Pause_Rep	REPUTAÇÃO TOTAL:  
+pause_Replace_Race	FILA DE CORRIDAS CHEIA
+pause_Replace_Race_desc	Tem certeza de que quer substituir a última corrida solicitada por esta?
+pause_request_race	PROPOR UM DESAFIO
+pause_rerace	CORRER DE NOVO
+pause_rerace_tournament	REINICIAR TORNEIO
+pause_restart_delivery	REINICIAR ENTREGA
+pause_restart_payback	REINICIAR VINGANÇA
+pause_restart_race	REINICIAR CORRIDA
+pause_restart_series	REINICIAR SÉRIE
+pause_restart_timetrial	REINICIAR CONTRARRELÓGIO
+pause_restart_tournament	REINICIAR TORNEIO
+pause_resume	RETOMAR
+pause_return_cruise	VOLTAR AO PASSEIO
+pause_return_garage	IR PARA A GARAGEM
+pause_return_hangout	VOLTAR AO ENCONTRO
+pause_return_lobby	VOLTAR AO SAGUÃO
+pause_ReturntoChase	VOLTAR À PERSEGUIÇÃO
+pause_rewager	REAPOSTAR: <D>REWAGERAMOUNT</D>
+pause_series_standings	CLASSIFICAÇÃO DA SÉRIE
+pause_statistics	ESTATÍSTICAS
+pause_stereo	ESTÉREO
+pause_tab_gamemodes	MODOS
+pause_tab_mainmenu	PAUSA
+pause_tab_settings	CONFIGURAÇÕES
+pause_take_photo	TIRAR FOTO
+Pause_Tied	EMPATE
+pause_time_trial_results	RESULTADOS DO CONTRARRELÓGIO
+pause_timeattack	DESAFIO DE TEMPO
+PAUSE_TITLE	PAUSA
+pause_tournament_results	CLASSIFICAÇÃO DO TORNEIO
+pause_tournament_standings	CLASSIFICAÇÃO DO TORNEIO
+pause_traffic	TRÂNSITO
+pause_unlimited_damage	DANO ILIMITADO
+pause_unlimited_nitrous	NITRO ILIMITADO
+pause_view_replay	VER REPETIÇÃO
+PauseMenu	PAUSA

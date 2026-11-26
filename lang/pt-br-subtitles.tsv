@@ -1,3 +1,345 @@
-# Legendas pt-BR das cutscenes da história.
-# Formato: CENA<TAB>tempo inicial<TAB>texto em português. "\n" (barra + n) é quebra de linha.
-# Gere este arquivo com: python tools/ptbr.py export   (veja lang/README.md)
+# Legendas pt-BR das cutscenes da história. Formato: CENA<TAB>tempo inicial<TAB>texto em português.
+CUT_STORY_BEAT_SH_02_EXOTIC	5.5	Ha-ha, ha-ha, ha-ha...
+CUT_STORY_BEAT_SH_02_EXOTIC	7.5	O quê? Foi fazer compras antes da corrida?
+CUT_STORY_BEAT_SH_02_EXOTIC	9.5	Claro. Comprando cueca nova?
+CUT_STORY_BEAT_SH_02_EXOTIC	12	Só umas coisinhas.
+CUT_STORY_BEAT_SH_02_EXOTIC	13.5	Por quê, tá tão estressado, meu amigo? Nervoso?
+CUT_STORY_BEAT_SH_02_EXOTIC	15.5	Nada. E você?
+CUT_STORY_BEAT_SH_02_EXOTIC	18	O quê? Eu nesse aqui e você naquele?
+CUT_STORY_BEAT_SH_02_EXOTIC	21	Nervoso, não. Envergonhado, talvez.
+CUT_STORY_BEAT_SH_02_EXOTIC	23.5	Parece que tô implicando com criancinha.
+CUT_STORY_BEAT_SH_02_EXOTIC	26	Sério? É que eu tava achando que parecia um cara que
+CUT_STORY_BEAT_SH_02_EXOTIC	29	implica com idoso. Bom, acho que um de nós tem razão.
+CUT_STORY_BEAT_SH_02_EXOTIC	32.5	Melhor de três.
+CUT_STORY_BESTOF_SH_05	3.5	E aí, mano?
+CUT_STORY_BESTOF_SH_05	5	De boa, cara. E você?
+CUT_STORY_BESTOF_SH_05	6.5	Bem. Agora tô pronto pra você, parceiro.
+CUT_STORY_BESTOF_SH_05	10.5	Que bom pra você. Mas não tá meio atrasado?
+CUT_STORY_BESTOF_SH_05	13	Hã?
+CUT_STORY_BESTOF_SH_05	14	Eu já te ganhei.
+CUT_STORY_BESTOF_SH_05	16	Você me ganhou com o carro da minha irmã.
+CUT_STORY_BESTOF_SH_05	17.5	Aquilo tava todo ferrado.
+CUT_STORY_BESTOF_SH_05	20	É, alguma coisa estava ferrada mesmo.
+CUT_STORY_BESTOF_SH_05	22	Agora eu tenho um Golf 32, mano. Ah, é?
+CUT_STORY_BESTOF_SH_05	25.5	Espero que ele dirija por você.
+CUT_STORY_BESTOF_SH_05	27	Como é que é?
+CUT_STORY_BESTOF_SH_05	29	Você tem razão, desculpa. Você é o cara. Tanto faz.
+CUT_STORY_BESTOF_SH_05	32	Vamos, não seja otário, me dá uma chance.
+CUT_STORY_BESTOF_SH_05	39	Beleza, vamos lá.
+CUT_STORY_CITY_CHAMP	6	Aí vem ele, o desafiante.
+CUT_STORY_CITY_CHAMP	9	e aí está ele, o desafiado.
+CUT_STORY_CITY_CHAMP	12	Ainda palhaço. O seu jeito de dirigir é que é a verdadeira piada.
+CUT_STORY_CITY_CHAMP	17	Ei, me lembra por que a gente não saiu mais junto?
+CUT_STORY_CITY_CHAMP	20	Provavelmente pelo mesmo motivo que nenhuma dessas garotas quer falar com você.
+CUT_STORY_CITY_CHAMP	23.5	Ei, cara, eu também não quero falar com você.
+CUT_STORY_CITY_CHAMP	25.5	Pode crer, o sentimento é recíproco.
+CUT_STORY_CITY_CHAMP	27.5	Então, dá pra gente só correr e seguir com a vida?
+CUT_STORY_CITY_CHAMP	30.5	É, e eu vou te mandar de volta pra debaixo da pedra de onde você saiu.
+CUT_STORY_CITY_CHAMP	33.5	Sei.
+CUT_STORY_CITY_CHAMP_NIGHT	6	Aí vem ele, o desafiante.
+CUT_STORY_CITY_CHAMP_NIGHT	9	e aí está ele, o desafiado.
+CUT_STORY_CITY_CHAMP_NIGHT	12	Ainda palhaço. O seu jeito de dirigir é que é a verdadeira piada.
+CUT_STORY_CITY_CHAMP_NIGHT	17	Ei, me lembra por que a gente não saiu mais junto?
+CUT_STORY_CITY_CHAMP_NIGHT	20	Provavelmente pelo mesmo motivo que nenhuma dessas garotas quer falar com você.
+CUT_STORY_CITY_CHAMP_NIGHT	23.5	Ei, cara, eu também não quero falar com você.
+CUT_STORY_CITY_CHAMP_NIGHT	25.5	Pode crer, o sentimento é recíproco.
+CUT_STORY_CITY_CHAMP_NIGHT	27.5	Então, dá pra gente só correr e seguir com a vida?
+CUT_STORY_CITY_CHAMP_NIGHT	30.5	É, e eu vou te mandar de volta pra debaixo da pedra de onde você saiu.
+CUT_STORY_CITY_CHAMP_NIGHT	33.5	Sei.
+CUT_STORY_DISTRICT_CHAMPS	2.5	Ha-ha. Invicto. Ainda. Eu!
+CUT_STORY_DISTRICT_CHAMPS	6	O campeão da cidade, isso mesmo.
+CUT_STORY_DISTRICT_CHAMPS	8.5	Ha, nada, tô só com o Nikolai
+CUT_STORY_DISTRICT_CHAMPS	11.5	e umas 50 mulheres lindas.
+CUT_STORY_DISTRICT_CHAMPS	14.5	Você me conhece, garoto, eu não paro.
+CUT_STORY_DISTRICT_CHAMPS	16.5	Ha-ha, ei, deixa eu te ligar de volta.
+CUT_STORY_DISTRICT_CHAMPS	20	Aí está ele, o Judas. O ex-apóstolo.
+CUT_STORY_DISTRICT_CHAMPS	24	Parece que você escolheu o time errado, cara.
+CUT_STORY_DISTRICT_CHAMPS	27	Cara, do que você tá falando?
+CUT_STORY_DISTRICT_CHAMPS	28	Eu ganhei de novo, craque.
+CUT_STORY_DISTRICT_CHAMPS	31	Que bom pra você.
+CUT_STORY_DISTRICT_CHAMPS	33	Você não entende, a gente podia ter sido amigo.
+CUT_STORY_DISTRICT_CHAMPS	36	Pois é, acho que não sou rico nem superficial o bastante pra ser da sua turma.
+CUT_STORY_DISTRICT_CHAMPS	39.5	E eu não fiz nenhuma plástica, então
+CUT_STORY_DISTRICT_CHAMPS	42	Pois você precisa, otário.
+CUT_STORY_DISTRICT_CHAMPS	43.5	Tá bom, durão.
+CUT_STORY_DISTRICT_CHAMPS	45	Não sei bem por que ganhar te deixou tão irritado.
+CUT_STORY_DISTRICT_CHAMPS	48.5	E eu não sei por que perder te transformou num otário.
+CUT_STORY_DISTRICT_CHAMPS	51	Escuta, cara, quando você quiser, eu tô pronto.
+CUT_STORY_DISTRICT_CHAMPS	54	Pronto é a única coisa que você não é.
+CUT_STORY_DISTRICT_CHAMPS	56	Até você vencer o Tommy, o Leon e a Laticia, sai da minha frente.
+CUT_STORY_DISTRICT_CHAMPS	61	Você tá estragando o meu estilo.
+CUT_STORY_DISTRICT_CHAMPS	63.5	É a sua personalidade que estraga o seu estilo, cara.
+CUT_STORY_DISTRICT_CHAMPS	68.5	Invejoso.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	2.5	Ha-ha. Invicto. Ainda. Eu!
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	6	O campeão da cidade, isso mesmo.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	8.5	Ha, nada, tô só com o Nikolai
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	11.5	e umas 50 mulheres lindas.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	14.5	Você me conhece, garoto, eu não paro.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	16.5	Ha-ha, ei, deixa eu te ligar de volta.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	20	Aí está ele, o Judas. O ex-apóstolo.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	24	Parece que você escolheu o time errado, cara.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	27	Cara, do que você tá falando?
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	28	Eu ganhei de novo, craque.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	31	Que bom pra você.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	33	Você não entende, a gente podia ter sido amigo.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	36	Pois é, acho que não sou rico nem superficial o bastante pra ser da sua turma.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	39.5	E eu não fiz nenhuma plástica, então
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	42	Pois você precisa, otário.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	43.5	Tá bom, durão.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	45	Não sei bem por que ganhar te deixou tão irritado.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	48.5	E eu não sei por que perder te transformou num otário.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	51	Escuta, cara, quando você quiser, eu tô pronto.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	54	Pronto é a única coisa que você não é.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	56	Até você vencer o Tommy, o Leon e a Laticia, sai da minha frente.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	61	Você tá estragando o meu estilo.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	63.5	É a sua personalidade que estraga o seu estilo, cara.
+CUT_STORY_DISTRICT_CHAMPS_NIGHT	68.5	Invejoso.
+CUT_STORY_FIND_SH_02C	4	Até mais. Até mais, querida.
+CUT_STORY_FIND_SH_02C	7	Ah, aí está ele, grande demais pra gente como eu.
+CUT_STORY_FIND_SH_02C	10	Tanto faz. Que bom te ver, Annie.
+CUT_STORY_FIND_SH_02C	13	Não esquece de instalar aquele intercooler novo no meu Solstice.
+CUT_STORY_FIND_SH_02C	16	Até mais, querida... ei, espera, como você vai embora agora?
+CUT_STORY_FIND_SH_02C	20	Logo agora que o figurão acabou de chegar, hein?
+CUT_STORY_FIND_SH_02C	24	Vocês dois não deviam ter um romance apaixonado?
+CUT_STORY_FIND_SH_02C	28	E eu e você não deveríamos ter uma briga feia, hein?
+CUT_STORY_FIND_SH_02C	31.5	Isso aqui não é Hollywood? Hein?
+CUT_STORY_FIND_SH_02C	33.5	Passei os primeiros 20 anos da minha vida no comunismo
+CUT_STORY_FIND_SH_02C	37.5	Aprendendo a viver pelos filmes.
+CUT_STORY_FIND_SH_02C	39.5	Vamos, me mostra alguma coisa.
+CUT_STORY_FIND_SH_02C	43	Você tá bêbado. Tchau, pessoal, divirtam-se.
+CUT_STORY_FIND_SH_02C	45.5	E aí, como você tem andado, Karol?
+CUT_STORY_FIND_SH_02C	48.5	É, tô bem.
+CUT_STORY_FIND_SH_02C	50	Aqui sentado, me esbaldando em todo o meu dinheiro.
+CUT_STORY_FIND_SH_02C	53	Falando em dinheiro, ainda tá firme com a sua oficina?
+CUT_STORY_FIND_SH_02C	58	Com certeza. Acabei de avaliar... o negócio vale dois milhões...
+CUT_STORY_FIND_SH_02C	65.5	Então um milhão me dá cinquenta por cento, certo?
+CUT_STORY_FIND_SH_02C	69	E todo o seu trabalho de graça, você ainda pode se exibir...
+CUT_STORY_FIND_SH_02C	73	Fingir que trabalha de verdade em vez de jogar a vida inteira fora...
+CUT_STORY_FIND_SH_02C	78	É, mais ou menos isso.
+CUT_STORY_FIND_SH_02C	80	É, mais ou menos isso.
+CUT_STORY_FIND_SH_02C	93	Bem-vindo a bordo! Ha-ha
+CUT_STORY_FIND_SH_02C	100	Agora quero te contar uma historinha...
+CUT_STORY_FIND_SH_04	1	Belo carro... nada mal. De quem você roubou?
+CUT_STORY_FIND_SH_04	5	De você.
+CUT_STORY_FIND_SH_04	6	Você é engraçado... Devia largar as corridas, o dinheiro...
+CUT_STORY_FIND_SH_04	8.5	Suba num palco, porque é o seu lugar.
+CUT_STORY_FIND_SH_04	11	Ah, tanto faz. O que você tem aprontado, cara?
+CUT_STORY_FIND_SH_04	14	Hollywood já tava ficando manjada... Decadente e vazia, sabe?
+CUT_STORY_FIND_SH_04	18	Mas aqui embaixo tudo é diferente.
+CUT_STORY_FIND_SH_04	20.5	Essa galera é louca, parceiro, e eu me encaixo direitinho.
+CUT_STORY_FIND_SH_04	24	Sei, tenho certeza.
+CUT_STORY_FIND_SH_04	25	Tanto faz, otário, você continua falando grosso.
+CUT_STORY_FIND_SH_04	28.5	Diferente de você, né?
+CUT_STORY_FIND_SH_04	30	Como eu disse... tanto faz. Enfim, tem um cara chamado
+CUT_STORY_FIND_SH_04	32.5	Andrew perto da Broadway... Ele quer correr valendo o carro.
+CUT_STORY_FIND_SH_04	36.5	Ele fugiria de mim a quilômetros; além disso, tenho negócios pra resolver...
+CUT_STORY_FIND_SH_04	42	Acho que você consegue ganhar dele.
+CUT_STORY_FIND_SH_04	43.5	E se não conseguir, vai ser engraçado ver
+CUT_STORY_FIND_SH_04	45	você perder esse carrão que roubou.
+CUT_STORY_FIND_SH_04	47	É, muito engraçado, né?
+CUT_STORY_FIND_SH_04	49	Vamos, parceiro, não seja uma mocinha.
+CUT_STORY_FIND_SH_04	51	Cara, você tá mandando bem nessa gíria. Em que livro aprendeu isso?
+CUT_STORY_FIND_SH_04	55.5	No livro de...
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	1	Aí ele veio pra cima de mim assim,
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	4	mas ele não sabia que eu não aceito ser tratado como idiota,
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	6.5	então eu agarrei ele assim: pou, pou, pou...
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	10.5	Sério? Sério mesmo?
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	13	Quem diabos é você? Ninguém, cara.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	15	Só um amigo do Karol. Ele disse que vocês podem topar uma corrida.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	19	Valendo o carro, quero dizer.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	20.5	O Karol fala demais. Olha só, eu e o Jin, você conhece o Jin,
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	25.5	mesmo parecendo meio bobo, ele é um piloto de tuning de verdade
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	28.5	a gente não tem tempo pra você.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	30	Não. Não. Vocês parecem ocupados demais se agarrando.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	32.5	Opa! Calma aí, eu fico com o seu carro,
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	35	se você tá tão desesperado pra se livrar dele. Eu sou o cara.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	38	E então, o que isso faz de você?
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	39.5	Cai fora.
+CUT_STORY_HANGOUT_PINKSLIP_DOWNTOWN	41	Desculpem estragar o encontro de vocês, rapazes.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	0.5	Tenho uma ideia boa: por que não me paga em dinheiro?
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	4	Não em favores. Não em garotas. Não em festas. Em dinheiro.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	9	Peraí, seu amigo acabou de chegar. Eu ligo de volta. Tchau.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	12.5	Ei, Karol.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	13.5	Ei, e aí, tudo bem?
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	17.5	Como vai o carro?
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	18.5	Tá bom, tá bom. Bom.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	21	O pessoal tá começando a falar de você, amigão.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	24	As várias gangues de pilotos de rua malucos e
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	27	desesperados que formam esse nosso mundinho.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	31.1	Ah, é? É...
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	33.5	Uns dizem que você é rápido, outros dizem que você tem medo.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	38	Medo de perder o carro.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	40.5	Não tenho medo disso, cara.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	43	Ótimo, porque conheço um cara chamado Pete que diz que corre com qualquer um valendo o carro.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	48.5	Ele dirige um belo Mitsubishi Evolution IX MR,
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	52	bem acertado, mas dá pra ganhar dele.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	57.3	Vai ser bom pra você, porque ele conhece muita gente e fala bastante.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	63	Claro.
+CUT_STORY_HANGOUT_PINKSLIP_HILLS	65.5	He-he.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	5.5	Então você é parceiro do Booke.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	9	É, mais ou menos. Você é o Hugo?
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	11.5	Mais ou menos.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	13.5	Escuta, você sabe no que tá se metendo aqui?
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	17.5	Corrida de carro, espero.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	20	Beleza, grandão, vai correr com o meu amigo Miguel aqui.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	24	Ele vai me dizer se você aguenta andar com a gente.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	27	Não com o Booke e o grupinho de mocinhas dele.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	30	Ah, mas eu ouvi dizer que você era o cara pra correr, Hugo.
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	33	Beleza, porque eu não ouvi isso sobre você,
+CUT_STORY_HANGOUT_SERIES_DOWNTOWN	36	e quando ouvir, a gente conversa.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	2.5	Escuta, mano, dá pra você se acalmar?
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	5.5	Mano? O que há de errado com você, Brian? Você é de Ohio.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	9	E por que não me devolve o meu dinheiro, mano?
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	11	Tanto faz. Eu te mostro o tanto faz.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	13	Não me importa o tamanho da fortuna da sua família.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	15	Você é velho demais pra continuar sendo tão idiota.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	17	Você e seus amigos idiotas da moda.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	19.5	Você sabia as regras, Annie. Ponto.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	21	Espero que tenham te deixado cair de cabeça quando você era bebê,
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	24	Brian, porque algo tem que explicar como você ficou assim.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	27	Paz e amor, Annie.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	31	Ei, sou amigo do Karol.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	34	Ele disse que você pode saber de algumas corridas.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	36	Claro. Você pode correr com aquele otário.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	39.5	Ele tá nadando em dinheiro. Acabou de me enganar.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	42	Ele e os amigos otários dele ficam no estacionamento
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	44.5	sabe, aquele perto do shopping em Century City.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	47.5	Beleza. Eles são chatos, mas são loucos.
+CUT_STORY_HANGOUT_SERIES_HOLLYWOODC	50	Se você ganhar deles, talvez a gente corra.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	3	Tô falando, Jeff, o ponto de ignição tá errado.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	5.5	Tô trabalhando nisso.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	9	Você é amigo do Booke? É, acho que sim.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	11	Tá apertado demais.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	14	Você não parece um filhinho de papai fingindo ser produtor de cinema...
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	17	Por que diabos você anda com ele?
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	18.5	A gente tem amigos em comum.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	20.5	Justo. Gosto não se discute, né?
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	23	O que posso fazer por você? Me diz.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	25.5	Aqui é uma oficina completa:
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	28	desempenho, lataria, faróis, pintura, adesivos, o que você quiser.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	31.7	Também consigo carros novos, carros de verdade, sem fila de espera.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	36	Ótimo, cara, valeu.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	38	Ei, acabou de passar um cara aqui, o Martin, também amigo do Booke.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	41.2	Pelo menos era, até enjoar dessa cena, ou de qualquer cena.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	44.2	Nada organizado, essa é a nova vibe dele.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	46.2	Disse que estaria na avenida num Scirocco vermelho.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	49	Tem interesse?
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	51	Talvez.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	53	Justo. A gente se vê por aí.
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	56.5	Tá apertado demais
+CUT_STORY_HOLLYWOOD_GARAGE_INTRO	60.5	Tanto faz, papi...
+CUT_STORY_MOTORCYCLE_REP	3	Idiota, maldito...
+CUT_STORY_MOTORCYCLE_REP	5.5	Ei, relaxa, cara.
+CUT_STORY_MOTORCYCLE_REP	7	Ganhar ou perder não importa numa lata velha dessas...
+CUT_STORY_MOTORCYCLE_REP	10	qualquer um consegue dirigir.
+CUT_STORY_MOTORCYCLE_REP	11.5	É, o que você disser...
+CUT_STORY_MOTORCYCLE_REP	13	Sério, você se acha especial porque
+CUT_STORY_MOTORCYCLE_REP	15.5	consegue pisar num pedal?
+CUT_STORY_MOTORCYCLE_REP	17	Acha que é durão e destemido?
+CUT_STORY_MOTORCYCLE_REP	19	Sobe numa moto, amigão. Numa moto.
+CUT_STORY_MOTORCYCLE_REP	22	Tá bom.
+CUT_STORY_MOTORCYCLE_REP	23.5	Vai treinar um pouco e me encontra nas colinas...
+CUT_STORY_MOTORCYCLE_REP	25.5	Aí a gente vê o quanto você é durão de verdade, amigão.
+CUT_STORY_MOTORCYCLE_REP	28	Peraí, peraí, você acha que eu preciso treinar pra ganhar de você?
+CUT_STORY_MOTORCYCLE_REP	31.5	Acabei de ver você dirigir, cara.
+CUT_STORY_MOTORCYCLE_REP	34	Eu encaro você, amigão. Quando quiser.
+CUT_STORY_PAYBACK_INTRO	4	Hum, tá berrante.
+CUT_STORY_PAYBACK_INTRO	6.5	Não me culpe, só tô fazendo o que eles queriam.
+CUT_STORY_PAYBACK_INTRO	11.5	Esse é o problema da liberdade.
+CUT_STORY_PAYBACK_INTRO	14	De onde eu venho, diziam às pessoas do que gostar.
+CUT_STORY_PAYBACK_INTRO	17	Meu Deus, às vezes acho que é o melhor pra todo mundo.
+CUT_STORY_PAYBACK_INTRO	20.5	Ei. Ei, Karol. Como vão os negócios?
+CUT_STORY_PAYBACK_INTRO	23.5	Péssimos. Trabalho feito imigrante recém-chegado.
+CUT_STORY_PAYBACK_INTRO	28	Ora, eu sou um imigrante recém-chegado.
+CUT_STORY_PAYBACK_INTRO	31.9	O pessoal me trata como caridade pra todos os caloteiros,
+CUT_STORY_PAYBACK_INTRO	35	os aspirantes a figurão que dirigem nessa cidade.
+CUT_STORY_PAYBACK_INTRO	37.2	Do que você tá falando?
+CUT_STORY_PAYBACK_INTRO	39.6	Um cliente meu me passou a perna, ele me deve oito mil...
+CUT_STORY_PAYBACK_INTRO	42.5	De repente o telefone dele é desligado, entende?
+CUT_STORY_PAYBACK_INTRO	45.5	É, claro
+CUT_STORY_PAYBACK_INTRO	46.3	Me faz um favor: leva o carro da frente, é velho e pesado.
+CUT_STORY_PAYBACK_INTRO	50	Arrebenta o carro dele, aí a gente vê quem vai querer me enganar, hein?
+CUT_STORY_PAYBACK_INTRO	53.5	Eu é que não, com certeza.
+CUT_STORY_RACES_IN_BEACH	3.5	Pensando em fazer bem aqui, só que dessa vez vou fazer em vermelho...
+CUT_STORY_RACES_IN_BEACH	6.5	E aí?
+CUT_STORY_RACES_IN_BEACH	7	Ah, aí está ele, o garoto da cidade alta. Lester, este é...
+CUT_STORY_RACES_IN_BEACH	10	É, a gente já se conheceu. Ele é parceiro do Booke.
+CUT_STORY_RACES_IN_BEACH	13	Ah, só pode ser brincadeira. Achei que você não era assim.
+CUT_STORY_RACES_IN_BEACH	15.5	Não sou. Tô só aqui pra fazer uma tatuagem, sabe.
+CUT_STORY_RACES_IN_BEACH	18.5	Sério?
+CUT_STORY_RACES_IN_BEACH	20	É, tava pensando em "forçando a barra" bem aqui no pescoço.
+CUT_STORY_RACES_IN_BEACH	24.5	Muito engraçado.
+CUT_STORY_RACES_IN_BEACH	26	Olha só, preciso ir pra avenida.
+CUT_STORY_RACES_IN_BEACH	27.5	A gente corre por toda a orla aqui, se você tiver interesse.
+CUT_STORY_RACES_IN_BEACH	32	Tô meio ocupado. Mas talvez ele tenha interesse.
+CUT_STORY_RACES_IN_BEACH	35	Claro, parceiro. Você sabe onde nos encontrar, né?
+CUT_STORY_RACES_IN_BEACH	37	Sei, cara.
+CUT_STORY_RACES_IN_BEACH	38	Beleza, meu chapa.
+CUT_STORY_RACE_GH_06	0.5	Belo carro.
+CUT_STORY_RACE_GH_06	2.5	Valeu... E aí, você é o Booke?
+CUT_STORY_RACE_GH_06	4.5	É o que dizem.
+CUT_STORY_RACE_GH_06	6	O quê?
+CUT_STORY_RACE_GH_06	7	Cara, não conta pra todo mundo.
+CUT_STORY_RACE_GH_06	9	Confia, cara, não vou contar.
+CUT_STORY_RACE_GH_06	10.5	Cara, você é engraçado. Parece o Tony.
+CUT_STORY_RACE_GH_06	12.5	Você é um daqueles caras engraçados da Costa Leste, né?
+CUT_STORY_RACE_GH_06	15	Veio fazer stand-up?
+CUT_STORY_RACE_GH_06	16.5	Não. E você?
+CUT_STORY_RACE_GH_06	17.5	O Booke não precisa de palco.
+CUT_STORY_RACE_GH_06	18.5	As pessoas riem dele só de andar na rua.
+CUT_STORY_RACE_GH_06	22	O que você disser, Nikolai. Sua namorada me achou engraçado.
+CUT_STORY_RACE_GH_06	25.5	Não achou. Ela estava confusa.
+CUT_STORY_RACE_GH_06	28.5	Ficou se perguntando por que você se veste como se fosse jogar golfe.
+CUT_STORY_RACE_GH_06	30	Gelado! Cara, cala a boca, vocês.
+CUT_STORY_RACE_GH_06	33	Enfim, o que você veio fazer aqui?
+CUT_STORY_RACE_GH_06	34.5	Correr com uns carros, cara.
+CUT_STORY_RACE_GH_06	36.5	Como assim, correr com uns carros lentos?
+CUT_STORY_RACE_GH_06	39.5	Tem muita molecada rodando lá na avenida.
+CUT_STORY_RACE_GH_06	42	Bem entre a Rodeo e a Fairfax.
+CUT_STORY_RACE_GH_06	45	Vai correr com eles e depois a gente conversa.
+CUT_STORY_RACE_GH_06	48	Beleza.
+CUT_STORY_RACE_GH_06	49	Boa sorte, parceiro.
+CUT_STORY_RACE_GH_06	50.5	Vamos, galera, vamos comer alguma coisa.
+CUT_STORY_RACE_GH_06	52.5	Ver se fazem um hambúrguer low carb pra mim.
+CUT_STORY_RACE_GH_06	55	Aproveitem...
+CUT_STORY_REP_ON_STRIP_GARAGE	1	Eu sumi de lá, cara, fazendo retornos proibidos, entrando em mão única.
+CUT_STORY_REP_ON_STRIP_GARAGE	4	Sério, parceiro, a polícia tava no meu pé.
+CUT_STORY_REP_ON_STRIP_GARAGE	7	Pois é, cara, perseguiram todo mundo.
+CUT_STORY_REP_ON_STRIP_GARAGE	9	Ah, tá, então vocês são de verdade, né, parceiro?
+CUT_STORY_REP_ON_STRIP_GARAGE	13	Rua de verdade... Beleza, quando quiser correr valendo carro,
+CUT_STORY_REP_ON_STRIP_GARAGE	15.5	aparece lá na praia.
+CUT_STORY_REP_ON_STRIP_GARAGE	17.5	E aí, vai ser como da última vez?
+CUT_STORY_REP_ON_STRIP_GARAGE	19	Quando um amigo seu se recusou a entregar o carro.
+CUT_STORY_REP_ON_STRIP_GARAGE	22	Cara, peraí, segura essa onda.
+CUT_STORY_REP_ON_STRIP_GARAGE	24	Primeiro, ele não era meu amigo, era mais um sócio de negócios.
+CUT_STORY_REP_ON_STRIP_GARAGE	27	E segundo, acho que ele se sentiu ofendido por você.
+CUT_STORY_REP_ON_STRIP_GARAGE	30	Pfff... tanto faz...
+CUT_STORY_REP_ON_STRIP_GARAGE	33	E aí, cara, beleza?
+CUT_STORY_REP_ON_STRIP_GARAGE	34	E aí.
+CUT_STORY_REP_ON_STRIP_GARAGE	34.5	Preciso vazar daqui, cara, falo com você depois.
+CUT_STORY_REP_ON_STRIP_GARAGE	37.5	Até mais, Lester.
+CUT_STORY_REP_ON_STRIP_GARAGE	42	Esse é o meu parceiro, mostra respeito.
+CUT_STORY_REP_ON_STRIP_GARAGE	44.5	Ah, cara, a gente precisa trabalhar nisso. Você também, cara.
+CUT_STORY_REP_ON_STRIP_GARAGE	47	E você precisa trabalhar em fechar essa boca, otário.
+CUT_STORY_REP_ON_STRIP_GARAGE	50	Cara, eu sabia que o Tony tava certo, você sabe dirigir.
+CUT_STORY_REP_ON_STRIP_GARAGE	52.5	Continua assim e você pode acabar fazendo nome.
+CUT_STORY_REP_ON_STRIP_GARAGE	57	Sabe de uma coisa? O Trevor e a turma dele correm saindo desse estacionamento.
+CUT_STORY_REP_ON_STRIP_GARAGE	61	Vai correr com uns locais e tenho certeza de que deixam você andar com eles.
+CUT_STORY_REP_ON_STRIP_GARAGE	64.5	Ei, cara, eu ia contar isso pra ele.
+CUT_STORY_REP_ON_STRIP_GARAGE	66	Valeu, e eu preciso de um mecânico. Conhece algum?
+CUT_STORY_REP_ON_STRIP_GARAGE	69.5	Você devia falar com o Karol.
+CUT_STORY_REP_ON_STRIP_GARAGE	71	É, meu parceiro Karol.
+CUT_STORY_REP_ON_STRIP_GARAGE	73	É, o parceiro dele, o Karol, tem a melhor oficina e revenda particular da cidade.
+CUT_STORY_REP_ON_STRIP_GARAGE	77	Fica na Sunset com a Old Hollywood.
+CUT_STORY_REP_ON_STRIP_GARAGE	78.5	Legal, valeu.
+CUT_INTRO	27.5	Peguei o seu número com um amigo em comum, o Tony. Ele disse que você pode me ajudar.
+CUT_INTRO	31.5	Aham. O que você procura?
+CUT_INTRO	33.5	Algo rápido, sabe, não muito caro. Uns 2 ou 3.
+CUT_INTRO	36.5	E quando você chega na cidade? Depois de amanhã.
+CUT_INTRO	39.5	Sem problema. Conheço um cara que resolve isso.
+CUT_INTRO	42.5	Me diz, você sabe dirigir? Um pouco.
+CUT_INTRO	45.5	Modéstia. Interessante. Você não vai se encaixar por aqui.
+CUT_INTRO	49	Nem sei se pretendo. Então, onde a gente se encontra?
+CUT_INTRO	55	Tem uma lanchonete na Sunset, né?
+CUT_INTRO	58	É um vagão de trem antigo... O lugar se chama Carneys.
+CUT_INTRO	64	Fica na sua, cara, a polícia tá em cima da gente agora.
