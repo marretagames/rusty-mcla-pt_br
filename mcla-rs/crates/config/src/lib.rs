@@ -54,11 +54,21 @@ impl WindowMode {
 words!(Intro { Normal = "normal", Fast = "fast", Skip = "skip" });
 // (the text language: the five the original takes from the console, in the game's own numbering 0..4 - the string
 // table's blocks, the subtitle column; docs/UI.md "Languages")
-words!(Language { English = "english", Spanish = "spanish", French = "french", German = "german", Italian = "italian" });
+words!(Language { English = "english", Spanish = "spanish", French = "french", German = "german", Italian = "italian", Portuguese = "portuguese" });
 impl Language {
-    /// The game's language number (0 English, 1 Spanish, 2 French, 3 German, 4 Italian).
+    /// The game's language number (0 English, 1 Spanish, 2 French, 3 German, 4 Italian). Brazilian Portuguese is not
+    /// on the disc: it runs as English (0, so the movies, the save and the subtitles flag see the language they know)
+    /// with the port's own pt-BR text laid over it (`pt-br.tsv`, see `strtbl::set_overlay`).
     pub fn index(self) -> usize {
+        if self == Language::Portuguese {
+            return 0;
+        }
         Language::ALL.iter().position(|&l| l == self).unwrap_or(0)
+    }
+
+    /// Brazilian Portuguese (the port's own text layer over English).
+    pub fn is_portuguese(self) -> bool {
+        self == Language::Portuguese
     }
 }
 /// The longest player name: the Xbox gamertag's 15 characters, the length the original's results rows and Last Man

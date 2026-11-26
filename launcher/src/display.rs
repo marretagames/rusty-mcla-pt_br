@@ -285,8 +285,8 @@ mod tests {
     }
 
     #[test]
-    fn the_language_row_takes_the_games_five_words_and_nothing_else() {
-        for w in ["english", "spanish", "french", "german", "italian"] {
+    fn the_language_row_takes_the_games_five_words_and_portuguese_and_nothing_else() {
+        for w in ["english", "spanish", "french", "german", "italian", "portuguese"] {
             assert_eq!(checked("game.language", &json!(w)), Ok(mcla_config::toml::Value::String(w.into())));
         }
         // (Japanese is on the disc but the original never offers it)

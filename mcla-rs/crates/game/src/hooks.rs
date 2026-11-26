@@ -82,9 +82,37 @@ pub fn init(data_flag: Option<&str>, settings_flag: Option<&str>, shot_run: bool
 /// for every string table, the movies' `lang` and the subtitle column. Test hook: `MCLA_LANGUAGE=<0..4>` over it.
 pub fn language_apply() {
     let set = get().filter(|r| !r.settings_ignored).map_or(mcla_config::Language::English, |r| r.settings.game.language);
-    let lang = std::env::var("MCLA_LANGUAGE").ok().and_then(|v| v.trim().parse::<usize>().ok()).filter(|&l| l < mcla_config::Language::ALL.len()).unwrap_or(set.index());
+    let lang = std::env::var("MCLA_LANGUAGE").ok().and_then(|v| v.trim().parse::<usize>().ok()).filter(|&l| l < 5).unwrap_or(set.index());
     mcla_formats::strtbl::set_language(lang);
-    log::info!("language: {} ({})", lang, mcla_config::Language::ALL[lang].word());
+    // (Brazilian Portuguese: English underneath, the port's own pt-BR text over it; the MCLA_LANGUAGE test hook wins)
+    let pt = set.is_portuguese() && std::env::var_os("MCLA_LANGUAGE").is_none();
+    mcla_formats::strtbl::set_portuguese(pt);
+    if pt {
+        portuguese_load();
+    }
+    log::info!("language: {} ({})", lang, if pt { "portuguese" } else { mcla_config::Language::ALL[lang].word() });
+}
+
+/// The pt-BR files (`pt-br.tsv`, `pt-br-subtitles.tsv`), looked up next to the exe (where the game package puts them),
+/// then in a `lang` folder there, then in the data folder's `lang`. A missing file leaves that text in English.
+fn portuguese_load() {
+    let mut dirs: Vec<PathBuf> = Vec::new();
+    if let Some(d) = std::env::current_exe().ok().and_then(|p| p.parent().map(Path::to_path_buf)) {
+        dirs.push(d.clone());
+        dirs.push(d.join("lang"));
+    }
+    if let Some(r) = get() {
+        dirs.push(r.data.path.join("lang"));
+    }
+    let find = |name: &str| dirs.iter().map(|d| d.join(name)).find(|p| p.is_file());
+    match find("pt-br.tsv").and_then(|p| std::fs::read_to_string(&p).ok().map(|t| (p, t))) {
+        Some((p, t)) => log::info!("pt-BR text: {} entries from {}", mcla_formats::strtbl::set_overlay(&t), p.display()),
+        None => log::warn!("pt-BR text: pt-br.tsv not found (next to the exe, in lang/ or in the data folder's lang/); the text stays English"),
+    }
+    match find("pt-br-subtitles.tsv").and_then(|p| std::fs::read_to_string(&p).ok().map(|t| (p, t))) {
+        Some((p, t)) => log::info!("pt-BR subtitles: {} lines from {}", mcla_formats::strtbl::set_subtitle_overlay(&t), p.display()),
+        None => log::warn!("pt-BR subtitles: pt-br-subtitles.tsv not found; the subtitles stay English"),
+    }
 }
 
 /// The player's name where the original shows the Xbox gamertag (`game.player_name`, the launcher's: DECISIONS.md D53),

@@ -6746,7 +6746,7 @@ impl Game {
                             items.push((s("pause_cheat_codes", "CHEAT CODES"), String::new(), Go::Page(2)));
                             items.push((s("pause_playlists", "MUSIC PLAYLISTS"), String::new(), Go::Page(3)));
                             // (the port's own row, DECISIONS.md D18: QUIT GAME in English, the table's `quit` in the other languages - D54)
-                            items.push((if mcla_formats::strtbl::language() == 0 { "QUIT GAME".to_string() } else { s("quit", "QUIT GAME") }, String::new(), Go::Act(MenuAction::Quit)));
+                            items.push((if mcla_formats::strtbl::language() == 0 && !mcla_formats::strtbl::portuguese() { "QUIT GAME".to_string() } else { s("quit", "QUIT GAME") }, String::new(), Go::Act(MenuAction::Quit)));
                         }
                     },
                 }

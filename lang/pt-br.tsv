@@ -1,0 +1,4 @@
+# Tradução pt-BR dos textos do jogo (tabelas de strings do disco).
+# Formato: chave<TAB>texto em português. "\n" (barra + n) é quebra de linha.
+# Só as linhas preenchidas entram; o que não estiver aqui continua em inglês.
+# Gere este arquivo com: python tools/ptbr.py export   (veja lang/README.md)

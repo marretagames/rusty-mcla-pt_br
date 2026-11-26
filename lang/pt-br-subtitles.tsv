@@ -1,0 +1,3 @@
+# Legendas pt-BR das cutscenes da história.
+# Formato: CENA<TAB>tempo inicial<TAB>texto em português. "\n" (barra + n) é quebra de linha.
+# Gere este arquivo com: python tools/ptbr.py export   (veja lang/README.md)

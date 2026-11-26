@@ -263,7 +263,7 @@ impl Default for Options {
             convertible_top_down: false,
             // (the console's language in the original - here the launcher's, settings.toml game.language; subtitles
             // start on for every language but English: F-63809)
-            subtitles: mcla_formats::strtbl::language() != 0,
+            subtitles: mcla_formats::strtbl::language() != 0 || mcla_formats::strtbl::portuguese(),
             volume_effects: F(1.0),
             volume_music: F(1.0),
             volume_voice: F(1.0),
