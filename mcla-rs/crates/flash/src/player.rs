@@ -606,6 +606,14 @@ impl Player {
         }
         // a numeric last segment addresses an array element
         let key = last.parse::<i32>().map(Value::Int).unwrap_or_else(|_| Value::str(last));
+        // (Brazilian Portuguese: a label the port writes itself, in English, goes in as its pt-BR text)
+        let v = match v {
+            Value::Str(s) if mcla_formats::strtbl::portuguese() => match mcla_formats::strtbl::port_translate(&s) {
+                Some(t) => Value::str(&t),
+                None => Value::Str(s),
+            },
+            v => v,
+        };
         self.set_member(cur, &key, v);
     }
 

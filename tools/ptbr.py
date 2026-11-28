@@ -115,7 +115,9 @@ def export(_a):
             p = line.split("\t")
             if len(p) >= 3 and not line.startswith("#") and p[2].strip():
                 out.append(f"{p[0]}\t{p[2].strip()}")
-        (LANG / "pt-br.tsv").write_text("\n".join(out) + "\n", encoding="utf-8")
+        # (as linhas "@inglês<TAB>português" são os textos do próprio port e ficam como estão)
+        keep = [l for l in (LANG / "pt-br.tsv").read_text(encoding="utf-8").splitlines() if l.startswith("@")] if (LANG / "pt-br.tsv").exists() else []
+        (LANG / "pt-br.tsv").write_text("\n".join(out + keep) + "\n", encoding="utf-8")
         print(f"{len(out) - 1} textos -> lang/pt-br.tsv")
     s = WORK / "pt-br-subtitles-work.tsv"
     if s.exists():

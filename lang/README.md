@@ -6,7 +6,7 @@ inglês por baixo (filmes de interface, save, fontes) e os textos que você trad
 
 ## Arquivos (os dois vão no repositório e no release)
 
-- `lang/pt-br.tsv`: `chave<TAB>texto em português` (menus, HUD, mensagens). `\n` = quebra de linha.
+- `lang/pt-br.tsv`: `chave<TAB>texto em português` (menus, HUD, mensagens). `\n` = quebra de linha. As linhas que começam com `@` (`@inglês<TAB>português`) são textos que o próprio port escreve no código (como DISPLAY e PERFORMANCE); `{}` dentro delas é um número ou nome que o port preenche.
 - `lang/pt-br-subtitles.tsv`: `CENA<TAB>tempo inicial<TAB>texto` (legendas das cutscenes da história).
 
 O que não estiver nesses arquivos continua em inglês. O release copia os dois para a pasta do jogo, ao lado do

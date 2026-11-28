@@ -174,6 +174,17 @@ pub struct Font {
     pub pages: Vec<FontPage>,
 }
 
+/// The plain letter of a Portuguese tilde letter (the fallback of a font that has no glyph for it).
+fn tilde_base(ch: char) -> Option<char> {
+    match ch {
+        'ã' => Some('a'),
+        'õ' => Some('o'),
+        'Ã' => Some('A'),
+        'Õ' => Some('O'),
+        _ => None,
+    }
+}
+
 impl Font {
     /// The glyph of a character as the original's text measure and draw find it (`F-53874`, `F-50496`): below 128 the
     /// font's ASCII table, unchecked; otherwise the code searched in the glyph list (compared as 16 bits), and a
@@ -187,7 +198,15 @@ impl Font {
         if c > 0xFFFF {
             return 0;
         }
-        self.codes.iter().position(|&k| k as u32 == c).unwrap_or(0)
+        if let Some(g) = self.codes.iter().position(|&k| k as u32 == c) {
+            return g;
+        }
+        // (Brazilian Portuguese: the tilde letters are on no font of the disc's five languages, so a font that lacks one
+        // draws the plain letter instead of a space)
+        match crate::strtbl::portuguese().then(|| tilde_base(ch)).flatten() {
+            Some(b) => self.ascii[b as u32 as usize] as usize,
+            None => 0,
+        }
     }
 
     /// The advance (em 1024) of glyph `g` for the text measure and draw: the font's advance table, or 800 for a font
@@ -207,7 +226,10 @@ impl Font {
                 return Some(g);
             }
         }
-        self.codes.iter().position(|&k| k as u32 == c)
+        self.codes.iter().position(|&k| k as u32 == c).or_else(|| {
+            let b = crate::strtbl::portuguese().then(|| tilde_base(ch)).flatten()?;
+            self.codes.iter().position(|&k| k as u32 == b as u32)
+        })
     }
 
     pub fn page(&self, height: i16) -> Option<&FontPage> {

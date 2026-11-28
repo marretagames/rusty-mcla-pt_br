@@ -29,6 +29,15 @@ pub fn language() -> usize {
 /// the entries it has a translation for (`pt-br.tsv`: `key<TAB>text`, a backslash and an n is a line break).
 static PORTUGUESE: AtomicBool = AtomicBool::new(false);
 static OVERLAY: RwLock<Option<HashMap<u32, String>>> = RwLock::new(None);
+/// The port's own UI text (the labels it writes itself, not the disc's) in Portuguese: the `@English<TAB>português`
+/// lines of `pt-br.tsv`. A line with `{}` is a template (`{}` is a number or a name the port fills in).
+static PORT_TEXT: RwLock<Option<PortText>> = RwLock::new(None);
+
+#[derive(Default)]
+struct PortText {
+    exact: HashMap<String, String>,
+    templates: Vec<(Vec<String>, String)>,
+}
 /// Cutscene subtitle lines in Portuguese (`pt-br-subtitles.tsv`: `SCENE<TAB>start time<TAB>text`), keyed
 /// `SCENE|start time` exactly as the disc's subtitle table writes the start time.
 static SUB_OVERLAY: RwLock<Option<HashMap<String, String>>> = RwLock::new(None);
@@ -51,6 +60,7 @@ fn unescape(s: &str) -> String {
 /// Returns how many entries were read.
 pub fn set_overlay(tsv: &str) -> usize {
     let mut m: HashMap<u32, String> = HashMap::new();
+    let mut port = PortText::default();
     for line in tsv.trim_start_matches('\u{feff}').lines() {
         let line = line.trim_end_matches('\r');
         if line.trim().is_empty() || line.starts_with('#') {
@@ -60,13 +70,87 @@ pub fn set_overlay(tsv: &str) -> usize {
         if v.is_empty() {
             continue;
         }
+        if let Some(en) = k.strip_prefix('@') {
+            if en.contains("{}") {
+                port.templates.push((en.split("{}").map(str::to_string).collect(), unescape(v)));
+            } else {
+                port.exact.insert(en.to_string(), unescape(v));
+            }
+            continue;
+        }
         m.insert(joaat(k.trim()), unescape(v));
     }
-    let n = m.len();
+    let n = m.len() + port.exact.len() + port.templates.len();
     if let Ok(mut g) = OVERLAY.write() {
         *g = Some(m);
     }
+    if let Ok(mut g) = PORT_TEXT.write() {
+        *g = Some(port);
+    }
     n
+}
+
+/// `s` against a template's pieces (the text between its `{}`): what each `{}` stands for, or None.
+fn match_template(parts: &[String], s: &str) -> Option<Vec<String>> {
+    let first = parts.first()?;
+    if !s.starts_with(first.as_str()) {
+        return None;
+    }
+    let mut rest = &s[first.len()..];
+    let mut caps: Vec<String> = Vec::new();
+    for (i, part) in parts[1..].iter().enumerate() {
+        if i + 2 == parts.len() {
+            if !rest.ends_with(part.as_str()) {
+                return None;
+            }
+            caps.push(rest[..rest.len() - part.len()].to_string());
+            rest = "";
+        } else {
+            let at = if part.is_empty() { rest.len() } else { rest.find(part.as_str())? };
+            caps.push(rest[..at].to_string());
+            rest = &rest[at + part.len()..];
+        }
+    }
+    let _ = rest;
+    Some(caps)
+}
+
+fn port_lookup(p: &PortText, s: &str) -> Option<String> {
+    if let Some(t) = p.exact.get(s) {
+        return Some(t.clone());
+    }
+    for (parts, pt) in &p.templates {
+        if let Some(caps) = match_template(parts, s) {
+            let mut caps = caps.into_iter();
+            let mut out = String::new();
+            for (i, piece) in pt.split("{}").enumerate() {
+                if i > 0 {
+                    out.push_str(&caps.next().unwrap_or_default());
+                }
+                out.push_str(piece);
+            }
+            return Some(out);
+        }
+    }
+    None
+}
+
+/// The Portuguese of a text the port writes itself (an `@` line of pt-br.tsv), when the run is in Portuguese and there
+/// is one. A label padded with trailing spaces keeps its padding.
+pub fn port_translate(s: &str) -> Option<String> {
+    if !portuguese() {
+        return None;
+    }
+    let g = PORT_TEXT.read().ok()?;
+    let p = g.as_ref()?;
+    if let Some(t) = port_lookup(p, s) {
+        return Some(t);
+    }
+    let trimmed = s.trim_end();
+    if trimmed.len() != s.len() && !trimmed.is_empty() {
+        return port_lookup(p, trimmed).map(|t| format!("{}{}", t, &s[trimmed.len()..]));
+    }
+    None
 }
 
 /// Load the pt-BR subtitle lines (see [`SUB_OVERLAY`]); returns how many were read.
@@ -216,6 +300,9 @@ impl StringTable {
 mod tests {
     use super::*;
 
+    /// The tests share the Portuguese flag and layers, so they take turns.
+    static LOCK: std::sync::Mutex<()> = std::sync::Mutex::new(());
+
     /// A one-language table with one key.
     fn table(key: &str, text: &str) -> Vec<u8> {
         let mut d: Vec<u8> = Vec::new();
@@ -243,6 +330,7 @@ mod tests {
 
     #[test]
     fn the_portuguese_layer_replaces_and_adds_to_the_english_block() {
+        let _t = LOCK.lock().unwrap_or_else(|e| e.into_inner());
         let d = table("pause_options", "OPTIONS");
         assert_eq!(StringTable::parse(&d).unwrap().get("pause_options"), Some("OPTIONS"));
         assert_eq!(set_overlay("# comment\npause_options\tOPÇÕES\nquit\tSAIR DO JOGO\\nOK\n"), 2);
@@ -257,10 +345,26 @@ mod tests {
 
     #[test]
     fn the_subtitle_layer_is_keyed_by_scene_and_start_time() {
+        let _t = LOCK.lock().unwrap_or_else(|e| e.into_inner());
         assert_eq!(set_subtitle_overlay("CUT_A\t1.5\tOlá\\ntudo bem?\ncut_b\t2\tOi\n"), 2);
         assert_eq!(subtitle_override("cut_a", "1.5").as_deref(), Some("Olá\ntudo bem?"));
         assert_eq!(subtitle_override("CUT_B", "2").as_deref(), Some("Oi"));
         assert_eq!(subtitle_override("CUT_B", "3"), None);
         set_subtitle_overlay("");
+    }
+
+    #[test]
+    fn the_ports_own_text_goes_by_exact_strings_and_templates() {
+        let _t = LOCK.lock().unwrap_or_else(|e| e.into_inner());
+        assert_eq!(set_overlay("@LAP {}/{}\tVOLTA {}/{}\n@PRICE:\tPREÇO:\n@{} LAPS\t{} VOLTAS\n"), 3);
+        assert_eq!(port_translate("LAP 1/3"), None, "English runs keep their text");
+        set_portuguese(true);
+        assert_eq!(port_translate("LAP 1/3").as_deref(), Some("VOLTA 1/3"));
+        assert_eq!(port_translate("PRICE:").as_deref(), Some("PREÇO:"));
+        assert_eq!(port_translate("PRICE:   ").as_deref(), Some("PREÇO:   "));
+        assert_eq!(port_translate("12 LAPS").as_deref(), Some("12 VOLTAS"));
+        assert_eq!(port_translate("SOMETHING ELSE"), None);
+        set_portuguese(false);
+        set_overlay("");
     }
 }

@@ -94,6 +94,7 @@ pub fn subtitle_table(dir: &Path, lang: usize) -> Option<SubTable> {
     let mut t = SubTable { lines: Vec::new(), thought: Vec::new(), place: PLACE_DEFAULT };
     // (Brazilian Portuguese: the English column, each line replaced by the port's pt-BR one where there is one)
     let pt_scene = mcla_formats::strtbl::portuguese().then(|| dir.file_name().map(|n| n.to_string_lossy().to_ascii_uppercase()).unwrap_or_default());
+    let mut pt_hit = 0usize;
     for line in text.lines().skip(1) {
         let f = fields(line.trim_end_matches('\r'), sep);
         if f.len() < 2 {
@@ -117,10 +118,15 @@ pub fn subtitle_table(dir: &Path, lang: usize) -> Option<SubTable> {
         if s.is_empty() {
             continue;
         }
-        let s = pt_scene.as_deref().and_then(|sc| mcla_formats::strtbl::subtitle_override(sc, f[0].trim())).unwrap_or_else(|| s.to_string());
+        let over = pt_scene.as_deref().and_then(|sc| mcla_formats::strtbl::subtitle_override(sc, f[0].trim()));
+        pt_hit += over.is_some() as usize;
+        let s = over.unwrap_or_else(|| s.to_string());
         let end = last.filter(|e| *e > start).unwrap_or(start + 2.5);
         t.lines.push((start, end, s));
         t.thought.push(f.get(tcol).is_some_and(|x| x == "TRUE"));
+    }
+    if let Some(sc) = &pt_scene {
+        log::info!("subtitles {}: {} of {} lines in pt-BR", sc, pt_hit, t.lines.len());
     }
     Some(t)
 }

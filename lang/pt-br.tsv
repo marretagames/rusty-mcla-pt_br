@@ -1,11 +1,1660 @@
-# Tradução pt-BR dos textos do jogo. Formato: chave<TAB>português. \n = quebra de linha.
-# Parte 1: menu de pausa. O que não está aqui continua em inglês.
+# Tradução pt-BR do jogo. chave<TAB>português; \n = quebra de linha. Linhas com @ são textos do próprio port: @inglês<TAB>português.
+# Só as linhas preenchidas entram; o que não estiver aqui continua em inglês.
+quit	SAIR DO JOGO
+cop	POLÍCIA
+Navmap_Police	POLÍCIA
+tutorial_police_title	POLÍCIA
+2nd Color	COR SECUNDÁRIA
+abortRace	ABANDONAR CORRIDA
+acceleration	ACELERAÇÃO
+Accept	ACEITAR
+Back To Accept	ACEITAR
+prompt_accept	ACEITAR
+tutorial_prompt_accept	ACEITAR
+VE_Layer_Select	ACEITAR
+Achievements	CONQUISTAS
 Pause_Achievements	CONQUISTAS
-pause_add_favorites	ADICIONAR CORRIDA AOS FAVORITOS
+ACTION_ADD_RACE_TO_FAVORITES	<D>ACTION_ADD_RACE_FORMAT</D> ADICIONADA AOS FAVORITOS
+ACTION_REMOVE_RACE_FROM_FAVORITES	<D>ACTION_ADD_RACE_FORMAT</D> REMOVIDA DOS FAVORITOS
+add	ADICIONAR
+addToRaceFavoritesTitle	ADICIONAR AOS FAVORITOS?
+Adjust	AJUSTAR
+After Noon	TARDE
+Afternoon	TARDE
+AGRO	AGRO
+tutorial_agro_title	AGRO
+Agro level 1	AGRO NÍVEL 2
+AGRO_LEVEL_1	AGRO NÍVEL 2
+Agro level 2	AGRO NÍVEL 3
+AGRO_LEVEL_2	AGRO NÍVEL 3
+Alert	SALVANDO MENSAGEM
+All progress will be lost	TODO O PROGRESSO, INCLUINDO QUALQUER APOSTA, SERÁ PERDIDO.
+Alpha	MÁSCARA
+AMOUNT_COL_NAME	QUANTIA
+aracde_options_title	ARCADE
+arcade	ARCADE
+arcade_options_title	ARCADE
 pause_arcade	ARCADE
+arcade_options_desc	Escolha as opções da corrida:
+arcade_telephone	DESAFIAR
+arrest_desc	Você foi preso.
+arrest_duration_header	DURAÇÃO DA PERSEGUIÇÃO:
+arrest_title	PRESO
+cop_arrest	PRESO
+audio	ÁUDIO
+audio options	AJUSTES DE ÁUDIO
+audio_desc	O que você quer ajustar?
+camera_desc	O que você quer ajustar?
+controller_desc	O que você quer ajustar?
+dlg_desc_gameoptions	O que você quer ajustar?
+options_desc	O que você quer ajustar?
+Auto Save	SALVAMENTO AUTOMÁTICO
+option_autosave	SALVAMENTO AUTOMÁTICO
+Axle	EIXO
+back	CANCELAR
+button_cancel	CANCELAR
+Cancel	CANCELAR
+Common_Cancel	CANCELAR
+messagebox_cancel	CANCELAR
+pause_ol_cancel	CANCELAR
+prompt_cancel	CANCELAR
+Rmr_Cancel	CANCELAR
+Battle	BATALHA
+be_garage	GARAGEM
+Garage	GARAGEM
+Go To Garage	GARAGEM
+Navmap_Garage	GARAGEM
+RO_Garage	GARAGEM
+tutorial_garage_title	GARAGEM
+be_garage_desc	Praias
+be_local_hangout1	ESTACIONAMENTO DA 7-ELEVEN
+be_local_hangout1_desc	Santa Monica
+be_wager_hangout1_desc	Santa Monica
+GEORGIAN_DESC	Santa Monica
+PIER_DESC	Santa Monica
+PROMENADE_DESC	Santa Monica
+be_payback	VINGANÇA
+Navmap_Payback	VINGANÇA
+Payback_Title	VINGANÇA
+tutorial_payback_title	VINGANÇA
+be_timetrial	CONTRARRELÓGIO NA PRAIA
+TIMETRIAL_BEACHES_TITLE	CONTRARRELÓGIO NA PRAIA
+be_tournament1	TORNEIO NA PRAIA
+REPEAT_TOURNAMENT_BEACHES_TITLE	TORNEIO NA PRAIA
+TOURNAMENT_BEACHES_TITLE	TORNEIO NA PRAIA
+be_wager_hangout1	ESTACIONAMENTO NA COBERTURA
+BEACHES	PRAIAS
+RL_Beaches	PRAIAS
+BEAT_FREEWAY_DESC	BOOKE liga e te desafia a encontrar e vencer 10 CORRIDAS DE FREEWAY.
+BEAT_FREEWAY_OBJ_01	VENÇA 10 CORRIDAS DE FREEWAY
+BEAT_FREEWAY_TITLE	FRENESI NA FREEWAY
+BEAT_GH_04_MUSCLE_DESC	EXCLUIR
+BEAT_GH_04_MUSCLE_OBJ_01	EXCLUIR
+BEAT_GH_04_MUSCLE_TITLE	EXCLUIR
+BEAT_GH_05_TUNER_DESC	EXCLUIR
+BEAT_GH_05_TUNER_OBJ_01	EXCLUIR
+BEAT_GH_05_TUNER_TITLE	EXCLUIR
+Dlg_DeleteFav_Title	EXCLUIR
+prompt_delete	EXCLUIR
+VL_Delete	EXCLUIR
+BEAT_SH_02_BCLASS_DESC	KAROL liga e te desafia para uma corrida no Challenger Concept dele.  Traga um veículo CLASSE B para Santa Monica.  Os veículos podem ser melhorados ou rebaixados para se encaixar em uma classe de desempenho.
+BEAT_SH_02_BCLASS_OBJ_01	VENÇA O KAROL COM UM VEÍCULO CLASSE B
+BEAT_SH_02_BCLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE B para desafiar o KAROL.
+BEAT_SH_02_BCLASS_TITLE	SUBA O NÍVEL 3
+BEAT_SH_02_CCLASS_DESC	KAROL quer correr de novo, com carros mais rápidos.  Traga um veículo CLASSE C para a Sunset Blvd. e ele corre com você no Boss 302 dele.  Os veículos podem ser melhorados ou rebaixados para se encaixar em uma classe de desempenho.
+BEAT_SH_02_CCLASS_OBJ_01	VENÇA O KAROL
+BEAT_SH_02_CCLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE C para desafiar o KAROL.
+BEAT_SH_02_CCLASS_TITLE	SUBA O NÍVEL 2
+BEAT_SH_02_DCLASS_DESC	KAROL quer ver do que você é capaz.  Ele está circulando pela Sunset Blvd. num Datsun 1975.
+BEAT_SH_02_DCLASS_OBJ_01	VENÇA O KAROL NA SUNSET BLVD.
+BEAT_SH_02_DCLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE D para desafiar o KAROL.
+BEAT_SH_02_DCLASS_TITLE	SUBA O NÍVEL
+BEAT_SH_02_EXOTIC_DESC	KAROL quer correr com o Lamborghini 1971 dele.  Traga um veículo EXÓTICO para a Third Street Promenade e ele corre com você.
+BEAT_SH_02_EXOTIC_OBJ_01	ENCONTRE O KAROL
+FIND_SH_02_OBJ_01	ENCONTRE O KAROL
+FIND_SH_02B_OBJ_01	ENCONTRE O KAROL
+FIND_SH_02C_OBJ_01	ENCONTRE O KAROL
+BEAT_SH_02_EXOTIC_OBJ_02	VENÇA O KAROL COM UM VEÍCULO EXÓTICO
+BEAT_SH_02_EXOTIC_TITLE	CLÁSSICO ITALIANO 
+BEAT_SH_03_ACLASS_DESC	A ANNIE conseguiu um Ford Shelby Cobra Concept.  Traga um veículo CLASSE A para a Praia e ela corre com você.  Os veículos podem ser melhorados ou rebaixados para se encaixar em uma classe de desempenho.
+BEAT_SH_03_ACLASS_OBJ_01	VENÇA A ANNIE COM UM VEÍCULO CLASSE A
+BEAT_SH_03_ACLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE A para desafiar a ANNIE.
+BEAT_SH_03_ACLASS_TITLE	PICADA DE COBRA
+BEAT_SH_03_CCLASS_DESC	ANNIE liga te desafiando para uma corrida no Pontiac Solstice dela.  Jogue limpo e traga um veículo CLASSE C para a Ocean Ave. em Santa Monica.  Os veículos podem ser melhorados ou rebaixados para se encaixar em uma classe de desempenho.
+BEAT_SH_03_CCLASS_OBJ_01	VENÇA A ANNIE COM UM VEÍCULO CLASSE C
+BEAT_SH_03_CCLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE C para desafiar a ANNIE.
+BEAT_SH_03_CCLASS_TITLE	SEI QUE VOCÊ TEM SOL
+BEAT_SH_03_DESC	O carro novo da ANNIE é um RS4 turbinado e ela quer correr.  Encontre a ANNIE circulando pela Beach Blvd. e vença-a numa corrida.
+BEAT_SH_03_OBJ_01	ENCONTRE E VENÇA A ANNIE
+BEAT_SH_03_TITLE	CIRCULANDO NA PRAIA
+BEAT_SH_04_BCLASS_DESC	ANDREW está circulando pela Figueroa St. com o Mazda '95 dele.  Mantenha a corrida justa e vença-o com um veículo CLASSE B.  Os veículos podem ser melhorados ou rebaixados para se encaixar em uma classe de desempenho.
+BEAT_SH_04_BCLASS_OBJ_01	VENÇA O ANDREW COM UM VEÍCULO CLASSE B
+BEAT_SH_04_BCLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE B para desafiar o ANDREW.
+BEAT_SH_04_BCLASS_TITLE	ANDREW NO CENTRO 2
+BEAT_SH_04_DESC	ANDREW liga te desafiando para uma corrida.  O ANDREW está circulando pelo Centro num Mazda RX8 2006, se você quiser correr.
+BEAT_SH_04_MOTORCYCLE_DESC	Andrew liga te desafiando para outra corrida, dessa vez de moto.
+BEAT_SH_04_MOTORCYCLE_OBJ_01	ENCONTRE E VENÇA O ANDREW DE MOTO
+BEAT_SH_04_MOTORCYCLE_RESTRICTION	Você precisa estar numa MOTO para desafiar o ANDREW.
+BEAT_SH_04_MOTORCYCLE_TITLE	SOBRE DUAS RODAS
+BEAT_SH_04_OBJ_01	ENCONTRE E VENÇA O ANDREW
+BEAT_SH_04_TITLE	ANDREW NO CENTRO
+BEAT_SH_04B_DESC	BOOKE pede pra você fazer dupla com ele e enfrentar o ANDREW e o JIN.  Encontre-o circulando pela Figueroa, no Centro.
+BEAT_SH_04B_OBJ_01	CORRA CONTRA O ANDREW E O JIN
+BEAT_SH_04B_TITLE	EM DUPLA
+BEAT_SH_05_ACLASS_DESC	HUGO conseguiu um Ford GT 2006 e quer correr.  Traga um veículo CLASSE A, ou ele não corre com você.  Os veículos podem ser melhorados ou rebaixados para se encaixar em uma classe de desempenho.
+BEAT_SH_05_ACLASS_OBJ_01	VENÇA O HUGO COM UM VEÍCULO CLASSE A
+BEAT_SH_05_ACLASS_RESTRICTION	Você precisa estar dirigindo um veículo CLASSE A para desafiar o HUGO.
+BEAT_SH_05_ACLASS_TITLE	SEU MELHOR JOGO
+BeatMeThere	CHEGUE ANTES DE MIM
+BeatMeThere_Tutorial	CORRIDA TUTORIAL CHEGUE ANTES DE MIM
+BEST_TIME_COL_NAME	MELHOR
+BESTOF_GH_04_DESC	O amigo do BOOKE, NIKOLAI, quer correr na Hollywood Strip.  Ele está dirigindo um Camaro SS '69.  Melhor de 3 fica com o Camaro.
+BESTOF_GH_04_OBJ_01	VENÇA O NIKOLAI NA MELHOR DE 3
+BESTOF_GH_04_TITLE	PÁSSARO NA LINHA
+BESTOF_GH_05_DESC	BOOKE liga avisando que o MARCEL está circulando pela Sunset num Focus '04.  Ele quer uma corrida.  Melhor de 3 fica com o Focus.
+BESTOF_GH_05_OBJ_01	VENÇA O MARCEL NA MELHOR DE 3
+BESTOF_GH_05_TITLE	CONSTRUÍDO NA RAÇA
+BESTOF_GH_22_DESC	HUGO liga dizendo que o VICTOR quer correr na melhor de 3.  O VICTOR está circulando pela Figueroa, no Centro.
+BESTOF_GH_22_OBJ_01	VENÇA O VICTOR NA MELHOR DE 3
+BESTOF_GH_22_TITLE	CORRERIA NO CENTRO
+BESTOF_SH_01_MUSCLE_DESC	Traga seu melhor muscle car e me encontre na avenida.  Vamos correr
+BESTOF_SH_01_MUSCLE_OBJ_01	VENÇA O BOOKE
+BESTOF_SH_01_TUNER_OBJ_01	VENÇA O BOOKE
+CITY_CHAMP_OBJ_02	VENÇA O BOOKE
+BESTOF_SH_01_MUSCLE_RESTRICTION	Você precisa dirigir um MUSCLE
+BESTOF_SH_01_MUSCLE_TITLE	ESCOLA ANTIGA
+BESTOF_SH_01_TUNER_DESC	Beleza, quando você quiser, pegue um Tuner e eu corro com você.  Vou estar circulando pela avenida.
+BESTOF_SH_01_TUNER_RESTRICTION	Você precisa dirigir um TUNER para desafiar o BOOKE.
+BESTOF_SH_01_TUNER_TITLE	A MELHOR DE 3
+BESTOF_SH_02_DESC	KAROL ficou impressionado com o seu jeito de dirigir.  Ele está circulando pela Ocean Ave. em Santa Monica se você quiser correr.  Melhor de 3 vence.
+BESTOF_SH_02_EXOTIC_RESTRICTION	Você precisa estar dirigindo um EXÓTICO para desafiar o KAROL
+BESTOF_SH_02_OBJ_01	VENÇA O KAROL NUMA CORRIDA MELHOR DE 3
+BESTOF_SH_02_TITLE	UM VELHO AMIGO
+BESTOF_SH_03_DESC	ANNIE liga avisando que está circulando pela Sunset em Hollywood.  Ela corre com você na melhor de 3, se tiver interesse.
+BESTOF_SH_03_LUXURY_DESC	ANNIE liga dizendo para você arranjar um VEÍCULO DE LUXO e ela corre com você na melhor de 3.  A ANNIE está circulando pela Sunset Blvd. em Hollywood.
+BESTOF_SH_03_LUXURY_OBJ_01	MELHOR DE 3 CONTRA A ANNIE COM UM VEÍCULO DE LUXO
+BESTOF_SH_03_LUXURY_RESTRICTION	Você precisa estar dirigindo um veículo de LUXO para desafiar a ANNIE.
+BESTOF_SH_03_LUXURY_TITLE	DAMA ELEGANTE
+BESTOF_SH_03_OBJ_01	VENÇA A MELHOR DE 3 CONTRA A ANNIE
+BESTOF_SH_03_TITLE	O QUE AS MULHERES QUEREM
+BESTOF_SH_05_DESC	HUGO liga dizendo para você encontrá-lo no restaurante PANTRY, no Centro.  Ele quer te desafiar para outra corrida, melhor de 3 vence.
+BESTOF_SH_05_OBJ_01	ENCONTRE O HUGO
+FIND_SH_05_OBJ_01	ENCONTRE O HUGO
+BESTOF_SH_05_OBJ_02	VENÇA A MELHOR DE 3 CONTRA O HUGO
+BESTOF_SH_05_TITLE	MAIS UMA RODADA
+bike_cowl	CARENAGEM
+BikeCowl	CARENAGEM
+bike_tail	TRASEIRA
+bike_tank	TANQUE
+bikepreset1	CHAMAS
+VE_Flame	CHAMAS
+VE_Flames	CHAMAS
+bikepreset10	LISTRAS
+VE_Stripe	LISTRAS
+VE_Stripes	LISTRAS
+sc_preset_squares	LISTRAS
+bikepreset2	CHAMAS REAIS
+bikepreset3	ESTRELA
+bikepreset4	CAMUFLAGEM
+bikepreset5	XADREZ
+bikepreset6	CAVEIRA
+bikepreset7	FOGO
+bikepreset8	LÁGRIMAS
+VE_Tears	LÁGRIMAS
+bikepreset9	DEGRADÊ
+sc_preset_fade	DEGRADÊ
+BikeTail	TRASEIRA DA MOTO
+BikeTank	TANQUE DA MOTO
+Blitz	CORRIDA DE MARCO
+LANDMARK_LABEL	CORRIDA DE MARCO
+Leaderboard_Blitz_Race	CORRIDA DE MARCO
 pause_blitz	CORRIDA DE MARCO
+blitz_race	CORRIDAS DE MARCO
+Leaderboard_Blitz_Races	CORRIDAS DE MARCO
+blower	ENTRADAS DE AR
+blower_0	ORIGINAL 
+brk_car_base	ORIGINAL 
+intercooler_0	ORIGINAL 
+intercooler_1_stk	ORIGINAL 
+post_gauge_0	ORIGINAL 
+sd_0	ORIGINAL 
+seats_f_0	ORIGINAL 
+steer_whl_0	ORIGINAL 
+blower_1	1 DE 3
+blower_2	2 DE 3
+blower_3	3 DE 3
+body	CARROCERIA LARGA
+body_1	CARROCERIA LARGA
+PartWideBody	CARROCERIA LARGA
+WideBody	CARROCERIA LARGA
+body_0	ORIGINAL
+bumper_f_0	ORIGINAL
+bumper_r_0	ORIGINAL
+cowl_0	ORIGINAL
+exhaust_0	ORIGINAL
+headlight_0	ORIGINAL
+hood_0	ORIGINAL
+rh_0	ORIGINAL
+seats_f0	ORIGINAL
+side_exhaust_0	ORIGINAL
+skirts_0	ORIGINAL
+spoiler_0	ORIGINAL
+tail_0	ORIGINAL
+taillight_0	ORIGINAL
+tank_0	ORIGINAL
+Tint_1	ORIGINAL
+tir_bike_pir_diablo_rosso	ORIGINAL
+tir_car_bfg_kdw_blk	ORIGINAL
+tir_streetbike_tst	ORIGINAL
+Boom 1	ESTÁTICO
+Boom 2	CLÁSSICO
+option_arrow_top	CLÁSSICO
+Boom 3	AÇÃO
+customcontrol_column_action	AÇÃO
+BRAKE	FREIO/RÉ
+BRIDGE_DESC	O Rio Los Angeles
+BRIDGE_TITLE	PONTE DA SECOND STREET
+brk_car_brembo_drilled	3 DE 4
+bumper_f_3	3 DE 4
+bumper_r_3	3 DE 4
+headlight_3	3 DE 4
+hood_3	3 DE 4
+side_exhaust_3	3 DE 4
+skirts_3	3 DE 4
+spoiler_3	3 DE 4
+taillight_3	3 DE 4
+brk_car_brembo_zinc	4 DE 4
+bumper_f_4	4 DE 4
+bumper_r_4	4 DE 4
+headlight_4	4 DE 4
+hood_4	4 DE 4
+side_exhaust_4	4 DE 4
+skirts_4	4 DE 4
+spoiler_4	4 DE 4
+taillight_4	4 DE 4
+brk_car_projmu_slotdrilled	2 DE 4
+bumper_f_2	2 DE 4
+bumper_r_2	2 DE 4
+headlight_2	2 DE 4
+hood_2	2 DE 4
+side_exhaust_2	2 DE 4
+skirts_2	2 DE 4
+spoiler_2	2 DE 4
+taillight_2	2 DE 4
+brk_car_projmu_slotted	1 DE 4
+bumper_f_1	1 DE 4
+bumper_r_1	1 DE 4
+headlight_1	1 DE 4
+hood_1	1 DE 4
+side_exhaust_1	1 DE 4
+skirts_1	1 DE 4
+spoiler_1	1 DE 4
+taillight_1	1 DE 4
+Bumper	PARA-CHOQUE
+bumper_f_1_ex	1 DE 2
+bumper_r_1_ex	1 DE 2
+cowl_1	1 DE 2
+headlight_1_ex	1 DE 2
+hood_1_ex	1 DE 2
+skirts_1_ex	1 DE 2
+spoiler_1_ex	1 DE 2
+tail_1	1 DE 2
+taillight_1_ex	1 DE 2
+tank_1	1 DE 2
+bumper_f_2_ex	2 DE 2
+bumper_r_2_ex	2 DE 2
+cowl_2	2 DE 2
+headlight_2_ex	2 DE 2
+hood_2_ex	2 DE 2
+skirts_2_ex	2 DE 2
+spoiler_2_ex	2 DE 2
+tail_2	2 DE 2
+taillight_2_ex	2 DE 2
+tank_2	2 DE 2
+bumper_front	PARA-CHOQUES DIANTEIROS
+bumper_rear	PARA-CHOQUES TRASEIROS
+button_changeProfile	TROCAR PERFIL DE JOGADOR
+button_no	NÃO
+Common_No	NÃO
+Exit_Vinyl_No	NÃO
+gvp_No	NÃO
+gvs_No	NÃO
+hangout_exit_no	NÃO
+messagebox_no	NÃO
+No	NÃO
+OverwriteVinylsConfirmation_No	NÃO
+Perf_Checkout_No	NÃO
+Perf_Undo_No	NÃO
+prompt_no	NÃO
+RemoveVinylsConfirmation_No	NÃO
+Save_No	NÃO
+button_ok	OK
+Common_OK	OK
+messagebox_ok	OK
+pause_ol_ok	OK
+RMR_BuyError_OK	OK
+button_yes	SIM
+Common_Yes	SIM
+Dialog_NextRace_Yes	SIM
+Dialog_QuitTimeTrial_Action	SIM
+Dialog_RestartPayback_Action	SIM
+Dialog_RestartTimeTrial_Action	SIM
+Dlg_Action_Pinkslip_Quit	SIM
+Exit_Vinyl_Yes	SIM
+G_Exit_Garage	SIM
+gvp_Yes	SIM
+gvs_Yes	SIM
+hangout_exit_yes	SIM
+messagebox_yes	SIM
+OverwriteVinylsConfirmation_Yes	SIM
+Perf_Checkout_Yes	SIM
+Perf_Undo_Yes	SIM
+prompt_yes	SIM
+RemoveVinylsConfirmation_Yes	SIM
+Yes	SIM
+CAM_UP	VISÃO DA CÂMERA
+camera	CÂMERA
+camera options	AJUSTES DA CÂMERA
+Camera Shake	TREMOR DA CÂMERA
+CAMERA_LEFT	CÂMERA PARA A ESQUERDA
+CAMERA_RIGHT	CÂMERA PARA A DIREITA
+CAMERA_UP	CÂMERA PARA CIMA
+CANCEL_BEAT_ME_THERE	PISQUE OS FARÓIS PARA SE ENCONTRAR NA LINHA DE LARGADA
+capture_the_flag	BATALHA DE CAPTURA DA BANDEIRA
+Car Stats	ESTATÍSTICAS DO VEÍCULO
 Pause_Car_Stats	ESTATÍSTICAS DO VEÍCULO
+RMR_ViewLBVehicle	ESTATÍSTICAS DO VEÍCULO
+CAR_COL_NAME	VEÍCULO
+G_All	VEÍCULO
+Navmap_Vehicle	VEÍCULO
+Ride	VEÍCULO
+vehicle	VEÍCULO
+Car_Type_Rank	NÍVEL
+LB_Rank	NÍVEL
+Career Stats	ESTATÍSTICAS DA CARREIRA
 Pause_Career_Stats	ESTATÍSTICAS DA CARREIRA
+carneys	CARNEYS
+CARNEYS_TITLE	CARNEYS
+CARNEYS_DESC	Sunset Blvd.
+CHATEAU_DESC	Sunset Blvd.
+CartRemovalConfirmation	Remover?
+Challenge Player	DESAFIAR JOGADOR
+Change	TROCAR
+controller_custom_prompt_change	TROCAR
+change control style	TROCAR ESTILO DE CONTROLE
+Change Race	TROCAR CORRIDA
+net_prompt_lobbychange	TROCAR CORRIDA
+Change Target	TROCAR ALVO
+Navmap_Prompt_ChangeTarget	TROCAR ALVO
+change_device	TROCAR DISPOSITIVO DE ARMAZENAMENTO
+Common_ChangeStorageDevice	TROCAR DISPOSITIVO DE ARMAZENAMENTO
+CHANGE_TIME_MENU	HORÁRIO DO DIA
+RO_TimeofDay	HORÁRIO DO DIA
+Time Of Day	HORÁRIO DO DIA
+TimeOfDaySelect	HORÁRIO DO DIA
+CHATEAU_TITLE	O CHATEAU MARMONT
+RL_ChateauMarmont	O CHATEAU MARMONT
+cheat_Auto_Win	SÓ PARA DESENVOLVEDORES - VITÓRIA AUTOMÁTICA
+cheat_Blackout	APAGUE AS LUZES
+cheat_Difficulty	DIFICULDADE
+DIFFICULTY_COL_NAME	DIFICULDADE
+Navmap_Difficulty	DIFICULDADE
+RO_Difficulty	DIFICULDADE
+cheat_Modify_AI	DEFINIR DIFICULDADE
+cheat_No_charges	SEM MULTAS
+cheat_No_charges_Locked	SÃO NECESSÁRIOS 60 COLECIONÁVEIS
+cheat_No_Cops	SEM POLÍCIA
+cheat_No_Cops_Locked	SÃO NECESSÁRIOS 50 COLECIONÁVEIS
+Cheat_RE_OverHeadCam	VISÃO AÉREA
+cheat_TopDown_Race	VISÃO DE CIMA
+cheat_TopDown_Race_Locked	SÃO NECESSÁRIOS 40 COLECIONÁVEIS
+cheat_Unlimited_Damage	SEM ELIMINAÇÃO POR DANO
+cheat_Unlimited_Damage_Locked	SÃO NECESSÁRIOS 20 COLECIONÁVEIS
+cheat_Unlimited_Nitro	NITRO ILIMITADO
+cheat_Unlimited_Nitro_Locked	SÃO NECESSÁRIOS 10 COLECIONÁVEIS
+cheat_Unlimited_Special	HABILIDADES ESPECIAIS ILIMITADAS
+cheat_Unlimited_Special_Locked	SÃO NECESSÁRIOS 30 COLECIONÁVEIS
+CHEAT_UNLOCKED	CÓDIGO DESBLOQUEADO
+Choice	ESCOLHER SLOT
+Choose Slot	ESCOLHER SLOT
+Choose Ride	TROCAR DE CARRO
+RMR_ChangeRide	TROCAR DE CARRO
+CHOOSE VEHICLE	ESCOLHER VEÍCULO
+CHOOSE_RIDE	ESCOLHER VEÍCULO
+choose your language	ESCOLHA SEU IDIOMA
+Circuit	CORRIDA DE CIRCUITO
+pause_ol_circuit	CORRIDA DE CIRCUITO
+tutorial_circuit_race_title	CORRIDA DE CIRCUITO
+circuit_race	CORRIDAS DE CIRCUITO
+Leaderboard_Circuit_Races	CORRIDAS DE CIRCUITO
+Leaderboard_Circut_Races	CORRIDAS DE CIRCUITO
+CITY_CHAMP_DESC	BOOKE ficou impressionado, mas para ser o CAMPEÃO DA CIDADE você precisa vencê-lo primeiro.  O BOOKE está no Standard Hotel.
+CITY_CHAMP_OBJ_01	ENCONTRE O BOOKE
+FIND_SH_01_OBJ_01	ENCONTRE O BOOKE
+FIND_SH_01B_OBJ_01	ENCONTRE O BOOKE
+CITY_CHAMP_TITLE	CORRIDA DO CAMPEÃO DA CIDADE
+Class	CLASSE
+Clear	CÉU LIMPO
+controller_custom_prompt_delete	CÉU LIMPO
+nice	CÉU LIMPO
+cloudy	PARCIALMENTE NUBLADO
+COLLECTABLE_FOUND_MSG	<D>NUM_COLLECTABLE_COLLECTED</D> DE 60 COLECIONÁVEIS ENCONTRADOS
+Collectables_Beaches_Hidden	COLECIONÁVEIS DA PRAIA
+Collectables_Downtown_Hidden	COLECIONÁVEIS DO CENTRO
+Collectables_Found	ENCONTRADO
+Collectables_Hidden	ESCONDIDO
+Collectables_Hills_Hidden	COLECIONÁVEIS DAS COLINAS
+Collectables_Hollywood_Hidden	COLECIONÁVEIS DE HOLLYWOOD
+Color	COR
+G_IntColor	COR
+G_ModIntColor	COR
+Color Picker	SELETOR DE COR
+G_ColorPicker	SELETOR DE COR
+Common_Back	VOLTAR
+Exit	VOLTAR
+Navmap_Prompt_Back	VOLTAR
+prompt_back	VOLTAR
+Rmr_ReturnHome	VOLTAR
+Show_Menu	VOLTAR
+Common_ContinueWithoutSaving	CONTINUAR SEM SALVAR
+Common_Exit	SAIR
+G_exit	SAIR
+Navmap_Prompt_Exit	SAIR
+prompt_exit	SAIR
+RE_Confirm_Exit_Title	SAIR
+RMR_ExitConf	SAIR
+title_exititle	SAIR
+Common_Retry	TENTAR DE NOVO
+Common_SaveGame	SALVAR JOGO
+Confirm_Buy_Paint_For_1000	Comprar acesso à loja de pintura por $1.000?
+Confirm_Buy_Vinyl_For_1000	Comprar acesso à loja de adesivos por $1.000?
+Continue_Race	CONTINUAR TESTE DA CORRIDA
+controller	CONTROLE
+controller options	AJUSTES DE CONTROLE
+controller styles	ESTILO DE CONTROLE
+controller_custom_prompt_poll	APERTE UM BOTÃO
+controller_custom_prompt_use	USAR ESTA PREDEFINIÇÃO
+controller_preset_desc	Tem certeza de que quer mudar os seus controles?
+controller_preset_title	MUDAR CONTROLES
+ControllerUnplugged	SEU CONTROLE FOI DESCONECTADO. VERIFIQUE AS CONEXÕES DO CONTROLE.
+CONVERTIBLE_UP_DN	CAPOTA CONVERSÍVEL
+option_convertible	CAPOTA CONVERSÍVEL
+RmrSpin_top	CAPOTA CONVERSÍVEL
+cop_fine_header	MULTA:
+cop_hud_msg_investigation	POLÍCIA RESPONDENDO
+cop_hud_msg_pullover	ENCOSTE
+cop_hud_msg_pursuit	PERSEGUIÇÃO POLICIAL
+tutorial_police_pursuit_live_title	PERSEGUIÇÃO POLICIAL
+tutorial_police_pursuit_title	PERSEGUIÇÃO POLICIAL
+cop_hud_msg_searching	POLÍCIA PROCURANDO
+t_police_search	POLÍCIA PROCURANDO
+cop_hud_msg_slowdown	REDUZA A VELOCIDADE
+t_slow_down	REDUZA A VELOCIDADE
+cop_ticket	MULTADO
+ticket_title	MULTADO
+COPS_TOO_CLOSE	OS POLICIAIS ESTÃO PERTO DEMAIS.  VAMOS NOS ENCONTRAR NA LARGADA DA CORRIDA.
+CP_Evade_Format	REP POR ESCAPAR DA POLÍCIA: <D>CP_EVADE</D>
+cp_ordered	CORRIDA ORDENADA
+Leaderboard_Ordered_Race	CORRIDA ORDENADA
+Ordered	CORRIDA ORDENADA
+tutorial_ordered_race_title	CORRIDA ORDENADA
+cp_unordered	CORRIDA SEM ORDEM
+tutorial_unordered_race_title	CORRIDA SEM ORDEM
+unordered	CORRIDA SEM ORDEM
+Create Match	CRIAR PARTIDA
+Cruise	PASSEIO
+CTF_BaseWar	CAPTURA DA BANDEIRA POR BASES
+CTF_BLUETEAM	EQUIPE AZUL
+CTF_FFA	CAPTURA DA BANDEIRA TODOS CONTRA TODOS
+CTF_FLAG_PICKEDUP	BANDEIRA PEGA
+CTF_FLAG_RESET	BANDEIRA REINICIADA
+CTF_REDTEAM	EQUIPE VERMELHA
+CTF_SCORE_METRIC	PONTOS
+POINTS_HEADER	PONTOS
+CTF_SPLASH_BOMB_DETONATED	BOMBA DETONADA
+CTF_SPLASH_FLAG_DELIVERED	<D>CTF_SPLASH_RACERA_NAME</D> ENTREGOU A BANDEIRA!
+CTF_SPLASH_FLAG_DROPPED	BANDEIRA SOLTA
+Flag Dropped	BANDEIRA SOLTA
+CTF_SPLASH_FLAG_PICKEDUP	VOCÊ PEGOU A BANDEIRA!
+CTF_SPLASH_FLAG_TAKEN	BANDEIRA TOMADA
+Flag Taken	BANDEIRA TOMADA
+CTF_SPLASH_PLAYER_WON	<D>CTF_SPLASH_RACERA_NAME</D> VENCEU A PARTIDA!
+CTF_SPLASH_SAVED_FLAG_BLUE	<D>CTF_SPLASH_RACERA_NAME</D> DEFENDEU A BANDEIRA AZUL!
+CTF_SPLASH_SAVED_FLAG_RED	<D>CTF_SPLASH_RACERA_NAME</D> DEFENDEU A BANDEIRA VERMELHA!
+CTF_SPLASH_YOU_GOT_BOMB	VOCÊ PEGOU UMA BOMBA!
+CTF_SPLASH_YOU_GOT_RID_OF_BOMB	VOCÊ SE LIVROU DA BOMBA!
+CTF_SPLASH_YOU_LOST_FLAG	VOCÊ PERDEU A BANDEIRA!
+CTF_SPLASH_YOU_STOLE_FLAG	VOCÊ ROUBOU A BANDEIRA!
+CTF_SplitBase	CAPTURA DA BANDEIRA COM BASE DIVIDIDA
+CTF_TIME_EXPIRED	FIM DE JOGO - TEMPO ESGOTADO!
+CURRENT_HEADER	POS.
+Custom	PERSONALIZADO
+EDITOR_TYPE	PERSONALIZADO
+Custom Match	PARTIDA PERSONALIZADA
+pause_ol_custom_match	PARTIDA PERSONALIZADA
+custom_desc	Mude seus controles
+customcontrol_desc	Mude seus controles
+Custom_Pad	CONTROLE PERSONALIZADO
+Custom_Steering_Wheel	VOLANTE PERSONALIZADO
+customcontrol_column_button	BOTÃO
+customcontrol_default_desc	Tem certeza de que quer restaurar os controles padrão?  Você perderá toda a personalização para este tipo de controle.
+customcontrol_default_title	RESTAURAR PADRÃO?
+customcontrol_invalid_desc	Escolha outro botão.
+customcontrol_invalid_title	ESCOLHA INVÁLIDA
+customcontrol_lose_desc	Deseja salvar as alterações antes de voltar ao menu anterior?
+customcontrol_lose_title	SALVAR ALTERAÇÕES?
+customcontrol_readonly_desc	Revise seus controles
+customcontrol_readonly_title	CONTROLES PREDEFINIDOS
+customcontrol_title	CONTROLES PERSONALIZADOS
+customcontrol_unmapped_desc	Existem ações sem comando atribuído que podem ser necessárias.  Tem certeza de que quer continuar?
+customcontrol_unmapped_title	COMANDOS FALTANDO
+cutscene_volume	VOLUME DAS CUTSCENES
+damage	LIMITE DE DANO VISUAL
+DELIVERY_VISUAL_DAMAGE	LIMITE DE DANO VISUAL
+DAMAGE_ALLOWED	DANO PERMITIDO:
+DAMAGE_TAKEN_LABEL	DANO SOFRIDO:
+dawn	AMANHECER
+default	PADRÃO
+Defaults	PADRÃO
+Navmap_Checkpoint4	PADRÃO
+Default Camera	CÂMERA PADRÃO
+Delivery	Entrega
+delivery_damage_exceeded	DANO EXCEDIDO
+HUD_damage_exceeded	DANO EXCEDIDO
+DELIVERY_DESC	KAROL precisa que você entregue 5 carros para ele.  Os carros estarão na Hollywood Auto.  Ele vai te avisar onde entregar cada um quando você chegar lá.
+DELIVERY_FAILURE	FALHA NA ENTREGA
+DELIVERY_MENU_DESC	Entregue os carros nos locais certos sem causar muito dano visual para ganhar dinheiro.  Escolher uma dificuldade maior reduz o tempo e o dano visual permitidos, mas rende mais dinheiro.
+DELIVERY_MENU_DESC_NO_DIFFICULTY	Entregue os carros nos locais certos sem causar muito dano visual.
+DELIVERY_MENU_TITLE	ENTREGA
+DELIVERY_TITLE	ENTREGA
+hw_delivery	ENTREGA
+Navmap_Delivery	ENTREGA
+tutorial_delivery_title	ENTREGA
+Delivery_MsgBox_Close_Desc	Tem certeza de que quer recusar esta missão de entrega?
+Delivery_MsgBox_Close_Title	RECUSAR?
+DELIVERY_OBJ_01	ENTREGUE 5 VEÍCULOS
+DELIVERY_SC_OBJ_01	ENTREGUE 5 VEÍCULOS
+DELIVERY_RESULTS_TITLE	RESULTADOS DA ENTREGA
+pause_delivery_results	RESULTADOS DA ENTREGA
+DELIVERY_SUCCESS	ENTREGA CONCLUÍDA
+delivery_time	TEMPO DA ENTREGA
+delivery_time_expired	TEMPO ESGOTADO
+time_trial_time_expired	TEMPO ESGOTADO
+destroy_all_racers	DESTRUA TODOS OS PILOTOS
+DESTROY_RACERS_LABEL	DESTRUA OS PILOTOS:
+DESTROYED_HEADER	CARROS DESTRUÍDOS
+Dialog_Cheat_Confirm	Você ativou códigos que impedem o progresso na carreira e a sua capacidade de ganhar REP. ou dinheiro.  Tem certeza de que quer continuar?
+Dialog_ContinueRaceStart_Action	PULAR PARA A LARGADA DA CORRIDA
+Dialog_Title_ContinueRaceStart	PULAR PARA A LARGADA DA CORRIDA
+pause_racestart	PULAR PARA A LARGADA DA CORRIDA
+Dialog_Desc_ContinueRaceStart	Você precisa reparar o veículo antes de pular para a largada da corrida.
+Dialog_Desc_Default	Tem certeza de que quer restaurar as configurações padrão do jogo?
+Dialog_Desc_NextRaceMidRace	Quer reparar o veículo antes de seguir para a PRÓXIMA CORRIDA?  Você perderá o progresso da corrida atual.
+Dialog_Desc_ViewReplaySeries	Tem certeza de que quer ver a repetição da corrida até este ponto? Você perderá o progresso da corrida atual desta série.
+Dialog_Desc_ViewReplayTourn	Tem certeza de que quer ver a repetição da corrida até este ponto?  Você perderá o progresso da corrida atual deste torneio.
+Dialog_Description_DamagedOut	Você foi eliminado por dano.  Você precisará consertar o veículo.
+Dialog_Description_DeliveryQuit	Tem certeza de que quer SAIR?  Você perderá o progresso das entregas não concluídas.
+Dialog_Description_DeliveryRestart	Tem certeza de que quer REINICIAR?  Todo o progresso atual será perdido.
+Dialog_Description_PaybackRestart	Tem certeza de que quer REINICIAR?  Todo o progresso atual será perdido.
+Dlg_Desc_TimeTrial_Restart	Tem certeza de que quer REINICIAR?  Todo o progresso atual será perdido.
+Dialog_Description_FullFix	Tem certeza de que quer fazer o reparo completo?
+Dialog_Description_GarageConfirm	Tem certeza de que quer ir para a garagem?  Você perderá todo o progresso.
+Dialog_Description_NextDelivery	Tem certeza de que quer fazer a PRÓXIMA ENTREGA?  Todo o progresso atual será perdido.
+Dialog_Description_NextRace	Quer reparar o veículo antes de seguir para a PRÓXIMA CORRIDA?
+Dialog_Description_NextSeries	Quer reparar o veículo antes de CONTINUAR a série? 
+Dialog_Description_NextTournament	Quer reparar o veículo antes de CONTINUAR o torneio?
+Dialog_Description_NoExtraCar	Você precisa ter pelo menos 2 veículos antes de poder correr por pink slips.
+Dialog_Description_PaybackQuit	Tem certeza de que quer SAIR?  Todo o progresso atual será perdido.
+Dlg_Desc_TimeTrial_Quit	Tem certeza de que quer SAIR?  Todo o progresso atual será perdido.
+ol_msg_quitrace_desc	Tem certeza de que quer SAIR?  Todo o progresso atual será perdido.
+Dialog_Description_QuitRace	Quer reparar o veículo antes de SAIR?  Todo o progresso atual será perdido.
+Dlg_Desc_Series_Quit	Quer reparar o veículo antes de SAIR?  Todo o progresso atual será perdido.
+Dialog_Description_QuitTournament	Quer reparar o veículo antes de SAIR?   Você perderá o progresso de todas as corridas deste torneio.
+Dialog_Description_QuitWager	Quer reparar o veículo antes de SAIR?   Você perderá a sua aposta.
+Dialog_Description_RaceBack	Quer reparar o veículo antes da REVANCHE?
+Dialog_Description_RaceOverRestart	Quer reparar o veículo antes de CORRER DE NOVO?  Todo o progresso atual será perdido.
+Dialog_Description_RemoveFav	Tem certeza de que quer remover esta corrida da sua lista de favoritas?
+Dialog_Description_RestartPayback	Tem certeza de que quer REINICIAR a vingança?  Todo o progresso atual será perdido.
+Dialog_Description_RestartRace	Tem certeza?
+Go to Garage?	Tem certeza?
+Dialog_Description_ReturnHangout	Quer reparar o veículo antes de voltar ao Encontro?  Você perderá o progresso da corrida atual se voltar ao Encontro.
+Dialog_Description_ReturnToCruise	Quer reparar o veículo antes de voltar ao PASSEIO?
+Dialog_Description_RMRConfirm	Tem certeza de que quer entrar no Avalie Meu Carro?  Todo o progresso atual será perdido.
+Dialog_Description_ViewReplay	Tem certeza de que quer ver a repetição?  Todo o progresso atual será perdido.
+Dialog_Description_WagerInsufficientFunds	Você não tem dinheiro suficiente para apostar.
+Dialog_Description_WagerStartConfirm	Aceitar esta aposta vai descontar dinheiro da sua conta.  Perder ou desistir faz você perder a aposta.  Quer correr mesmo assim?
+Dialog_NextRace_Action	PRÓXIMA CORRIDA
+Dialog_Title_NextRace	PRÓXIMA CORRIDA
+nextRace	PRÓXIMA CORRIDA
+pause_next_race	PRÓXIMA CORRIDA
+Dialog_NextSeries_Action	CONTINUAR SÉRIE
+Dialog_Title_NextSeries	CONTINUAR SÉRIE
+Dialog_NextTournament_Action	CONTINUAR TORNEIO
+Dialog_Title_NextTournament	CONTINUAR TORNEIO
+pause_next_tournament	CONTINUAR TORNEIO
+Dialog_PaybackQuit_Action	SAIR DA VINGANÇA
+Dialog_Title_PaybackQuit	SAIR DA VINGANÇA
+pause_quit_payback	SAIR DA VINGANÇA
+Dialog_PaybackRestart_Action	REINICIAR VINGANÇA
+Dialog_Title_PaybackRestart	REINICIAR VINGANÇA
+Dialog_Title_RestartPayback	REINICIAR VINGANÇA
+pause_restart_payback	REINICIAR VINGANÇA
+Dialog_Quit_Fix	SIM E REPARO RÁPIDO
+Dialog_Quit_Yes	SAIR DA CORRIDA
+Dialog_QuitRace_Action	SAIR DA CORRIDA
+Dialog_Title_QuitRace	SAIR DA CORRIDA
+race_quit	SAIR DA CORRIDA
+Dialog_QuitSeries_Action	SAIR DA SÉRIE
+Dialog_Title_QuitSeries	SAIR DA SÉRIE
+Dlg_Title_Series_Quit	SAIR DA SÉRIE
+pause_quit_series	SAIR DA SÉRIE
+Dialog_QuitTournament_Action	SAIR DO TORNEIO
+Dialog_Title_QuitTournament	SAIR DO TORNEIO
+pause_quit_tournament	SAIR DO TORNEIO
+Dialog_QuitWager_Action	DESISTIR DA APOSTA
+Dialog_RaceBack_Action	REVANCHE
+Dialog_Title_RaceBack	REVANCHE
+pause_race_back	REVANCHE
+RO_RACEBACK	REVANCHE
+Dialog_Restart_Yes	REINICIAR CORRIDA
+Dialog_Title_RaceOverRestart	REINICIAR CORRIDA
+Dialog_Title_RestartRace	REINICIAR CORRIDA
+Dlg_Restart_Action	REINICIAR CORRIDA
+Dlg_Restart_Title	REINICIAR CORRIDA
+pause_restart_race	REINICIAR CORRIDA
+Dialog_ReturnHangout_Action	VOLTAR AO ENCONTRO
+Dialog_Title_ReturnHangout	VOLTAR AO ENCONTRO
+pause_return_hangout	VOLTAR AO ENCONTRO
+returnToHangout	VOLTAR AO ENCONTRO
+Dialog_ReturnToCruise_Action	VOLTAR AO PASSEIO
+Dialog_Title_ReturnToCruise	VOLTAR AO PASSEIO
+EXITHANGOUT_TITLE	VOLTAR AO PASSEIO
+pause_complete_time_trial	VOLTAR AO PASSEIO
+pause_continue_to_cruise	VOLTAR AO PASSEIO
+pause_return_cruise	VOLTAR AO PASSEIO
+Dialog_SeriesRestart_Action	REINICIAR SÉRIE
+Dlg_Title_Series_restart	REINICIAR SÉRIE
+pause_restart_series	REINICIAR SÉRIE
+Dialog_Title_DamagedOut	ELIMINADO POR DANO
+splash_damaged_out	ELIMINADO POR DANO
+Dialog_Title_Default	AJUSTES PADRÃO
+Dialog_Title_DeliveryQuit	SAIR DA ENTREGA
+pause_quit_delivery	SAIR DA ENTREGA
+Dialog_Title_DeliveryRestart	REINICIAR ENTREGA
+pause_restart_delivery	REINICIAR ENTREGA
+Dialog_Title_FullFix	REPARO COMPLETO
+full_fix	REPARO COMPLETO
+GasStation_FullFix	REPARO COMPLETO
+Dialog_Title_GarageConfirm	Ir para a Garagem
+Dialog_Title_NextDelivery	PRÓXIMA ENTREGA
+pause_delivery_next	PRÓXIMA ENTREGA
+Dialog_Title_NoExtraCar	RESTRIÇÃO DE PINK SLIP
+Dialog_Title_QuitTimeTrial	SAIR DO CONTRARRELÓGIO
+Dlg_Title_TimeTrial_Quit	SAIR DO CONTRARRELÓGIO
+pause_quit_timetrial	SAIR DO CONTRARRELÓGIO
+Dialog_Title_QuitWager	SAIR DA CORRIDA COM APOSTA
+Dialog_Title_RemoveFav	REMOVER CORRIDA
+Dialog_Title_RestartTimeTrial	REINICIAR CONTRARRELÓGIO
+Dlg_Title_TimeTrial_Restart	REINICIAR CONTRARRELÓGIO
+pause_restart_timetrial	REINICIAR CONTRARRELÓGIO
+Dialog_Title_ViewReplay	VER REPETIÇÃO
+pause_view_replay	VER REPETIÇÃO
+Dialog_TournamentRestart_Action	REINICIAR TORNEIO
+Dlg_Title_Tourn_Restart	REINICIAR TORNEIO
+pause_rerace_tournament	REINICIAR TORNEIO
+pause_restart_tournament	REINICIAR TORNEIO
+Dialog_WagerRestart_Action	REAPOSTAR
+PM_restart_wager_title	REAPOSTAR
+DimensionsMenu	MEDIDAS
+G_ChooseDimensions	MEDIDAS
+DISTRICT_CHAMPS_BEACHES_DESC	Encontre a LATICIA circulando por Santa Monica e vença-a na melhor de 3.
+DISTRICT_CHAMPS_BEACHES_OBJ_01	VENÇA A LATICIA NA MELHOR DE 3
+DISTRICT_CHAMPS_BEACHES_TITLE	CAMPEÃO DAS PRAIAS
+DISTRICT_CHAMPS_DOWNTOWN_DESC	Encontre o TOMMY circulando pelo Centro e vença-o na melhor de 3.
+DISTRICT_CHAMPS_DOWNTOWN_OBJ_01	VENÇA O TOMMY NA MELHOR DE 3
+DISTRICT_CHAMPS_DOWNTOWN_TITLE	CAMPEÃO DO CENTRO
+DISTRICT_CHAMPS_HILLS_DESC	Encontre o LEON circulando pelas Colinas e vença-o na melhor de 3.
+DISTRICT_CHAMPS_HILLS_OBJ_01	VENÇA O LEON NA MELHOR DE 3
+DISTRICT_CHAMPS_HOLLYWOOD_OBJ_01	VENÇA O LEON NA MELHOR DE 3
+DISTRICT_CHAMPS_HILLS_TITLE	CAMPEÃO DAS COLINAS
+DISTRICT_CHAMPS_HOLLYWOOD_DESC	Encontre o LEON circulando por HOLLYWOOD e vença-o na melhor de 3.
+DISTRICT_CHAMPS_HOLLYWOOD_TITLE	CAMPEÃO DE HOLLYWOOD
+Dlg_DeleteFav_Desc	Tem certeza de que quer excluir esta corrida favorita?
+Dlg_DeleteRace_Desc	Tem certeza de que quer excluir a corrida desta lista?
+Dlg_DeleteRace_Title	EXCLUIR CORRIDA
+Navmap_Prompt_DeleteRace	EXCLUIR CORRIDA
+Dlg_DeliverAgain_Action	ENTREGAR DE NOVO
+Dlg_Desc_AutoSave	O progresso do jogo não será salvo até você reativar o Salvamento Automático.
+Dlg_Desc_Blitz	Uma Corrida de Marco é uma corrida de um único checkpoint, de um lado da cidade até um marco do outro lado.  O primeiro piloto a chegar ao checkpoint do marco vence.
+Dlg_Desc_Circuit	Uma corrida de circuito é uma corrida ordenada com uma ou mais voltas.  Os jogadores podem configurá-la como "último fora", em que o último jogador de cada volta é eliminado.  O fim de cada volta é marcado por um checkpoint verde e o número de voltas aparece no HUD.  O primeiro jogador a chegar ao checkpoint final, vermelho, vence a corrida.
+Dlg_Desc_Cruise	Os jogadores podem entrar no passeio para rodar pela cidade com outros jogadores.  A qualquer momento, os jogadores podem pedir uma corrida (que entra numa fila se houver mais de um pedido ao mesmo tempo).  Os jogadores também podem entrar num editor de corridas online e criar corridas durante o jogo com outros jogadores. Quando terminar, o jogador pode convidar os outros para correr aquela corrida na mesma sessão.
+Dlg_Desc_CTF_Basewar	Captura da bandeira por bases é uma captura da bandeira em equipes, em que cada equipe tem uma bandeira que aparece na sua base.  O objetivo é pegar a bandeira da outra equipe e levá-la de volta para a sua própria base.  A primeira equipe a atingir o limite de pontos, ou a ter mais capturas quando o tempo acabar, vence.
+Dlg_Desc_CTF_FFA	Os jogadores precisam correr para pegar uma bandeira e levá-la a um ponto de entrega, enquanto os outros tentam roubá-la.  Depois que a bandeira é entregue, uma nova bandeira e um novo ponto de entrega aparecem e os jogadores repetem o processo.  O jogador que atingir o limite de pontos primeiro, ou tiver mais capturas quando o tempo acabar, vence.
+Dlg_Desc_CTF_Splitbase	Captura da bandeira com base dividida é uma captura da bandeira em equipes, em que cada equipe tem uma base.  Uma bandeira neutra aparece entre elas.  O objetivo é pegar a bandeira neutra e levá-la para a sua própria base.  A primeira equipe a atingir o limite de pontos, ou a ter mais capturas quando o tempo acabar, vence.
+Dlg_Desc_GarageConfirm_Pinkslip	Tem certeza de que quer ir para a garagem?  Todo o progresso atual será perdido.
+Dlg_Desc_KeepAway	Na fuga da bandeira, uma única bandeira aparece e os jogadores precisam correr para pegá-la.  Só o jogador que está com a bandeira acumula Tempo de Bandeira enquanto a mantém.  Depois de pegar a bandeira, fuja dos perseguidores para que eles não a roubem e acumulem o Tempo de Bandeira deles.  O jogador com mais Tempo de Bandeira no fim do jogo vence a partida.
+Dlg_Desc_NoEarnRep	Você não ganha REP. nem dinheiro com os power-ups ativados.
+Dlg_Desc_Ordered	Uma corrida de checkpoint em checkpoint pela cidade.  O primeiro jogador a chegar ao checkpoint final, vermelho, vence a corrida.
+Dlg_Desc_pause_favorites	As Corridas Favoritas são corridas que você salvou.  Você pode adicionar e remover corridas no menu de pausa.
+Dlg_Desc_Pinkslip_Quit	Tem certeza de que quer SAIR?  Você perderá o seu veículo se sair.
+Dlg_Desc_race_editor	Uma corrida do Editor de Corridas é uma corrida personalizada que um jogador criou no Editor de Corridas durante o Passeio da Carreira ou o Passeio em Rede.
+Dlg_Desc_SaveOptions	Tem certeza de que quer confirmar as alterações feitas nas configurações?
+Dlg_Desc_Series_RaceAgain	Quer reparar o veículo antes de CORRER A SÉRIE DE NOVO?
+Dlg_Desc_Series_Restart	Quer reparar o veículo antes de REINICIAR a série?  Todo o progresso atual será perdido.
+Dlg_Desc_Stockpile_FFA	O acúmulo todos contra todos é muito parecido com a Captura da Bandeira Todos contra Todos.  Em vez de aparecer só uma bandeira, aparece um grupo delas.  O tamanho do grupo é igual ao número de jogadores menos um.  Os jogadores podem marcar uma bandeira e depois roubar ou pegar outra que ainda não foi pega do grupo.  Quando todas as bandeiras do grupo forem capturadas, um novo grupo aparece.  O jogador que atingir o limite de pontos, ou tiver mais capturas quando o tempo acabar, vence.
+Dlg_Desc_Stockpile_Splitbase	No acúmulo, cada equipe tem uma base e um grupo neutro de bandeiras que aparece entre elas.  O objetivo é pegar as bandeiras neutras e levá-las para a sua própria base.  Os jogadores podem marcar uma bandeira e depois roubar ou pegar outra que ainda não foi pega do grupo.  Quando todas as bandeiras do grupo forem capturadas, um novo grupo aparece.  A primeira equipe a atingir o limite de pontos, ou a ter mais capturas quando o tempo acabar, vence.
+Dlg_Desc_TimeTrial_RaceAgain	Tem certeza de que quer CORRER DE NOVO?
+Dlg_Desc_Tourn_Restart	Quer reparar o veículo antes de REINICIAR?  Todo o progresso atual será perdido.
+Dlg_Restart_Desc	Quer reparar o veículo antes de REINICIAR?  Todo o progresso atual será perdido.
+PM_restart_series_desc	Quer reparar o veículo antes de REINICIAR?  Todo o progresso atual será perdido.
+PM_restart_tournament_desc	Quer reparar o veículo antes de REINICIAR?  Todo o progresso atual será perdido.
+Dlg_Desc_Tourn_Restart_Lossless	Quer reparar o veículo antes de REINICIAR?
+Dlg_Desc_Unordered	Os checkpoints podem ser passados em qualquer ordem.  Quando todos forem passados,  um checkpoint final vermelho aparece.  O primeiro a chegar ao checkpoint final vence.
+Dlg_Desc_ViewReplay_PinkSlip	Tem certeza de que quer ver a repetição?  Você perderá o seu veículo se ver a repetição.
+Dlg_Desc_ViewReplay_Wager	Tem certeza de que quer ver a repetição?  Todo o progresso atual e a sua aposta atual serão perdidos.  
+Dlg_NextWager_Action	PRÓXIMA APOSTA
+Dlg_NextWager_Title	PRÓXIMA APOSTA
+Dlg_NextWager_Desc	Quer reparar o veículo antes de seguir para a PRÓXIMA APOSTA?  A PRÓXIMA APOSTA será de <D>rewageramount</D>.
+Dlg_NextWagerMidRace_Desc	Quer reparar o veículo antes de seguir para a PRÓXIMA APOSTA?  Você perderá a sua aposta atual.  A PRÓXIMA APOSTA será de <D>rewageramount</D>.
+Dlg_PayFine_Desc	A polícia está em perseguição.  Você precisa pagar a multa de $<D>PayOffAmount</D> antes de iniciar outro modo de jogo.  O dinheiro será descontado da sua conta ao entrar no modo de jogo.
+Dlg_PayFine_Title	PAGAR MULTA
+Dlg_RaceAgain_Action	CORRER DE NOVO
+Dlg_RaceAgain_Title	CORRER DE NOVO
+Dlg_RaceAgainSeries_Title	CORRER DE NOVO
+Dlg_Title_TimeTrial_RaceAgain	CORRER DE NOVO
+pause_race_again	CORRER DE NOVO
+pause_rerace	CORRER DE NOVO
+Dlg_RaceAgain_Desc	Quer reparar o veículo antes de CORRER DE NOVO?
+Dlg_RaceAgainSeries_Action	CORRER A SÉRIE DE NOVO
+Dlg_Title_Series_RaceAgain	CORRER A SÉRIE DE NOVO
+pause_race_series_again	CORRER A SÉRIE DE NOVO
+Dlg_RaceAgainSeries_Desc	Quer reparar o veículo antes de correr a série de novo?
+Dlg_ReturnToChase_Desc	Você precisa despistar a polícia antes de continuar.
+Dlg_ReturnToChase_Title	VOLTAR À PERSEGUIÇÃO
+pause_ReturntoChase	VOLTAR À PERSEGUIÇÃO
+Dlg_Title_AutoSave	AVISO
+Dlg_Title_NoEarnRep	AVISO
+G_invalidLayer	AVISO
+G_Overwrite_Vinyls	AVISO
+G_Warning	AVISO
+msg_ol_warning	AVISO
+ol_RankedLeaveWarning_title	AVISO
+pause_ol_title_ContentMissing	AVISO
+RMR_BuyVehicleError	AVISO
+Save_Dialog_Title_Warning	AVISO
+downloadable_content_reboot_title	AVISO
+pause_ol_title_ContentOutofDate	AVISO
+dlg_title_gameoptions	AJUSTES DO JOGO
+Game_Options	AJUSTES DO JOGO
+Dlg_Title_ModeInfo	INFORMAÇÕES
+prompt_GameMode_Info	INFORMAÇÕES
+Dlg_Title_Pinkslip_Quit	SAIR DA CORRIDA DE PINK SLIP?
+Dlg_Title_SaveOptions	SALVAR AJUSTES
+DoorLeft	PORTAS TESOURA
+downloadable_content_desc	O conteúdo para download já está disponível
+downloadable_content_title	CONTEÚDO PARA DOWNLOAD
+Pause_DLC_Content	CONTEÚDO PARA DOWNLOAD
+pause_downloadable_content	CONTEÚDO PARA DOWNLOAD
+DOWNTOWN	CENTRO
+RL_Downtown	CENTRO
+DPad Down	DIRECIONAL PARA BAIXO
+DPad Left	DIRECIONAL PARA A ESQUERDA
+DPad Left/Right	DIRECIONAL ESQUERDA/DIREITA
+DPad Right	DIRECIONAL PARA A DIREITA
+DPad Up	DIRECIONAL PARA CIMA
+drag_race	CORRIDAS DE ARRANCADA
+dt_local_hangout1_desc	Centro
+FIGUROA_DESC	Centro
+PANTRY_DESC	Centro
+STANDARD_DESC	Centro
+dt_timetrial	CONTRARRELÓGIO NO CENTRO
+REPEAT_TIMETRIAL_DOWNTOWN_TITLE	CONTRARRELÓGIO NO CENTRO
+TIMETRIAL_DT	CONTRARRELÓGIO NO CENTRO
+dt_tournament1	TORNEIO NO CENTRO
+REPEAT_TOURNAMENT_DOWNTOWN_TITLE	TORNEIO NO CENTRO
+TOURNAMENT_DOWNTOWN_TITLE	TORNEIO NO CENTRO
+dt_wager_hangout1_desc	O Distrito dos Teatros
+dusk	ANOITECER
+Dynamic	CORRIDA DO SINAL VERMELHO
+RED_LIGHT_LABEL	CORRIDA DO SINAL VERMELHO
+tutorial_red_light_racer_title	CORRIDA DO SINAL VERMELHO
+tutorial_redlight_title	CORRIDA DO SINAL VERMELHO
+EARN_1MILLION_DESC	KAROL liga parabenizando você por se tornar o CAMPEÃO DA CIDADE.  Se tiver interesse, por um milhão de dólares ele deixa você entrar de sócio nas garagens dele.
+EARN_1MILLION_OBJ_01	GANHE UM MILHÃO DE DÓLARES E SEJA SÓCIO DO KAROL
+EARN_1MILLION_TITLE	DIA DE PAGAMENTO
+Easy	MAIS FÁCIL
+Navmap_Difficulty1	MAIS FÁCIL
+Edit	EDITAR
+prompt_edit	EDITAR
+VL_Edit	EDITAR
+EDITOR_RACE	CORRIDA DO EDITOR DE CORRIDAS
+effects volume	VOLUME DOS EFEITOS
+EndOfBattle	FIM DA BATALHA
+EOR_missionResultsDesc	Seu progresso e status nas missões
+EOR_missionResultsTitle	RESULTADOS DA MISSÃO
+EOR_money_total_format	TOTAL: 
+EOR_reward_rep_level_format	NÍVEL: <D>EOR_REWARD_REP_LEVEL</D>
+EOR_reward_rep_ratio_format	/<D>EOR_REWARD_REP_TOTAL</D> REP
+EOR_REWARDED_PARTS	RECOMPENSADO
+EOR_rewards_exp_format	REP GANHA:  <D>EOR_rewards_exp</D> 
+EOR_rewards_money_format	DINHEIRO GANHO:  $<D>EOR_rewards_money</D> 
+EOR_rewards_title	RECOMPENSAS
+EOR_UNLOCKED_PARTS	DESBLOQUEADO
+Evening	NOITE
+Exhaust	ESCAPAMENTOS
+exhaust_1	1 DE 5
+seats_f1	1 DE 5
+seats_f_1	1 DE 5
+steer_whl_2	1 DE 5
+exhaust_2	2 DE 5
+seats_f2	2 DE 5
+seats_f_3	2 DE 5
+steer_whl_3	2 DE 5
+exhaust_3	3 DE 5
+seats_f3	3 DE 5
+seats_f_2	3 DE 5
+steer_whl_4	3 DE 5
+exhaust_4	4 DE 5
+seats_f4	4 DE 5
+seats_f_4	4 DE 5
+steer_whl_5	4 DE 5
+exhaust_5	5 DE 5
+seats_f5	5 DE 5
+seats_f_5	5 DE 5
+steer_whl_1	5 DE 5
+ExhaustHeaders	ESCAPAMENTO
+ExhaustSide	ESCAPAMENTO LATERAL
+Exit Garage	SAIR DA GARAGEM
+exit_hangout	SAIR DO ENCONTRO
+prompt_exit_hangout	SAIR DO ENCONTRO
+exitToCruise	SAIR PARA O PASSEIO
+Exotic	EXÓTICO
+EXOTIC_CHAMP_DESC	PETE liga te desafiando para uma corrida com um veículo EXÓTICO.  O PETE está circulando pela Sunset Blvd. com o Ford GT 2006 dele.
+EXOTIC_CHAMP_OBJ_01	VENÇA O PETE COM UM VEÍCULO EXÓTICO 
+exotic_champ_restriction	Você precisa estar dirigindo um veículo EXÓTICO para desafiar o PETE.
+EXOTIC_CHAMP_TITLE	CAMPEÃO EXÓTICO
+EXOTIC_REP_DESC	KAROL liga dizendo para você ganhar experiência com carros EXÓTICOS.  Ganhe REP. suficiente e o KAROL liga de novo.
+EXOTIC_REP_OBJ_01	VENÇA 6 CORRIDAS COM UM VEÍCULO EXÓTICO
+EXOTIC_REP_TITLE	TEMPOS RÁPIDOS
+Exterior	EXTERIOR/INTERIOR
+EXTERIOR PARTS	PEÇAS EXTERNAS
+Exterior_Cust_Choice_Menu	EXTERIOR DO VEÍCULO
+Fade Type	TIPO DE DEGRADÊ
+Find Match	ACHAR PARTIDA
+FIND_SH_01_DESC	BOOKE está circulando pela Figueroa St., no Centro.  Encontre-o se quiser conhecer uns caras novos no Centro.
+FIND_SH_01_TITLE	PELOS VELHOS TEMPOS
+FIND_SH_01B_DESC	KAROL liga avisando que o BOOKE é o CAMPEÃO DA CIDADE.  Ele está no Standard Hotel, no Centro, se você quiser conversar.
+FIND_SH_01B_TITLE	O CAMPEÃO ESTÁ AQUI
+FIND_SH_02_DESC	KAROL liga dizendo para você ir encontrá-lo no Píer de Santa Monica. 
+FIND_SH_02_TITLE	O AR DO MAR
+FIND_SH_02B_DESC	Beleza, me encontre na Third Street Promenade.  A gente segue daí.
+FIND_SH_02B_TITLE	CONFRONTO NA THIRD STREET
+FIND_SH_02C_DESC	KAROL liga dizendo que, se você quer virar sócio das garagens dele, venha encontrá-lo no Chateau Marmont, em Hollywood, e traga o seu dinheiro.
+FIND_SH_02C_MONEY_RESTRICTION_DESC	Você precisa ter um milhão de dólares para virar sócio do KAROL.
+FIND_SH_02C_MONEY_RESTRICTION_TITLE	A FRANQUIA
+FIND_SH_02C_SPEND_MONEY_TITLE	A FRANQUIA
+FIND_SH_02C_SPEND_MONEY_DESC	Tem certeza de que quer gastar um milhão de dólares para virar sócio do KAROL?
+FIND_SH_02C_TITLE	JOGADOR DA FRANQUIA
+FIND_SH_03_DESC	BOOKE liga dizendo que existe uma mulher em Hollywood chamada ANNIE que pode te ajudar.  Ela fica na barraca de cachorro-quente Pink's, em Hollywood.
+FIND_SH_03_OBJ_01	ENCONTRE A ANNIE
+FIND_SH_03_TITLE	ROSA CHOQUE
+FIND_SH_03B_DESC	ANNIE liga dizendo que está no Georgian Hotel, em Santa Monica.  Se você quer mudar de ares, venha encontrá-la.
+FIND_SH_03B_OBJ_01	ENCONTRE A ANNIE NAS PRAIAS
+FIND_SH_03B_TITLE	GAROTA DA PRAIA
+FIND_SH_04_DESC	BOOKE te conta sobre um cara chamado ANDREW que está atrás de ação.  Você pode encontrá-lo no abandonado Diamond Lot quando tiver uma chance.
+FIND_SH_04_OBJ_01	ENCONTRE O ANDREW
+HANGOUT_PINKSLIP_DOWNTOWN_OBJ_01	ENCONTRE O ANDREW
+FIND_SH_04_TITLE	NEM TUDO QUE RELUZ
+FIND_SH_05_DESC	BOOKE liga falando sobre um cara chamado HUGO que fica no Centro.  O HUGO fica num terreno abandonado na Lower Grand St.
+FIND_SH_05_TITLE	O HUGO ESTÁ LÁ
+FLAGS_HEADER	BANDEIRAS\n
+foggy	NUBLADO
+Freeway	CORRIDA NA FREEWAY
+tutorial_freeway_racer_title	CORRIDA NA FREEWAY
+Friend Options	AJUSTES DE AMIGOS
+ol_friends_invite	AJUSTES DE AMIGOS
+Friends List	LISTA DE AMIGOS
+ol_friend_list	LISTA DE AMIGOS
+FrontBack	DA FRENTE PARA TRÁS
+G_patternFrontBack	DA FRENTE PARA TRÁS
+FrontBumper	PARA-CHOQUE DIANTEIRO
+P_FrontBumper	PARA-CHOQUE DIANTEIRO
+FrontSeat	BANCOS
+G_AGRO_EXPLAIN	O AGRO deixa o seu veículo brevemente indestrutível e permite causar dano extra aos veículos no seu caminho.
+G_AirbagsPattern	±PADRÃO DE REBAIXAMENTO
+G_AreYouSure_RemoveVinyls	Tem certeza de que quer remover todos os adesivos?
+G_AutoUpgrade	MELHORIA AUTOMÁTICA
+G_available	Disponível
+G_BothAxle	AMBOS
+G_BrakeChoicesMenu	FREIOS
+G_ChooseBrake	FREIOS
+gbrake	FREIOS
+gp_brakes	FREIOS
+G_Brushed	ESCOVADO
+G_CantSellYourLastVehicle	Você não pode vender o seu último veículo, mas pode dá-lo como parte do pagamento na compra de outro veículo na concessionária.
+G_Cart	CARRINHO:
+G_CarTooDamaged_NeedToFix	Você precisa reparar o veículo antes de sair da garagem.
+G_ChangeBrand	TROCAR MARCA
+G_ChangeState	TROCAR ESTADO
+G_Checkout	FINALIZAR COMPRA
+G_ChooseRimColorMat	PINTURA
+G_Painted	PINTURA
+G_ChooseRims	RODAS
+G_RimChoicesMenu	RODAS
+Rim	RODAS
+RimChoices	RODAS
+Rims	RODAS
+RimTopMenu	RODAS
+G_ChooseTire	PNEUS
+G_Tire	PNEUS
+G_TireChoicesMenu	PNEUS
+gp_tires	PNEUS
+Tire	PNEUS
+G_Chrome	CROMADO
+G_ConfirmExitVinyls	SAIR DOS ADESIVOS
+G_ConfirmPerformanceCheckout	Tem certeza de que quer finalizar a compra?
+G_DoYouWantToCheckout	Tem certeza de que quer finalizar a compra?
+G_damage	DANO
+G_DefaultBrake	FREIOS ORIGINAIS
+G_DoYouWantToBuyThisCar	Tem certeza de que quer comprar este veículo?
+G_DoYouWantToInstallThisPart	Tem certeza de que quer instalar esta peça?
+G_DoYouWantToSellThis	Tem certeza de que quer vender este veículo?
+G_Ext_prompt	ESCOLHA A SUA ÁREA:
+G_ExtNeon	NEON
+NeonFlashRate	NEON
+G_ExtNeonColor	±COR DO NEON
+G_IntNeonColor	±COR DO NEON
+G_Front	DIANTEIRA
+G_FrontAxle	DIANTEIRA
+G_FullFixTitle	REPARAR
+G_Garage_Full	Sua garagem está cheia (30 veículos). Remova um veículo antes de continuar.
+G_GaugesBColor	COR DO MOSTRADOR B
+G_GaugesColor	COR DO MOSTRADOR A
+G_hp	CAVALOS DE POTÊNCIA
+G_Hydraulics	HIDRÁULICA/AIR BAGS
+G_HydraulicsOnOff	HIDRÁULICA
+HYDRAULICS	HIDRÁULICA
+tutorial_hydraulics_title	HIDRÁULICA
+G_Install	INSTALAR
+g_installed	Instalado
+G_InstallPart	INSTALAÇÃO
+G_IntAColor	COR INTERIOR A
+G_IntBColor	COR INTERIOR B
+G_IntCColor	COR INTERIOR C
+G_IntDColor	COR INTERIOR D
+G_IntEColor	COR INTERIOR E
+G_Interior	INTERIOR
+G_InteriorColors	CORES INTERNAS
+G_IntNeon	NEON INTERNO
+G_LeavingWillUndoAllChanges_AreYouSure	Sair desfará todas as alterações.  Tem certeza?
+G_Level	NÍVEL
+Level	NÍVEL
+G_locked	Bloqueado
+G_ModExtNeonColor	NEON/PELÍCULA DAS JANELAS
+MiscColor	NEON/PELÍCULA DAS JANELAS
+G_Money	DINHEIRO:
+Navmap_Bank_Title	DINHEIRO:
+G_MoneySpent	SEU VEÍCULO PRECISA DE REPAROS 
+G_Negative	NEGATIVO
+G_NeonExt	EXTRA
+G_NotEnoughCash	Você não tem dinheiro suficiente para comprar este veículo.
+G_NotEnoughLayersToPaste	Não há camadas livres suficientes para colar/inserir da área de transferência.
+G_NothingMarked	AS CAMADAS PRECISAM SER MARCADAS ANTES DE COPIAR OU RECORTAR.
+G_Off	DESLIGADO
+off	DESLIGADO
+G_owned	Possui
+G_Paint_Shop	LOJA DE PINTURA
+G_PurchasePaint	LOJA DE PINTURA
+Part Color	LOJA DE PINTURA
+G_patternBackFront	DE TRÁS PARA A FRENTE
+G_patternLeftRight	DA ESQUERDA PARA A DIREITA
+LeftRight	DA ESQUERDA PARA A DIREITA
+G_patternRightLeft	DA DIREITA PARA A ESQUERDA
+G_patternTogether	TODOS
+Private Event	TODOS
+RL_All	TODOS
+RO_All	TODOS
+G_Pay_And_Checkout	PAGAR E FINALIZAR
+G_Performance	LOJA DE DESEMPENHO
+G_PerformanceOverBudget	Você não tem dinheiro suficiente.
+G_PlaceAShapeBeforeEditing	Você precisa colocar um adesivo antes de poder editar uma camada.
+G_PositionDesc	MUDE A POSIÇÃO DA CAMADA OU DO GRUPO SELECIONADO.
+G_PositionX	POSIÇÃO HORIZONTAL: 
+G_PositionY	POSIÇÃO VERTICAL: 
+G_Positive	POSITIVO
+G_PreviousMenu	MENU ANTERIOR
+G_PShop_Total	TOTAL:  
+G_SC_Total	TOTAL:  
+G_PULSE_EXPLAIN	O Pulso Eletromagnético desativa temporariamente os sistemas elétricos de todos os veículos ao seu redor.
+G_PurchaseError	DINHEIRO INSUFICIENTE
+G_PurchaseVehicle	COMPRAR VEÍCULO
+Rmr_Purchase	COMPRAR VEÍCULO
+RMR_PurchaseVehicle	COMPRAR VEÍCULO
+G_PurchaseVehicleWithTrade	COMPRAR COM TROCA
+G_PurchaseVinyls	LOJA DE ADESIVOS
+G_QuickFixString	Você precisa reparar o veículo antes de continuar.
+G_QuickFixTitle	REPARO RÁPIDO
+GasStation_QuickFix	REPARO RÁPIDO
+quick_fix	REPARO RÁPIDO
+G_Rear	TRASEIRA
+G_RearAxle	TRASEIRA
+G_Remove_All_Items	REMOVER TODOS OS ITENS
+G_Remove_Item	REMOVER ITEM
+G_RemoveAllVinyls	REMOVER TODOS OS ADESIVOS
+VE_RemoveAllVinyls	REMOVER TODOS OS ADESIVOS
+G_RemoveItemsFromCart	REMOVER ITENS
+G_RideHeight	ALTURA DO VEÍCULO
+G_Rim1Color	RAIO A
+G_RimMat1	RAIO A
+G_Rim2Color	RAIO B
+G_RimMat2	RAIO B
+G_Rim3Color	ABA
+G_RimMat3	ABA
+G_Rim_Set_0	RODAS ORIGINAIS
+G_StockRim	RODAS ORIGINAIS
+G_Rim_Set_1	GRUPO A
+G_Rim_Set_2	GRUPO B
+G_RimMatColorMenu	MATERIAIS/PINTURA
+G_RimSize	TAMANHO DAS RODAS
+G_ROAR_EXPLAIN	O ROAR emite uma onda sonora que empurra todos os oponentes para fora do seu caminho.
+G_Rotate	ROTAÇÃO:
+G_RotateDesc	MUDE A ROTAÇÃO DA CAMADA OU DO GRUPO SELECIONADO.
+G_SaleError	ERRO NA VENDA
+G_ScaleDesc	MUDE A ESCALA DA CAMADA OU DO GRUPO SELECIONADO.
+G_ScaleX	LARGURA DA ESCALA: 
+G_ScaleY	ALTURA DA ESCALA: 
+G_SellRide	VENDER CARRO
+G_SellVehicle	VENDER VEÍCULO
+G_Shopping_Cart	CARRINHO
+G_ShoppingCartTotal	TOTAL
+TOTAL_HEADER	TOTAL
+G_ShowroomError	ERRO
+pause_ol_error	ERRO
+Save_Dialog_Title_Error	ERRO
+G_ShowroomPriceError	ERRO NA COMPRA
+G_Side	LATERAL
+G_SkewDesc	MUDE A INCLINAÇÃO DA CAMADA OU DO GRUPO SELECIONADO.
+G_SkewX	INCLINAÇÃO: 
+G_Special_Ability_Select	HABILIDADES ESPECIAIS
+GarageSpecAbilMenu	HABILIDADES ESPECIAIS
+tutorial_special_ability_title	HABILIDADES ESPECIAIS
+G_StockPart	Original
+G_SwapCarbonFiber	FIBRA DE CARBONO LIGADA/DESLIGADA
+G_Test_Driving	TESTE DE DIREÇÃO
+G_TestDrive	TESTE DE DIREÇÃO
+G_ThisWillOverwriteVinyls	Tem certeza de que quer sobrescrever o seu adesivo atual?
+G_ThisWillOverwriteYourPresetVinyl	Qualquer adesivo existente será sobrescrito.  Tem certeza de que quer continuar?
+G_TintColor	PELÍCULA DAS JANELAS
+G_TintTransparency	OPACIDADE DA PELÍCULA
+G_TireProfile	PERFIL DO PNEU
+G_TireWidth	LARGURA DO PNEU
+G_torque	TORQUE
+G_Trade_In_Value	VALOR DA TROCA:
+G_TradeInToBuyThisCar	Tem certeza de que quer dar o seu veículo atual como parte do pagamento ao comprar este?
+G_UndoPerformanceChanges	DESFAZER MUDANÇAS DE DESEMPENHO
+G_VehicleLocked	Este veículo está bloqueado.
+G_Vinyl_Editor	EDITOR DE ADESIVOS
+VE_VinylEditor	EDITOR DE ADESIVOS
+G_Vinyl_Error	ERRO NO ADESIVO
+G_VinylPasteError	Nenhuma camada foi copiada para a área de transferência.
+G_Wheels	RODA
+WheelSteer	RODA
+G_WideBodyError	ERRO NA INSTALAÇÃO
+G_YouDontAnySpace	Sua garagem está cheia, você precisa vender um veículo para comprar um novo.
+G_YouDontHaveEnoughMoney	Você não tem dinheiro suficiente para esta compra
+G_YouMustUninstallWidebodyFirst	Você precisa desinstalar a Carroceria Larga primeiro.
+G_YouNeed1000ToPurchase	Você não tem dinheiro suficiente para esta compra. Custo:  $1.000.
+G_ZONE_EXPLAIN	O ZONE permite desacelerar o tempo e se concentrar em controlar cada movimento do seu veículo.  
+game	JOGO
+Game Stats	ESTATÍSTICAS DO JOGO
+Pause_Game_Stats	ESTATÍSTICAS DO JOGO
+Gamer	GAMERTAG
+LB_GamerTag	GAMERTAG
+Gamer Card	GAMERCARD
+prompt_View_Gamercard	GAMERCARD
+Gamer Review	ENVIAR AVALIAÇÃO DE JOGADOR
+GARAGE_BEACHES_DESC	KAROL liga e diz que tem um trabalho pra você quando puder.  Pegue o veículo estacionado em frente à garagem dele em Santa Monica, na Pacific Coast Highway, bem perto da praia.
+GARAGE_BEACHES_OBJ_01	VÁ PARA A GARAGEM DA PRAIA DO KAROL
+GARAGE_BEACHES_TITLE	A ORLA 
+Garage_customization_menu	PERSONALIZAÇÃO
+GARAGE_HOLLYWOOD_DESC	Visite a garagem em Old Hollywood e fale com o KAROL, o dono.
+GARAGE_HOLLYWOOD_OBJ_01	VÁ PARA A HOLLYWOOD AUTO
+GARAGE_HOLLYWOOD_TITLE	HOLLYWOOD AUTO
+hw_garage	HOLLYWOOD AUTO
+GAS	GASOLINA
+Gas Station	POSTO DE SERVIÇO
+GasStation_RefillNitro	RECARREGAR NITRO
+gCustomize	PERSONALIZAR VEÍCULO
+genre_desc	Escolha o gênero:
+genre_title	LISTAS DE MÚSICAS
+pause_playlists	LISTAS DE MÚSICAS
+playlist_title	LISTAS DE MÚSICAS
+GEORGIAN_TITLE	O GEORGIAN HOTEL
+RL_GeorgianHotel	O GEORGIAN HOTEL
+GH_04_1_vp_chv_camaross_69	CAMARO SS '69 DO NIKOLAI
+GH_05_0_vp_frd_focus_04	FOCUS '04 DO MARCEL
+Gloss	BRILHO
+gManage	GERENCIAR VEÍCULOS
+Go To RateMyRide	AVALIE MEU CARRO
+Rate My Ride	AVALIE MEU CARRO
+RMR_Home	AVALIE MEU CARRO
+RMR_RateMyRide	AVALIE MEU CARRO
+tutorial_rate_my_ride_title	AVALIE MEU CARRO
+GO!	VAI!
+Goal Attack	ATAQUE AO OBJETIVO
+goal_attack_title	ATAQUE AO OBJETIVO
+pause_goalattack	ATAQUE AO OBJETIVO
+GOAL_TIME	TERMINE ESTA CORRIDA EM MENOS DE <D>GOAL_TIME_ENTRY</D>
+GOALATTACK_ALLGOALS	ATINJA TODOS OS OBJETIVOS NA MESMA CORRIDA
+GOALATTACK_DAMAGE	TERMINE A CORRIDA COM MENOS DE 25% DE DANO
+GOALATTACK_WIN	VENÇA ESTA CORRIDA
+gp_chip	ELETRÔNICOS
+gp_clutch	EMBREAGEM
+gp_engine	MELHORIA DO MOTOR
+gp_exhaust	SISTEMA DE ESCAPAMENTO
+gp_gears	KITS DE MARCHAS
+gp_headers	COLETORES
+gp_intake	ENTRADA DE AR FRIO
+gp_jetkits	KITS DE GICLÊS
+gp_nitrous	NITRO
+tutorial_nitrous_title	NITRO
+tutorial_prompt_nitro	NITRO
+gp_shockSprings	AMORTECEDORES/MOLAS
+gp_swaybars	BARRAS ESTABILIZADORAS
+gp_turbo	INDUÇÃO FORÇADA
+GRMR_GamerTagAndRide	GAMERTAG - CARRO
+gShowroom	CONCESSIONÁRIA
+HANDBRAKE	FREIO DE MÃO
+handling	DIRIGIBILIDADE
+HANGOUT_PINKSLIP_BEACHES_DESC	KAROL liga contando sobre um lugar em Santa Monica onde se corre por PINK SLIPS.  Visite a cobertura do estacionamento perto da Arizona Ave. e fale com o LESTER, se tiver interesse.
+HANGOUT_PINKSLIP_BEACHES_OBJ_01	VENÇA O MAZDA RX8 DO LESTER
+HANGOUT_PINKSLIP_BEACHES_TITLE	MIRANTE DA PRAIA
+HANGOUT_PINKSLIP_DOWNTOWN_DESC	BOOKE te conta sobre um cara chamado ANDREW que quer correr no Centro.  Você pode encontrá-lo no terreno abandonado Diamond Lot, no Centro.
+HANGOUT_PINKSLIP_DOWNTOWN_OBJ_02	VENÇA O NISSAN 350Z DO JIN
+HANGOUT_PINKSLIP_DOWNTOWN_TITLE	SURRA DE 10 QUILATES
+HANGOUT_PINKSLIP_HILLS_DESC	KAROL te conta sobre o Hollywood Lookout, na Mulholland Dr.  Lá se corre por pink slips, se você tiver interesse.
+HANGOUT_PINKSLIP_HILLS_OBJ_01	VENÇA O MITSUBISHI EVOLUTION DO PETE
+HANGOUT_PINKSLIP_HILLS_TITLE	DESAFIO DE PINK SLIP 
+HANGOUT_PINKSLIP_HOLLYWOOD_DESC	ANNIE liga dizendo que os caras do Mack Burger querem aumentar a aposta.  Vá encontrar o CHUNG HEE e correr por pink slips.
+HANGOUT_PINKSLIP_HOLLYWOOD_OBJ_01	VENÇA O PONTIAC FIREBIRD DO CHUNG HEE
+HANGOUT_PINKSLIP_HOLLYWOOD_TITLE	CORRENDO POR PINKS
+HANGOUT_SERIES_BEACHES_DESC	ANNIE liga e comenta que sempre tem gente no 7-Eleven de Santa Monica procurando corrida.  Procure por eles quando quiser correr.
+HANGOUT_SERIES_BEACHES_OBJ_01	VENÇA A CORRIDA DA SÉRIE EM SANTA MONICA
+HANGOUT_SERIES_BEACHES_TITLE	ENCONTRO NA PRAIA
+HANGOUT_SERIES_DOWNTOWN_DESC	HUGO manda você correr com o amigo dele, MIGUEL, no encontro da Lower Grand Street, no Centro.
+HANGOUT_SERIES_DOWNTOWN_OBJ_01	VENÇA A CORRIDA DA SÉRIE NO CENTRO
+HANGOUT_SERIES_DOWNTOWN_TITLE	SUBMUNDO DO CENTRO
+HANGOUT_SERIES_HILLS_DESC	ANDREW liga contando sobre uns caras que correm saindo de um lava-rápido na Ventura, no Valley.  Passe por lá quando quiser correr.
+HANGOUT_SERIES_HILLS_OBJ_01	VENÇA A CORRIDA DA SÉRIE NO VALLEY
+HANGOUT_SERIES_HILLS_TITLE	LIMPINHO
+HANGOUT_SERIES_HOLLYWOOD_DESC	BOOKE liga contando sobre uns caras que correm saindo do estacionamento do Great Palace, em West Hollywood.
+HANGOUT_SERIES_HOLLYWOOD_OBJ_01	VENÇA A CORRIDA DA SÉRIE EM HOLLYWOOD
+HANGOUT_SERIES_HOLLYWOOD_TITLE	ENCONTRO EM HOLLYWOOD
+HANGOUT_SERIES_HOLLYWOODB_DESC	KAROL liga contando sobre uns caras que correm saindo de um estacionamento em Beverly Hills.  Se quiser correr, procure por eles.
+HANGOUT_SERIES_HOLLYWOODB_OBJ_01	VENÇA A CORRIDA DA SÉRIE EM BEVERLY HILLS
+HANGOUT_SERIES_HOLLYWOODB_TITLE	ENCONTRO EM BEVERLY HILLS
+HANGOUT_SERIES_HOLLYWOODC_DESC	ANNIE conta que ouviu falar de uns caras que correm saindo da doca de carga atrás do shopping em Century City. 
+HANGOUT_SERIES_HOLLYWOODC_OBJ_01	VENÇA A CORRIDA DA SÉRIE EM CENTURY CITY
+HANGOUT_SERIES_HOLLYWOODC_TITLE	ENCONTRO EM CENTURY CITY
+HANGOUT_WAGER_BEACHES_DESC	ANNIE liga dizendo para você ganhar uma grana dos otários do estacionamento da cobertura em Santa Monica.  Ganhe algumas apostas e ela te liga.
+HANGOUT_WAGER_BEACHES_OBJ_01	GANHE APOSTAS EM SANTA MONICA
+REPEAT_HANGOUT_WAGER_BEACHES_OBJ_01	GANHE APOSTAS EM SANTA MONICA
+HANGOUT_WAGER_BEACHES_TITLE	PAGAMENTO NA COBERTURA
+HANGOUT_WAGER_DOWNTOWN_DESC	HUGO liga e te desafia a ganhar apostas no Diamond Lot, no Centro.
+HANGOUT_WAGER_DOWNTOWN_OBJ_01	GANHE APOSTAS NO CENTRO
+REPEAT_HANGOUT_WAGER_DOWNTOWN_OBJ_01	GANHE APOSTAS NO CENTRO
+HANGOUT_WAGER_DOWNTOWN_TITLE	PELO DINHEIRO
+HANGOUT_WAGER_HOLLYWOOD_DESC	ANNIE liga te desafiando a ganhar $5.000 no Mack Burger, em Hollywood; os caras de lá sempre querem correr valendo dinheiro. 
+HANGOUT_WAGER_HOLLYWOOD_OBJ_01	GANHE $5.000 EM HOLLYWOOD
+HANGOUT_WAGER_HOLLYWOOD_TITLE	QUEIJO DUPLO
+Hard	DIFÍCIL
+Navmap_Difficulty3	DIFÍCIL
+HeadLight	FARÓIS
+HEADLIGHTS	FARÓIS
+Heavy	PESADO
+HILLS	COLINAS
+RL_Hills	COLINAS
+hl_local_hangout1	LAVA-RÁPIDO DO VALLEY
+hl_timetrial	CONTRARRELÓGIO NAS COLINAS
+REPEAT_TIMETRIAL_HILLS_TITLE	CONTRARRELÓGIO NAS COLINAS
+TIMETRIAL_HL	CONTRARRELÓGIO NAS COLINAS
+hl_tournament1	TORNEIO NAS COLINAS
+REPEAT_TOURNAMENT_HILLS_TITLE	TORNEIO NAS COLINAS
+TOURNAMENT_HILLS_TITLE	TORNEIO NAS COLINAS
+Hollywood Garage Enter Cutscene Here	GARAGEM DE HOLLYWOOD
+hood	CAPÔS
+HoodMaterial	FIBRA DE CARBONO
+HOOKMAN_FOUND_FREEWAY	PILOTO DE FREEWAY DESCOBERTO
+HOOKMAN_FOUND_REDLIGHT	PILOTO DE SINAL VERMELHO DESCOBERTO
+HORN	BUZINA
+HUD_lap	VOLTA
+Navmap_Checkpoint2	VOLTA
+ol_lobby_laps	VOLTA
+HUD_PLAYERLIST	ALTERNAR LISTA DE JOGADORES
+HUD_score	Pontos
+HUDRaceEditor	EDITOR DE CORRIDAS
+pause_race_editor	EDITOR DE CORRIDAS
+Race Editor	EDITOR DE CORRIDAS
+race_editor	EDITOR DE CORRIDAS
+RE_RACE_EDITOR	EDITOR DE CORRIDAS
+RE_View_Tutorial	EDITOR DE CORRIDAS
+tutorial_race_editor_title	EDITOR DE CORRIDAS
+HUDRELayout	LAYOUT
+RO_Layout	LAYOUT
+hw_local_hangout2	ESTACIONAMENTO DE BEVERLY HILLS
+hw_local_hangout3	DOCA DE CARGA DO SHOPPING
+hw_timetrial	CONTRARRELÓGIO EM HOLLYWOOD
+REPEAT_TIMETRIAL_HOLLYWOOD_TITLE	CONTRARRELÓGIO EM HOLLYWOOD
+TIMETRIAL_HOLLYWOOD_TITLE	CONTRARRELÓGIO EM HOLLYWOOD
+TIMETRIAL_HW	CONTRARRELÓGIO EM HOLLYWOOD
+hw_tournament1	TORNEIO EM HOLLYWOOD
+REPEAT_TOURNAMENT_HOLLYWOOD_TITLE	TORNEIO EM HOLLYWOOD
+TOURNAMENT_HOLLYWOOD_TITLE	TORNEIO EM HOLLYWOOD
+Idle Camera	CÂMERA CINEMATOGRÁFICA
+Ignore	IGNORAR
+ol_request_ignore	IGNORAR
+Impossible	MAIS DIFÍCIL
+Navmap_Difficulty4	MAIS DIFÍCIL
+IN_ZONE	HABILIDADE ESPECIAL
+Incoming Call	CHAMADA RECEBIDA
+Incoming Call!	CHAMADA RECEBIDA!
+INSTALL_ABILITY_CONFIRM_SPLASH	HABILIDADE ESPECIAL INSTALADA
+INSTALL_ABILITY_DESC	KAROL liga dizendo que você pode aprender habilidades especiais para os seus carros na garagem.  Dê uma passada e aprenda ROAR, AGRO, ZONE ou EMP.  As Habilidades Especiais ficam na opção de personalizar veículo.
+INSTALL_ABILITY_OBJ_01	INSTALE UMA HABILIDADE ESPECIAL
+INSTALL_ABILITY_TITLE	TRUQUES DO OFÍCIO
+INSTALL_CONF_MENU	ADICIONAR AO CARRINHO?
+Intercooler	INTERCOOLER
+intercooler_1	INTERCOOLER
+intercooler_0_stk	SEM INTERCOOLER
+Invalid_Name	DESCONHECIDO
+RL_Unknown	DESCONHECIDO
+Invalid_Summary	VÁ ENCONTRAR UM HOOKMAN PARA TE DAR UMA MISSÃO.
+Invite to session	CONVIDAR PARA O JOGO
+Join	ENTRAR
+ol_request_join	ENTRAR
+prompt_join	ENTRAR
+KeepAway	FUGA DA BANDEIRA
+language	IDIOMA
+LB_2nd	2º
+rank2	2º
+LB_3rd	3º
+rank3	3º
+LB_Capture_%	CAPTURA %
+LB_Car Used	VEÍCULO USADO
+LB_Entered	PARTICIPOU
+LB_Time	TEMPO
+Time	TEMPO
+TIME_HEADER	TEMPO
+LB_Unknown	Desconhecido
+LB_Win_%	VITÓRIAS %
+LB_Wins	VITÓRIAS
+WINS_HEADER	VITÓRIAS
+Leaderboard_A_Class	CLASSE A 
+Leaderboard_B_Class	CLASSE B
+Leaderboard_BattleModes	MODOS DE BATALHA
+Leaderboard_Blitz_Wins	VITÓRIAS NA CORRIDA DE MARCO
+Leaderboard_C_Class	CLASSE C
+Leaderboard_Circuit_Wins	VITÓRIAS NO CIRCUITO
+Leaderboard_Circut_Race_Ordered_Race	CORRIDAS ORDENADAS
+Leaderboard_Ordered_Races	CORRIDAS ORDENADAS
+ordered_race	CORRIDAS ORDENADAS
+Leaderboard_Circut_Races_Times	TEMPOS DA CORRIDA DE CIRCUITO
+Leaderboard_CTF_Wins	VITÓRIAS NA CTF
+Leaderboard_CTFBaseWar_Wins	VITÓRIAS NA BASEWAR
+Leaderboard_CTFSplitBase	VITÓRIAS NA SPLITBASE
+Leaderboard_D_Class	CLASSE D
+Leaderboard_Detonate_Wins	VITÓRIAS NA DETONAÇÃO
+Leaderboard_Dynamic_Race	CORRIDA NA FREEWAY
+Leaderboard_Dynamic_Races	CORRIDAS NA FREEWAY
+Leaderboard_Dynamic_Races_Times	TEMPOS DA CORRIDA NA FREEWAY
+Leaderboard_FFACTF_Wins	VITÓRIAS NA CTF TODOS CONTRA TODOS
+Leaderboard_FFAStockpile_Wins	VITÓRIAS NO ACÚMULO TODOS CONTRA TODOS
+Leaderboard_Keep_Away_Wins	VITÓRIAS NA FUGA DA BANDEIRA
+Leaderboard_Ordered_Race_Race_Times	TEMPOS DA CORRIDA ORDENADA
+Leaderboard_Ordered_Races_Times	TEMPOS DA CORRIDA ORDENADA
+Leaderboard_Ordered_Wins	VITÓRIAS ORDENADAS
+Leaderboard_Overall_Wins	VITÓRIAS GERAIS
+Leaderboard_OverallWins	VITÓRIAS GERAIS
+Leaderboard_PerformanceClass	CLASSE DE DESEMPENHO
+Leaderboard_Race_Wins	VITÓRIAS EM CORRIDAS
+Leaderboard_RaceWins	VITÓRIAS EM CORRIDAS
+Leaderboard_RaceTimes	TEMPOS DO ATAQUE AO OBJETIVO
+Leaderboard_Stockpile_Wins	VITÓRIAS NO ACÚMULO
+Leaderboard_Tag_Wins	VITÓRIAS NO TAG
+Leaderboard_UnOrdered_Races	CORRIDAS SEM ORDEM
+Leaderboard_UnOrdered_Wins	VITÓRIAS SEM ORDEM
+Leaderboard_Updated	RANKING ATUALIZADO
+Left Analog X	ANALÓGICO ESQUERDO
+Left Analog X Left	ANALÓGICO ESQUERDO PARA A ESQUERDA
+Left Analog X Right	ANALÓGICO ESQUERDO PARA A DIREITA
+Left Analog Y Down	ANALÓGICO ESQUERDO PARA BAIXO
+Left Analog Y Up	ANALÓGICO ESQUERDO PARA CIMA
+Legend	LENDA
+Navmap_legend	LENDA
+Rank_9_Legend	LENDA
+Lets Race	VAMOS CORRER.  VOCÊ ESCOLHE O LOCAL.
+license_plate	PLACAS
+LicensePlate	PLACAS
+LMO_ELEMINATED	<D>PLAYER_ELEMINATED</D> ELIMINADO!
+load	CARREGANDO
+Race_Loading	CARREGANDO
+Save_Icon_Loading	CARREGANDO
+VE_Loading	CARREGANDO
+lobby_changerace_next	PRÓX.
+Navmap_Checkpoint3	PRÓX.
+lobby_changerace_prev	ANT.
+lobby_slot_private	[PRIVADO]
+lobby_slot_public	[ABERTO]
+Local	HOOKMAN LOCAL
+LOCAL_HANGOUT_DESC	Dispute uma SÉRIE de corridas neste ENCONTRO.  Quem vencer 3 corridas primeiro ganha.
+LOCAL_HANGOUT_TITLE	ENCONTRO LOCAL
+local_races	CORRIDAS LOCAIS
+local_results	RESULTADOS
+Payback_RESULTS	RESULTADOS
+raceOver_results	RESULTADOS
+resultsTitle	RESULTADOS
+LOOKBACK	CÂMERA TRASEIRA
+LosAngeles0	CORRIDA DO EDITOR 1
+LosAngeles1	CORRIDA DO EDITOR 2
+LosAngeles10	CORRIDA DO EDITOR 11
+LosAngeles11	CORRIDA DO EDITOR 12
+LosAngeles12	CORRIDA DO EDITOR 13
+LosAngeles13	CORRIDA DO EDITOR 14
+LosAngeles14	CORRIDA DO EDITOR 15
+LosAngeles15	CORRIDA DO EDITOR 16
+LosAngeles16	CORRIDA DO EDITOR 17
+LosAngeles17	CORRIDA DO EDITOR 18
+LosAngeles18	CORRIDA DO EDITOR 19
+LosAngeles19	CORRIDA DO EDITOR 20
+LosAngeles2	CORRIDA DO EDITOR 3
+LosAngeles3	CORRIDA DO EDITOR 4
+LosAngeles4	CORRIDA DO EDITOR 5
+LosAngeles5	CORRIDA DO EDITOR 6
+LosAngeles6	CORRIDA DO EDITOR 7
+LosAngeles7	CORRIDA DO EDITOR 8
+LosAngeles8	CORRIDA DO EDITOR 9
+LosAngeles9	CORRIDA DO EDITOR 10
+LOSE_COPS	DESPISTE A POLÍCIA
+Luxury	LUXO
+LUXURY_CHAMP_DESC	LESTER liga e te desafia para uma corrida.  O LESTER só corre com veículos de LUXO, então traga um veículo de Luxo para desafiá-lo no Centro.
+LUXURY_CHAMP_OBJ_01	VENÇA O LESTER COM UM VEÍCULO DE LUXO
+luxury_champ_restriction	Você precisa estar dirigindo um veículo de LUXO para desafiar o LESTER.
+LUXURY_CHAMP_TITLE	CAMPEÃO DO LUXO
+LUXURY_REP_DESC	ANNIE liga dizendo para você ganhar experiência correndo com VEÍCULOS DE LUXO.  Quando tiver ganhado REP. suficiente, ela vai te procurar.
+LUXURY_REP_OBJ_01	VENÇA 6 CORRIDAS COM UM VEÍCULO DE LUXO
+LUXURY_REP_TITLE	JOGANDO ALTO
+MAP	MAPA AÉREO
+Map Mode	MAPA
+mapping_recommended	PRECISA SER MAPEADO
+master volume	VOLUME GERAL
+Matte	FOSCO
+Medium	MÉDIO
+Navmap_Difficulty2	MÉDIO
+pause_medium	MÉDIO
+Metallic	METALIZADO
+Mid Day	MEIO-DIA
+midnight	MEIA-NOITE
+Mission	CORRIDA DE MISSÃO
+Mission Log	MISSÕES
+missions	MISSÕES
+Mission_Log	DIÁRIO DE MISSÕES
+Navmap_MLog_All districts	DIÁRIO DE MISSÕES
+Navmap_MLog_Title	DIÁRIO DE MISSÕES
+Navmap_Prompt_MissionLog	DIÁRIO DE MISSÕES
+tutorial_mission_log_title	DIÁRIO DE MISSÕES
+MISSIONS_MENU_TITLE	ESCOLHA UMA MISSÃO
+Money	DINHEIRO
+MONEY_HEADER	DINHEIRO
+Morning	MANHÃ
+MOTORCYCLE_CHAMP_DESC	OSWALDO liga se dizendo o CAMPEÃO DE MOTO.  A Ninja dele é uma das motos mais rápidas da cidade.  Desafie-o de moto na Mulholland Dr.
+MOTORCYCLE_CHAMP_OBJ_01	VENÇA O OSWALDO DE MOTO
+motorcycle_champ_restriction	Você precisa estar numa MOTO para desafiar o OSWALDO.
+MOTORCYCLE_CHAMP_TITLE	CAMPEÃO DE MOTO
+MOTORCYCLE_REP_DESC	ANDREW cansou de correr com 4 rodas.  Ganhe experiência correndo de MOTO e então ele vai te desafiar.
+MOTORCYCLE_REP_OBJ_01	VENÇA 6 CORRIDAS DE MOTO
+MOTORCYCLE_REP_TITLE	CAVALOS DE AÇO
+msg_ol_connectionmissing_desc	Não foi possível iniciar o System Link.  Verifique suas conexões e tente novamente.
+msg_ol_connectionmissing_title	CONEXÃO AUSENTE
+msg_ol_connectionneeded_desc	Você precisa estar conectado à Xbox LIVE para acessar os recursos de jogo da Xbox LIVE.
+Online_Upload_Photo_Error_NotSignedIn	Você precisa estar conectado à Xbox LIVE para acessar os recursos de jogo da Xbox LIVE.
+msg_ol_connectionneeded_title	XBOX LIVE NECESSÁRIA
+msg_ol_errorUnknown	PROBLEMA DE REDE
+msg_ol_errorUnknownDesc	Ocorreu um problema de rede.  Verifique suas conexões.
+msg_ol_gamespy_desc	O servidor de Midnight Club:  Los Angeles não está disponível no momento.  Tente novamente mais tarde.
+OT_NoLSPConnection_Desc	O servidor de Midnight Club:  Los Angeles não está disponível no momento.  Tente novamente mais tarde.
+RMR_DEV_ERROR	O servidor de Midnight Club:  Los Angeles não está disponível no momento.  Tente novamente mais tarde.
+msg_ol_goldneeded_desc	O seu perfil de jogador não tem as permissões corretas para acessar os recursos da Xbox LIVE.  Observe que trocar de perfil de jogador causará uma reinicialização e você perderá qualquer progresso de carreira não salvo.
+msg_ol_hostbanconf_desc	Tem certeza de que quer banir este jogador?
+msg_ol_hostbanconf_title	BANIR JOGADOR
+ol_gamer_ban	BANIR JOGADOR
+msg_ol_hostkickconf_desc	Tem certeza de que quer remover este jogador?
+msg_ol_hostkickconf_title	REMOVER JOGADOR
+ol_gamer_kick	REMOVER JOGADOR
+msg_ol_joingamewhileediting_desc	Tem certeza de que quer entrar nesta partida online? Todas as corridas do editor não salvas serão perdidas.
+msg_ol_joingamewhileediting_title	CONVITE PARA PARTIDA
+msg_ol_profileneeded_desc	Você precisa estar conectado a um perfil de jogador
+msg_ol_profileneeded_title	PERFIL DE JOGADOR NECESSÁRIO
+msg_ol_racerequest_desc	Desafio de corrida iniciado
+msg_ol_racerequest_title	DESAFIO DE CORRIDA
+msg_ol_SessionUnjoinable	O jogo não está mais disponível para entrar.
+msg_ol_unsupported_title	NÃO SUPORTADO
+msg_ol_unsupportedgamerchars	A sua gamertag contém caracteres não suportados.
+msg_ol_usercontent_desc	O seu perfil de jogador não suporta todo o conteúdo criado por jogadores.  Trocar de perfil de jogador causará uma reinicialização e você perderá qualquer progresso de carreira não salvo.
+msg_ol_WarningChatIsOff_desc	O chat está desativado no seu perfil de jogador da Xbox LIVE devido às suas Configurações de Família.
+msg_ol_WarningChatIsOff_title	Aviso
+MUS_GAME_KNOWLEDGE	AUTOCONHECIMENTO
+MUS_GAME_LOVE_PEACE	AMOR PAZ GRAXA
+Muscle	MUSCLE
+MUSCLE_CHAMP_DESC	MARCEL liga te desafiando para uma corrida à moda antiga com MUSCLE CARS.  Vença o MARCEL com um muscle car na Ocean Ave.
+MUSCLE_CHAMP_OBJ_01	VENÇA O MARCEL COM UM MUSCLE CAR
+muscle_champ_restriction	Você precisa estar dirigindo um veículo MUSCLE para desafiar o MARCEL.
+MUSCLE_CHAMP_TITLE	CAMPEÃO DOS MUSCLES
+MUSCLE_REP_DESC	BOOKE liga dizendo que você precisa correr com diferentes tipos de carro para ter sucesso.  Quando você pegar um MUSCLE CAR, ganhe REP. e ele vai te ajudar.
+MUSCLE_REP_OBJ_01	VENÇA 6 CORRIDAS COM UM MUSCLE CAR
+MUSCLE_REP_TITLE	MUDE A JOGADA
+music volume	VOLUME DA MÚSICA
+mute spectators	SILENCIAR ESPECTADORES
+Name	NOME
+NAME_COL_NAME	NOME
+NAME_HEADER	NOME
+Nav_SetAsTarget	DEFINIR COMO ALVO
+Nav_UnSetAsTarget	REMOVER ALVO
+Navmap_Checkpoint1	LARGADA
+Navmap_Checkpoint5	FINAL
+Navmap_Checkpoints	CHECKPOINTS
+t_checkpoints	CHECKPOINTS
+Navmap_Dynamic	PILOTO DE FREEWAY
+tutorial_freeway_title	PILOTO DE FREEWAY
+Navmap_Experience	REP: 
+Navmap_Flag	BANDEIRA
+Navmap_FlagBase	BASE
+Navmap_GPSMap	MAPA GPS
+pause_gps_map	MAPA GPS
+tutorial_gps_title	MAPA GPS
+tutorial_gpsmap_title	MAPA GPS
+Navmap_Hangout	ENCONTRO
+wager_hangout_title	ENCONTRO
+Navmap_LocalRace	PILOTO CIRCULANDO
+Navmap_Mission	MISSÃO
+Navmap_MLog_ActiveMissions	MISSÕES ATIVAS
+Navmap_MLog_CompletedMissions	MISSÕES CONCLUÍDAS
+Navmap_MLog_Player	JOGADOR
+Navmap_Player	JOGADOR
+player_name_default	JOGADOR
+Navmap_MLog_PreviousMissions	MISSÕES ANTERIORES
+Navmap_MLog_Tutorials	TUTORIAIS
+Navmap_no_missions	NENHUMA MISSÃO DISPONÍVEL
+Navmap_Objectives	OBJETIVOS
+Navmap_Opponent	OPONENTE
+Navmap_Pink Slip	PINK SLIP
+t_pinkslip	PINK SLIP
+Navmap_pinkslip	PINK SLIPS
+Navmap_Prompt_GPSMap	GPS
+Navmap_Prompt_Leaderboards	RANKINGS
+Navmap_Prompt_ViewLeaderboard	RANKINGS
+pause_Leaderboards	RANKINGS
+RMR_LeaderBoard_Menu	RANKINGS
+Navmap_Prompt_Legend	LEGENDA LIGADA
+Navmap_Prompt_MapMode	MODO DO MAPA
+Navmap_Prompt_Pan	MOVER
+Pan	MOVER
+Navmap_Prompt_ToggleOptions	ALTERNAR AJUSTES
+Navmap_Prompt_ToggleUI	ALTERNAR
+Navmap_Prompt_TurnOffLegend	LEGENDA DESLIGADA
+Navmap_Prompt_ViewRace	VER CORRIDA
+prompt_View_Race	VER CORRIDA
+Navmap_Prompt_Zoom	ZOOM
+prompt_Zoom_inout	ZOOM
+Zoom	ZOOM
+Navmap_Rank	NÍVEL:
+Navmap_redlight	SINAL VERMELHO
+Navmap_Reward	RECOMPENSA
+REWARD_LABEL	RECOMPENSA
+Navmap_series	CORRIDA DA SÉRIE
+Series	CORRIDA DA SÉRIE
+Navmap_TimeTrial	CONTRARRELÓGIO
+TimeTrial	CONTRARRELÓGIO
+TIMETRIAL_HOOKMAN_TITLE	CONTRARRELÓGIO
+Navmap_Tournament	TORNEIO
+tournament	TORNEIO
+TOURNAMENT_MENU_TITLE	TORNEIO
+Navmap_Unbalanced	EQUIPES DESEQUILIBRADAS
+Navmap_Wager	APOSTA
+wager_opponent	APOSTA
+WAGER_TITLE	APOSTA
+NET_PROMPT_CHANGETEAM	TROCAR DE EQUIPE
+net_prompt_gameroptionsbox	AJUSTES DO JOGADOR
+net_prompt_lobbyLeave	SAIR
+net_prompt_lobbyStart	INICIAR CORRIDA
+Start Race	INICIAR CORRIDA
+startRace	INICIAR CORRIDA
+startRaceConfirm	INICIAR CORRIDA
+net_prompt_Spectate	ASSISTIR
+New best time	NOVO MELHOR TEMPO
+Next 50	PRÓXIMOS 50
+Next_Rank	PRÓXIMO NÍVEL EM
+Night	NOITE
+NITRO	NITRO
+None	NENHUM
+option_arrow_none	NENHUM
+Public Event	NENHUM
+traf_none	NENHUM
+Noon	MEIO-DIA
+Normal	CORRIDA LOCAL
+now	ATUAL
+Offline	OFFLINE
+Player_Is_Offline	OFFLINE
+ol_accept_challenge	ACEITAR DESAFIO
+ol_battle_GetReady	PREPARE-SE
+ol_challenge_%s_sponsored_%s_%s	%s convidou você para %s: %s
+ol_community	COMUNIDADE
+ol_event_timeout	TEMPO ESGOTADO PARA O PEDIDO
+ol_gamer_mute	SILENCIAR JOGADOR
+ol_gamer_submitReview	ENVIAR AVALIAÇÃO
+ol_gamer_unmute	DESSILENCIAR JOGADOR
+ol_gamer_viewCard	VER GAMERCARD
+ol_Gamespy_Connecting	CONECTANDO... 
+ol_invite_request_msg	Venha jogar Midnight Club:  Los Angeles
+ol_invite_sent	CONVITE ENVIADO
+ol_invitefailed_desc	Os convites só podem ser enviados a jogadores que estejam ONLINE e fora do seu jogo atual.
+ol_invitefailed_title	FALHA NO CONVITE
+ol_JoinWishFromOtherController_conf	Outro controle está tentando entrar em uma partida de Midnight Club:  Los Angeles.  Deseja continuar?  Observe que qualquer progresso não salvo será perdido.
+ol_lobby_ending	Encerrando
+ol_lobby_returning	Voltando ao Saguão
+ol_lobby_starting	Iniciando
+ol_message_list	CONVITES
+ol_msg_JoinWishFailed	HÁ UM PROBLEMA PARA CONECTAR A ESTA PARTIDA.  VERIFIQUE SUAS CONFIGURAÇÕES E TENTE NOVAMENTE MAIS TARDE.
+ol_msg_JoinWishFailed_desc	Não é possível entrar na partida.
+ol_msg_JoinWishFailedLocalGame	VOCÊ NÃO PODE ENTRAR EM UMA PARTIDA QUE ESTÁ SENDO JOGADA EM OUTRO CONTROLE.
+ol_msg_JoinWishFailedLocalGame_desc	Você já está jogando nesta sessão
+ol_player_match	PARTIDA DE JOGADORES
+ol_player_state_battle	JOGANDO
+ol_player_state_cruise	CIRCULANDO
+ol_player_state_editing	OCUPADO
+ol_player_state_leader	LÍDER
+ol_player_state_postbattle	BATALHA ENCERRADA
+ol_player_state_postrace	CORRIDA ENCERRADA
+prompt_race_over	CORRIDA ENCERRADA
+raceOverTitle	CORRIDA ENCERRADA
+ol_player_state_race	CORRENDO
+ol_player_state_ready	PRONTO
+ol_player_state_unready	NÃO PRONTO
+ol_player_state_wait	AGUARDANDO PARA ENTRAR
+ol_quick_match	PARTIDA RÁPIDA
+ol_QuickBattle	BATALHA RÁPIDA
+ol_QuickRace	CORRIDA RÁPIDA
+ol_race_GetReady	PREPARE-SE PARA CORRER
+ol_ranked_match	PARTIDA RANQUEADA
+ol_RankedLeaveWarning_desc	Se você sair agora, pode perder o seu ranking.  Tem certeza de que quer sair desta partida ranqueada antes que as estatísticas sejam registradas?
+ol_signedOffline_desc	Você foi desconectado da Xbox LIVE.
+ol_status_client_waiting	AGUARDANDO
+ol_Tournament	TORNEIO ONLINE
+on	LIGADO
+Online	ONLINE
+Player_Is_Online	ONLINE
+Online_AchievementInitFailed	Erro na inicialização dos troféus.  Saia do jogo.
+Online_Downloading_Photos	BAIXANDO FOTOS
+Online_Upload_Photo	Aguarde o término do seu envio...   
+Online_Upload_Photo_Error_Retry	O servidor de Midnight Club:  Los Angeles não está disponível no momento.  Quer tentar de novo?
+opponent volume	VOL. OPONENTES
+opponentVehicleType	TIPO DE VEÍCULO DO OPONENTE
+option_arrow	SETA
+option_arrow_compass	BÚSSOLA
+option_down	BAIXO
+option_sensitivity	SENSIB. DA DIREÇÃO
+option_subtitles	LEGENDAS
+option_up	CIMA
+option_vibration	RETORNO DE VIBRAÇÃO
+options	PREFERÊNCIAS
+pause_options	PREFERÊNCIAS
+OT_DontQualify	NÃO SE QUALIFICA
+OT_DontQualify_desc	Você não se qualifica para o Torneio em andamento. Confira o site para mais detalhes.
+OT_Finding_Tournament	PROCURANDO TORNEIO
+OT_None_Found	NENHUM TORNEIO DISPONÍVEL
+OT_Start_Tournament	INICIAR TORNEIO
+OT_WrongCar	CARRO ERRADO
+OT_WrongCar_desc	Você não tem o veículo correto para esta corrida.  Confira as restrições da corrida e troque para o veículo correto.
+OT_WrongRace	CORRIDA ERRADA
+OT_WrongRace_desc	Você não tem, no momento, a corrida que está sendo disputada.
+P_Body	CARROCERIA PRINCIPAL
+P_Doors	PORTAS
+RmrSpin_doors	PORTAS
+scissor_door	PORTAS
+P_Hood	CAPÔ
+P_PartsSeparately	PEÇAS
+P_RearBumper	PARA-CHOQUE TRASEIRO
+RearBumper	PARA-CHOQUE TRASEIRO
+P_Skirts	SAIAS LATERAIS
+Skirt	SAIAS LATERAIS
+skirts	SAIAS LATERAIS
+P_WholeCar	TODAS AS PEÇAS
+PA_ snap_photo	TIRAR FOTO
+PA_snap_photo	TIRAR FOTO
+Rmr_SnapPhoto	TIRAR FOTO
+PA_Choose_Slot	SALVAR NO SLOT
+PA_nextprev_photo	PRÓXIMA/ANTERIOR
+PA_photo_album	ÁLBUM DE FOTOS
+PA_Title	ÁLBUM DE FOTOS
+pause_photo_album	ÁLBUM DE FOTOS
+photoAlbum	ÁLBUM DE FOTOS
+PA_publish	PUBLICAR ÁLBUM
+PA_save_photo	SALVAR FOTO
+PA_select_photo	SELECIONAR FOTO
+PA_takephoto_desc	MODO FOTO
+PA_View_Local_Photos	VER FOTOS LOCAIS
+PA_view_photo	VER FOTO
+PA_VIEW_SERVER_PHOTOS	VER FOTOS DO SERVIDOR
+Package1	PACOTE 1
+VE_Preset1	PACOTE 1
+Package2	PACOTE 2
+VE_Preset2	PACOTE 2
+Package3	PACOTE 3
+VE_Preset3	PACOTE 3
+Paint Area	±ÁREA DE PINTURA
+Paint Options	AJUSTES DE PINTURA
+Paint Type	TIPO DE PINTURA
+PANTRY_TITLE	O RESTAURANTE PANTRY
+pause_add_favorites	ADICIONAR CORRIDA AOS FAVORITOS
 pause_change_vehicle	TROCAR DE VEÍCULO
 pause_change_vehicle_conf	TROCAR DE VEÍCULO?
 pause_change_vehicle_confdesc	Tem certeza de que quer trocar de veículo?
@@ -17,50 +1666,38 @@ pause_choose_race	Escolha a corrida:
 pause_choose_race_type	Escolha o tipo de corrida:
 pause_circuit	CIRCUITO
 Pause_Collectables	COLECIONÁVEIS
+stat_gCOL_0	COLECIONÁVEIS
+tutorial_collectables_title	COLECIONÁVEIS
 pause_complete_series	CONCLUIR SÉRIE
-pause_complete_time_trial	VOLTAR AO PASSEIO
 pause_Confirm_Repair	Tem certeza de que quer reparar?
 pause_continue	CONTINUAR
-pause_continue_to_cruise	VOLTAR AO PASSEIO
+prompt_continue	CONTINUAR
+TD_Continue	CONTINUAR
 pause_credits	CRÉDITOS
 pause_deliver_again	ENTREGAR DE NOVO
-pause_delivery_next	PRÓXIMA ENTREGA
-pause_delivery_results	RESULTADOS DA ENTREGA
-Pause_DLC_Content	CONTEÚDO PARA DOWNLOAD
-pause_downloadable_content	CONTEÚDO PARA DOWNLOAD
 pause_downloadable_content_new	NOVO CONTEÚDO PARA DOWNLOAD
 pause_exit_series	SAIR DA SÉRIE DE CORRIDAS
 pause_far	LONGE
 pause_favorites	CORRIDAS FAVORITAS
 pause_first_person	PRIMEIRA PESSOA
-Pause_Game_Stats	ESTATÍSTICAS DO JOGO
 pause_go_to_garage	IR PARA A GARAGEM
-pause_goalattack	ATAQUE AO OBJETIVO
-pause_gps_map	MAPA GPS
+pause_return_garage	IR PARA A GARAGEM
 pause_join_race	ENTRAR NA CORRIDA
-pause_Leaderboards	RANKINGS
-pause_medium	MÉDIO
 pause_mono	MONO
-pause_next_race	PRÓXIMA CORRIDA
 Pause_Next_Rank	PRÓXIMO NÍVEL EM:  
 pause_next_series	PRÓXIMA CORRIDA DA SÉRIE
-pause_next_tournament	CONTINUAR TORNEIO
 pause_next_wager	PRÓXIMA APOSTA:  <D>REWAGERAMOUNT</D>
 Pause_No_Stats	SEM ESTATÍSTICAS PARA ESTE TIPO DE CORRIDA
 pause_ol_all_classes	TODAS AS CLASSES
-pause_ol_cancel	CANCELAR
-pause_ol_circuit	CORRIDA DE CIRCUITO
 pause_ol_connection_error	ERRO DE CONEXÃO
 pause_ol_create_event	CRIAR NOVA PARTIDA
 pause_ol_creating_event	CRIANDO PARTIDA
 pause_ol_ctf	CAPTURAR A BANDEIRA
-pause_ol_custom_match	PARTIDA PERSONALIZADA
 pause_ol_description_ContentMissing	Você precisa comprar o conteúdo para download ou baixar o pacote de compatibilidade para jogar online com este jogador.
 pause_ol_description_SessionLeave	Tem certeza de que quer sair da partida?
 pause_ol_description_VehicleCorrectionFailed	Você não tem um veículo válido para este tipo de evento.
 pause_ol_drag_race	CORRIDA DE ARRANCADA
 pause_ol_economy	CARROS ECONÔMICOS
-pause_ol_error	ERRO
 pause_ol_find_cruise	PROCURAR PASSEIOS DISPONÍVEIS
 pause_ol_find_cruises	PROCURAR PASSEIOS
 pause_ol_find_matches	PROCURAR PARTIDAS
@@ -70,85 +1707,1735 @@ pause_ol_JoinGame	ENTRANDO NA PARTIDA
 pause_ol_joining	ENTRANDO
 pause_ol_just_cruise	PASSEIO RÁPIDO
 pause_ol_matching_events	PARTIDAS
+SL_Session_List	PARTIDAS
 pause_ol_new_cruise	CRIAR NOVO PASSEIO
 pause_ol_no_match	Nenhuma partida encontrada
 pause_ol_none_found	NENHUMA ENCONTRADA, CRIANDO...
-pause_ol_ok	OK
 pause_ol_preparing	PREPARANDO PARA ENTRAR...
 pause_ol_ProgressLost	Tem certeza de que quer iniciar uma partida multijogador? Todo progresso não salvo será perdido.
 pause_ol_RankedDesc	Partidas ranqueadas são restritas à classe do seu veículo atual.
-pause_ol_seach_options	OPÇÕES DE BUSCA
+pause_ol_seach_options	FILTROS DE BUSCA
 pause_ol_searching	PROCURANDO
 pause_ol_searching_match	PROCURANDO PARTIDAS...
 pause_ol_session_arbfailed	Ocorreu um problema de rede com um dos participantes desta partida.  Tente criar ou entrar em outra partida.
 pause_ol_session_banned	Você foi banido da partida pelo anfitrião.
 pause_ol_session_kicked	Você foi removido da partida pelo anfitrião.
 pause_ol_session_left	ALERTA
+Save_Dialog_Title_Message	ALERTA
 pause_ol_session_leftDesc	A conexão com a partida multijogador foi perdida.  Verifique suas conexões.
 pause_ol_sign_in	NÃO HÁ JOGADORES CONECTADOS.  DESEJA ENTRAR AGORA?
 pause_ol_TimeOut	O DESAFIO NÃO ESTÁ MAIS DISPONÍVEL
-pause_ol_title_ContentMissing	AVISO
 pause_ol_title_SessionLeave	SAIR DA PARTIDA
 pause_ol_title_VehicleCorrectionFailed	NÃO É POSSÍVEL ENTRAR
 pause_ol_vehicle_class	CLASSE DO VEÍCULO
+RO_VehicleClass	CLASSE DO VEÍCULO
+SL_Vehicle_Class	CLASSE DO VEÍCULO
+Vehicle_Class	CLASSE DO VEÍCULO
 pause_opponent_vehicle	VEÍCULO ADV.
-pause_options	OPÇÕES
-pause_ordered	ENCOMENDADO
+pause_ordered	ORDENADA
+Traditional	ORDENADA
 pause_payback_results	RESULTADOS DA VINGANÇA
-pause_photo_album	ÁLBUM DE FOTOS
 pause_players_met	JOGADORES ENCONTRADOS RECENTEMENTE
-pause_playlists	LISTAS DE MÚSICAS
 pause_power_ups	POWER-UPS
+RO_PowerUps	POWER-UPS
 pause_progress_lost	TODO O PROGRESSO SERÁ PERDIDO.
-pause_quit_delivery	ABANDONAR ENTREGA
 pause_quit_online	SAIR DO PASSEIO MULTIJOGADOR
-pause_quit_payback	ABANDONAR VINGANÇA
-pause_quit_series	ABANDONAR SÉRIE
-pause_quit_timetrial	ABANDONAR CONTRARRELÓGIO
-pause_quit_tournament	ABANDONAR TORNEIO
-pause_race_again	CORRER DE NOVO
-pause_race_back	CORRIDA DE VOLTA
-pause_race_editor	EDITOR DE CORRIDAS
-pause_race_options	OPÇÕES DE CORRIDA
+pause_race_options	AJUSTES DA CORRIDA
+RACE_VARIABLES	AJUSTES DA CORRIDA
 pause_race_results	RESULTADOS DA CORRIDA
-pause_race_series_again	REPETIR SÉRIE DE CORRIDAS
+Series_RESULTS	RESULTADOS DA CORRIDA
 Pause_Race_Stats	ESTATÍSTICAS DA CORRIDA
-pause_racestart	PULAR PARA A LARGADA
+Race Stats	ESTATÍSTICAS DA CORRIDA
 pause_remove_favorites	REMOVER CORRIDA DOS FAVORITOS
 Pause_Rep	REPUTAÇÃO TOTAL:  
 pause_Replace_Race	FILA DE CORRIDAS CHEIA
 pause_Replace_Race_desc	Tem certeza de que quer substituir a última corrida solicitada por esta?
 pause_request_race	PROPOR UM DESAFIO
-pause_rerace	CORRER DE NOVO
-pause_rerace_tournament	REINICIAR TORNEIO
-pause_restart_delivery	REINICIAR ENTREGA
-pause_restart_payback	REINICIAR VINGANÇA
-pause_restart_race	REINICIAR CORRIDA
-pause_restart_series	REINICIAR SÉRIE
-pause_restart_timetrial	REINICIAR CONTRARRELÓGIO
-pause_restart_tournament	REINICIAR TORNEIO
 pause_resume	RETOMAR
-pause_return_cruise	VOLTAR AO PASSEIO
-pause_return_garage	IR PARA A GARAGEM
-pause_return_hangout	VOLTAR AO ENCONTRO
+replay_prompt_resume	RETOMAR
 pause_return_lobby	VOLTAR AO SAGUÃO
-pause_ReturntoChase	VOLTAR À PERSEGUIÇÃO
 pause_rewager	REAPOSTAR: <D>REWAGERAMOUNT</D>
 pause_series_standings	CLASSIFICAÇÃO DA SÉRIE
 pause_statistics	ESTATÍSTICAS
+Statistics	ESTATÍSTICAS
 pause_stereo	ESTÉREO
+stereo	ESTÉREO
 pause_tab_gamemodes	MODOS
 pause_tab_mainmenu	PAUSA
-pause_tab_settings	CONFIGURAÇÕES
+PAUSE_TITLE	PAUSA
+PauseMenu	PAUSA
+replay_prompt_pause	PAUSA
+ST_Paused	PAUSA
+pause_tab_settings	AJUSTES
 pause_take_photo	TIRAR FOTO
 Pause_Tied	EMPATE
 pause_time_trial_results	RESULTADOS DO CONTRARRELÓGIO
+TimeTrial_RESULTS	RESULTADOS DO CONTRARRELÓGIO
+TIMETRIAL_RESULTS_TITLE	RESULTADOS DO CONTRARRELÓGIO
 pause_timeattack	DESAFIO DE TEMPO
-PAUSE_TITLE	PAUSA
 pause_tournament_results	CLASSIFICAÇÃO DO TORNEIO
 pause_tournament_standings	CLASSIFICAÇÃO DO TORNEIO
+Tournament_RESULTS	CLASSIFICAÇÃO DO TORNEIO
 pause_traffic	TRÂNSITO
+RO_Traffic	TRÂNSITO
 pause_unlimited_damage	DANO ILIMITADO
 pause_unlimited_nitrous	NITRO ILIMITADO
-pause_view_replay	VER REPETIÇÃO
-PauseMenu	PAUSA
+Payback	CORRIDA DE VINGANÇA
+PAYBACK_DESC	Use o carro da garagem para causar dano a clientes que não pagam a conta.  Termine antes que o tempo acabe ou esteja pronto para escapar dos amigos do cliente.
+tutorial_payback_desc	Use o carro da garagem para causar dano a clientes que não pagam a conta.  Termine antes que o tempo acabe ou esteja pronto para escapar dos amigos do cliente.
+PAYBACK_FAILURE	VINGANÇA FALHOU
+PAYBACK_GH_18_DESC	BOOKE liga pedindo a sua ajuda para tirar de circulação um cara que destruiu o carro dele.  Pegue o Grand National estacionado em frente à Garagem das Praias e elimine o carro do JIN por dano.
+PAYBACK_GH_18_OBJ_01	ELIMINE O VEÍCULO DO JIN POR DANO
+PAYBACK_GH_18_OBJ_02	Elimine o veículo do JIN por dano.
+PAYBACK_GH_18_TITLE	O NOCAUTE
+PAYBACK_INTRO_DESC	KAROL precisa de ajuda com clientes que não pagaram as contas. Use o Grand National estacionado em frente à garagem das Praias para danificar os veículos dos clientes.
+PAYBACK_INTRO_OBJ_01	ELIMINE O VEÍCULO ALVO POR DANO
+PAYBACK_INTRO_TITLE	VINGANÇA É UMA PRAIA
+PAYBACK_MENU_DESC	Pegue emprestado o carro da garagem e aplique uma VINGANÇA em alguns clientes caloteiros do KAROL.
+PAYBACK_MENU_TITLE	SELEÇÃO DE VINGANÇA
+PAYBACK_OBJ_01	DANIFIQUE OS VEÍCULOS ALVO
+Payback_SUCCESS	VINGANÇA CONCLUÍDA
+PB_Caught	PEGO!
+PB_Failed	OBJETIVO FALHOU!
+PB_GetHim	É ELE, PEGUE ELE!
+PB_LoseTheseGuys	DESPISTE ESSES CARAS!
+PB_Lost	VOCÊ OS DESPISTOU!
+PB_Payment	BOM TRABALHO! PAGAMENTO RECEBIDO: $ <D>PB_AMOUNT</D>
+Pearl	PEROLADO
+Perf_OverBudget_UndoAndExit	REMOVER PEÇAS E SAIR
+Performance level A0	VEÍCULOS DO GRUPO 4
+Performance level A1	VEÍCULOS DO GRUPO 4: NÍVEL DE DESEMPENHO 1
+Performance level A2	VEÍCULOS DO GRUPO 4: NÍVEL DE DESEMPENHO 2
+Performance level B0	VEÍCULOS DO GRUPO 3
+Performance level B1	VEÍCULOS DO GRUPO 3: NÍVEL DE DESEMPENHO 1
+Performance level B2	VEÍCULOS DO GRUPO 3: NÍVEL DE DESEMPENHO 2
+Performance level C0	VEÍCULOS DO GRUPO 2
+Performance level C1	VEÍCULOS DO GRUPO 2: NÍVEL DE DESEMPENHO 1
+Performance level C2	VEÍCULOS DO GRUPO 2: NÍVEL DE DESEMPENHO 2
+Performance level D0	VEÍCULOS DO GRUPO 1
+Performance level D1	VEÍCULOS DO GRUPO 1: NÍVEL DE DESEMPENHO 1
+Performance level D2	VEÍCULOS DO GRUPO 1: NÍVEL DE DESEMPENHO 2
+Photo_ChooseSlot	Escolha um slot para salvar a sua foto.
+Photo_ViewSlot	Selecione uma foto para ver.
+PhotoAlbum_DisabledBecauseNotSignedIn	O álbum de fotos está desativado porque você não está conectado.  Quer se conectar?
+PhotoAlbum_File_Subtitle	Fotos Tiradas
+PhotoAlbum_File_Title	Álbum de Fotos de Midnight Club:  Los Angeles
+PhotoAlbum_Saving_Disabled	O álbum de fotos não pode ser usado quando o salvamento está desativado.  Você pode ativar o salvamento automático no menu de opções.  O salvamento automático exige um perfil de jogador conectado.
+PhotoAlbum_SignInRestartConfirmation	Entrar em um perfil causará uma reinicialização e você perderá qualquer progresso de carreira não salvo.  Tem certeza de que quer entrar?
+PIER_TITLE	O PÍER DE SANTA MONICA
+RL_SantaMonicaPier	O PÍER DE SANTA MONICA
+pink_slip	CORRIDA DE PINK SLIP
+Pinkslip	CORRIDA DE PINK SLIP
+pinkslip_confirmation	Tem certeza de que quer correr por pink slips?  AVISO:  Você PERDERÁ o seu veículo se DESISTIR, for ELIMINADO POR DANO ou PERDER esta corrida.
+pinkslip_confirmation_max	Tem certeza de que quer correr por pink slips?  AVISO:  O espaço de pink slips está cheio.  Você PERDERÁ O SEU VEÍCULO MAIS ANTIGO PARA SEMPRE se DESISTIR, for ELIMINADO POR DANO ou PERDER esta corrida.
+PINKSLIP_FAILURE	PINK SLIP PERDIDO
+PINKSLIP_SUCCESS	PINK SLIP GANHO
+pinkslip_vp_mit_evo_06	MITSUBISHI EVOLUTION DO PETE
+pinkslip_vp_mzd_rx8_06	MAZDA RX8 DO LESTER
+pinkslip_vp_nsn_350z_06	NISSAN 350Z DO JIN
+pinkslip_vp_pon_transam_79	PONTIAC FIREBIRD DO CHUNG HEE
+Player List	LISTA DE JOGADORES
+player vehicle volume	VOLUME DOS VEÍCULOS DOS JOGADORES
+PLAYER_FINISHED	<D>PLAYER_FINISHED_NAME</D> TERMINOU
+Player_Joined_Msg	<D>PLAYER_NAME</D> ENTROU NA PARTIDA.
+Player_Left_Msg	<D>PLAYER_NAME</D> SAIU DA PARTIDA.
+playlist_desc	Lista de Músicas:
+playlist_desc_empty	Não há músicas na sua Lista Personalizada.
+playlist_prompt_add	ADICIONAR À LISTA
+playlist_prompt_play	TOCAR
+playlist_prompt_remove	REMOVER DA LISTA
+playlist_prompt_shuffle	ATIVAR ALEATÓRIO
+playlist_prompt_unshuffle	DESATIVAR ALEATÓRIO
+playlist_prompt_view	VER MÚSICAS
+playlist_remove_confirm_desc	Remover da Lista Personalizada?
+playlist_remove_confirm_title	REMOVER MÚSICA
+PM_midracerestart_wager_desc	O valor da aposta é <D>rewageramount</D>.  Quer reparar antes de correr de novo?  Você perderá a sua aposta atual.
+PM_restart_series_title	REINICIAR
+PM_restart_tournament_title	REINICIAR
+restart_race	REINICIAR
+PM_restart_wager_desc	O valor da aposta é <D>rewageramount</D>.  Quer reparar antes de correr de novo?
+Position	POSIÇÃO
+POST_BEAT_ME_THERE_REP_FORMAT	<D>POST_BEAT_ME_THERE_REP_AMOUNT</D> REP
+post_gauge	MOSTRADORES
+post_gauge_1	1 DE 1
+PostGauge	MOSTRADOR
+PostGauges	MOSTRADOR
+POV	COCKPIT
+Prev/Next Page	PÁG. ANT./PRÓX.
+Previous 50	ANTERIORES 50
+Price	PREÇO
+Primary Color	COR PRIMÁRIA
+PROMENADE_TITLE	THIRD STREET PROMENADE
+prompt_Change_View	TROCAR VISÃO
+VE_change_view	TROCAR VISÃO
+prompt_changeTabs	TROCAR ABAS
+RO_A	TROCAR ABAS
+RO_B	TROCAR ABAS
+RO_C	TROCAR ABAS
+RO_D	TROCAR ABAS
+prompt_defaults	PADRÕES
+prompt_done	CONCLUÍDO
+prompt_Exit_Gps	IR PARA O GPS
+prompt_Exit_List	IR PARA O SAGUÃO
+prompt_Hide_Hud	OCULTAR HUD
+replay_prompt_hideHud	OCULTAR HUD
+prompt_In_Spectator	.. Assistindo <D>SPECTATOR_NAME</D> ..
+prompt_Look_Behind	OLHAR PARA TRÁS
+prompt_menu	MENU
+replay_prompt_menu	MENU
+Prompt_NavigateToMissionLog	VER MISSÕES
+Prompt_NavigateToTutorialLog	DETALHES
+prompt_press_start	APERTE
+prompt_Prev/Next	QUADRO ANT./PRÓX.
+prompt_Prev/Next_50	ANT./PRÓX. 10
+prompt_Prev/Next_Car	VEÍCULO ANT./PRÓX.
+prompt_purchase	COMPRAR
+RMR_Purchase_Vehicle	COMPRAR
+prompt_Refresh	ATUALIZAR LISTA
+prompt_revert	DESFAZER ALTERAÇÕES
+prompt_Rotate_Camera	GIRAR
+Rotate	GIRAR
+VE_rotate	GIRAR
+prompt_save	SALVANDO
+prompt_set	DEFINIR
+Set	DEFINIR
+Prompt_SetMissionAsTarget	DEFINIR COMO ALVO ATIVO
+prompt_skip	PULAR
+PROMPT_VEHICLE_SELECT	SELEÇÃO DE VEÍCULO
+prompt_view	VER
+Rmr_View	VER
+prompt_View_Friends	AMIGOS
+prompt_view_leaderboard	VER RANKING
+prompt_View_List	VER LISTA
+prompt_View_Options	VER AJUSTES
+prompt_View_Self	VER VOCÊ
+prompt_View_Top	VER TOP
+View Top	VER TOP
+Pulse level 1	EMP NÍVEL 2
+PULSE_LEVEL_1	EMP NÍVEL 2
+Pulse level 2	EMP  NÍVEL 3
+PULSE_LEVEL_2	EMP NÍVEL 3
+R Analog Down	ANALÓGICO DIREITO
+R Analog Up	ANALÓGICO DIREITO
+Right Analog Y	ANALÓGICO DIREITO
+Race	CORRIDA
+Race Name	NOME DA CORRIDA
+SL_Race_Name	NOME DA CORRIDA
+RACE_CONFIRM	Pronto?
+RACE_GH_02_DESC	BOOKE liga dizendo que o TREVOR está procurando corrida.  Encontre e corra com o TREVOR, que está circulando pela Sunset Blvd.
+RACE_GH_02_OBJ_01	CORRA CONTRA O TREVOR
+RACE_GH_02_TITLE	CORRIDA NA SUNSET STRIP
+RACE_GH_06_DESC	Depois de conhecer o BOOKE, ele diz para você correr com os caras da avenida.  Pisque os faróis para o HENRY e o desafie para uma corrida.
+RACE_GH_06_OBJ_01	CORRA CONTRA O HENRY
+RACE_GH_06_TITLE	PRIMEIRAS IMPRESSÕES
+RACE_INFO_GOALATTACK_FORMAT	TEMPO ALVO: <D>RACE_INFO_GOAL_TIME</D>
+RACE_INFO_SERIES_FORMAT	Corrida <D>RACE_INFO_CURRENT_RACE</D>
+RACE_INFO_TOURNAMENT_FORMAT	Corrida <D>RACE_INFO_CURRENT_RACE</D> de <D>RACE_INFO_TOTAL_RACES</D>
+race_quitToLobby	SAIR PARA O SAGUÃO
+RACE_SH_01_DESC	BOOKE ficou impressionado com a sua corrida.  Volte ao CARNEYS na Sunset e ele corre com você agora.
+RACE_SH_01_OBJ_01	ENCONTRE O BOOKE NO CARNEYS
+RACE_SH_01_OBJ_02	CORRA CONTRA O BOOKE
+RACE_SH_01_TITLE	INTRODUÇÃO COM O BOOKE
+RACE_SH_04_MOTORCYCLE_DESC	ANDREW liga, ouviu dizer que você ganhou experiência com motos.  Encontre o ANDREW nas Colinas e corra com ele de MOTO.
+RACE_SH_04_MOTORCYCLE_OBJ_01	CORRA CONTRA O ANDREW DE MOTO
+RACE_SH_04_MOTORCYCLE_TITLE	A RIVALIDADE
+RACE_TO_START	QUEM CHEGA PRIMEIRO NA LARGADA
+raceOver_gameplayOptions	AJUSTES DE JOGABILIDADE
+Racepicker_Nothing_Unlocked	VOCÊ AINDA NÃO DESBLOQUEOU NENHUMA CORRIDA
+Races	CORRIDAS
+RACES_IN_BEACHES_DESC	ANNIE quer que você conheça as corridas de Santa Monica.  Vença 6 corridas na Ocean Ave. e ela te liga.
+RACES_IN_BEACHES_OBJ_01	VENÇA 6 CORRIDAS NAS PRAIAS
+RACES_IN_BEACHES_TITLE	LIMPEZA NA PRAIA
+RACES_IN_DOWNTOWN_DESC	HUGO liga e conta que uns caras do Centro querem correr.  Vença 6 corridas no Centro para provar o seu valor.
+RACES_IN_DOWNTOWN_OBJ_01	VENÇA 6 CORRIDAS NA AVENIDA DO CENTRO
+RACES_IN_DOWNTOWN_TITLE	SELVA DE PEDRA
+RACES_NEEDED_LABEL	VITÓRIAS NECESSÁRIAS:
+RACES_TOTAL_LABEL	TOTAL DE CORRIDAS:
+raceToStart	CHEGUE ANTES DE MIM
+tutorial_beat_me_there_title	CHEGUE ANTES DE MIM
+random	±ALEATÓRIO
+RO_Mystery	±ALEATÓRIO
+rank1	1º
+rank10	10º LUGAR
+rank11	11º LUGAR
+rank12	12º LUGAR
+rank13	13º LUGAR
+rank14	14º LUGAR
+rank15	15º LUGAR
+rank16	16º LUGAR
+rank4	4º LUGAR
+rank5	5º LUGAR
+rank6	6º LUGAR
+rank7	7º LUGAR
+rank8	8º LUGAR
+rank9	9º LUGAR
+Rank_10_5_Hero	HERÓI
+Rank_10_Savant	GÊNIO
+Rank_11_Idol	ÍDOLO
+Rank_1_Backseat_Driver	PALPITEIRO
+Rank_2_Navigator	NAVEGADOR
+Rank_3_Student_Driver	MOTORISTA APRENDIZ
+Rank_4_Rookie	NOVATO
+Rank_5_Driver	MOTORISTA
+Rank_6_Racer	PILOTO
+Rank_7_Veteran	VETERANO
+Rank_8_5_Champion	CAMPEÃO
+Rank_8_Elite_Racer	PILOTO DE ELITE
+RE_AddCheckpoint	ADICIONAR CHECKPOINT
+RE_AtMaxCheckpoints	NÚMERO MÁXIMO DE CHECKPOINTS JÁ COLOCADO
+RE_CantDeleteStart	NÃO DÁ PARA EXCLUIR A LARGADA
+RE_CantMoveOrDeleteStart	CHECKPOINT NÃO EXCLUÍVEL
+RE_CantMoveStart	NÃO DÁ PARA MOVER A LARGADA
+RE_Choose_Load_Slot	CARREGAR SLOT:
+RE_ChooseList	LISTA DE CORRIDAS:
+RE_Clear_All_Checkpoints	LIMPAR TODOS OS CHECKPOINTS
+RE_Confirm_Clear	Tem certeza de que quer limpar todos os checkpoints?
+RE_Confirm_Clear_Title	LIMPAR CHECKPOINTS
+RE_Confirm_Exit	Tem certeza de que quer sair do Editor de Corridas?  Todas as corridas não salvas serão perdidas.
+RE_Confirm_Load	Todos os dados não salvos serão perdidos.  Tem certeza de que quer carregar esta corrida?
+RE_Confirm_Load_Title	CARREGAR CORRIDA
+RE_Load_Race	CARREGAR CORRIDA
+RE_LoadRace_Header	CARREGAR CORRIDA
+RE_Confirm_Save	Tem certeza de que quer salvar a corrida?  Todos os dados deste slot serão sobrescritos.
+RE_Confirm_Save_Title	SALVAR CORRIDA
+RE_Save_Race	SALVAR CORRIDA
+RE_SaveRace_Header	SALVAR CORRIDA
+RE_Continue_Editing	CONTINUAR EDITANDO
+RE_Create_A_Race	CRIAR CORRIDA
+RE_Create_New_Race	CRIAR CORRIDA
+RE_DeleteCheckpoint	EXCLUIR CHECKPOINT
+RE_DND_Mode	MODO DIRIGIR E SOLTAR
+RE_DriveNDrop	MODO DIRIGIR E SOLTAR
+RE_Dragging_Off	ARRASTAR CHECKPOINT: DESLIGADO
+RE_Dragging_On	ARRASTAR CHECKPOINT: LIGADO
+RE_Edit_Dragging	MODO DE EDIÇÃO: ARRASTE ATIVADO
+RE_Edit_Mode	MODO DE EDIÇÃO
+RE_Exit_Race_Editor	SAIR DO EDITOR DE CORRIDAS
+RE_FreeCam	DESMARCAR CHECKPOINT
+RE_Headlights_Help	PISCAR FARÓIS: ALTERNAR AJUDA
+RE_InsertCheckpoint	INSERIR CHECKPOINT
+RE_JumpToCheckpiont	SELECIONAR CHECKPOINT MAIS PRÓXIMO
+RE_Layout_Dragging	MODO DE LAYOUT: ARRASTE ATIVADO
+RE_Layout_Mode	MODO DE LAYOUT
+RE_MoveCheckpoint	MOVER CHECKPOINT
+RE_MustSelectCheckpointToDelete	SELECIONE O CHECKPOINT A EXCLUIR
+RE_NotNavMesh	POSIÇÃO DE CHECKPOINT INVÁLIDA
+RE_NotValidStartPos	POSIÇÃO DE LARGADA INVÁLIDA
+RE_One_Lap	UMA VOLTA
+RE_Place_Race_Start	POSICIONAR LARGADA
+RE_PleaseWait	AGUARDE
+RE_PositionOK	PODE POSICIONAR O CHECKPOINT
+RE_PreviousCheckpoint	CHECKPOINT ANT./PRÓX.
+RE_Recent_Online_Races	CORRIDAS ONLINE
+RE_Return_to_Editor	VOLTAR AO EDITOR DE CORRIDAS
+RE_StreetView	VISÃO DA RUA
+RE_Test_Race	CORRIDA DE TESTE
+RE_Testing_Race	CORRIDA DE TESTE
+RE_ToggleDrag	ALTERNAR MODO DE ARRASTE
+RE_ToggleHelp	ALTERNAR AJUDA
+RE_TooCloseToNextCheckpoint	Perto Demais do Próximo Checkpoint
+RE_TooCloseToPreviousCheckpoint	Perto Demais do Checkpoint Anterior
+RE_TooManyCheckpointsTooClose	Checkpoints Demais Por Perto
+RE_Two_Laps	DUAS VOLTAS
+RE_WontWorkWithWheel	Alguns recursos do Editor de Corridas podem não funcionar direito com um volante.  Quer criar uma corrida nova ou carregar uma corrida salva anteriormente?
+RE_YBUTTON_HELP	BOTÃO Y: ALTERNAR AJUDA
+RE_Your_Races	SUAS CORRIDAS SALVAS
+REDLIGHT_GH_01_DESC	KAROL conta sobre o MARTIN, que está circulando pela Sunset Blvd.  Caras como o MARTIN correm do sinal vermelho mais próximo até marcos da cidade.  Eles até correm de volta com você.
+REDLIGHT_GH_01_OBJ_01	VENÇA O MARTIN NUMA CORRIDA DE SINAL VERMELHO
+REDLIGHT_GH_01_TITLE	CORRIDA DE SINAL VERMELHO
+rematch	REVANCHE
+REMINDER_BEAT_FREEWAY	NÃO ESQUEÇA DE ENCONTRAR 10 PILOTOS DE FREEWAY E CORRER COM ELES.
+REMINDER_BEAT_SH_02_BCLASS	ESTOU CIRCULANDO EM SANTA MONICA.  TRAGA UM VEÍCULO CLASSE B.
+SIDEKICK_BEAT_SH_02_BCLASS	ESTOU CIRCULANDO EM SANTA MONICA.  TRAGA UM VEÍCULO CLASSE B.
+REMINDER_BEAT_SH_02_CCLASS	PRONTO PARA CORRER NA SUNSET COM UM VEÍCULO CLASSE C.
+REMINDER_BEAT_SH_02_DCLASS	AINDA ESPERANDO PARA CORRER COM VOCÊ NA SUNSET.
+REMINDER_BEAT_SH_02_EXOTIC	NÃO ESQUEÇA DE TRAZER UM VEÍCULO EXÓTICO PARA A THIRD STREET.
+REMINDER_BEAT_SH_03	VAMOS NOS ENCONTRAR NA BEACH BLVD PARA CORRER.
+REMINDER_BEAT_SH_03_ACLASS	VAMOS CORRER COM VEÍCULOS CLASSE A NA OCEAN AVE.
+REMINDER_BEAT_SH_03_CCLASS	VAMOS CORRER SAINDO DA OCEAN AVE. EM SANTA MONICA.
+REMINDER_BEAT_SH_04	VAMOS LÁ, CARA.  VAMOS NESSA. ESTOU NA FIGUEROA, NO CENTRO.
+REMINDER_BEAT_SH_04_BCLASS	CORRA COMIGO COM UM VEÍCULO CLASSE B.  ESTOU CIRCULANDO PELA FIGUEROA, NO CENTRO.
+REMINDER_BEAT_SH_04_MOTORCYCLE	TENTE ME VENCER DE MOTO NAS COLINAS.
+REMINDER_BEAT_SH_04B	NÃO ESQUEÇA DE ME AJUDAR A VENCER O ANDREW E O JIN NO CENTRO.
+REMINDER_BEAT_SH_05	VAMOS CORRER NO CENTRO.  VOCÊ ME ENCONTRA NA FIGUEROA.
+REMINDER_BEAT_SH_05_ACLASS	VAMOS CORRER COM VEÍCULOS CLASSE A NO CENTRO.
+REMINDER_BESTOF_GH_04	CORRA CONTRA O NIKOLAI PELO CAMARO DELE NA SUNSET BLVD.
+REMINDER_BESTOF_GH_05	CORRA CONTRA O MARCEL PELO FOCUS '04 DELE NA SUNSET.
+REMINDER_BESTOF_GH_22	VENÇA O VICTOR NO CENTRO NUMA CORRIDA MELHOR DE 3.
+REMINDER_BESTOF_SH_01_MUSCLE	NÃO ESQUEÇA.  VENHA CORRER COMIGO E TRAGA UM MUSCLE CAR.
+REMINDER_BESTOF_SH_01_TUNER	NÃO ESQUEÇA.  TRAGA UM DOS SEUS TUNERS.
+REMINDER_BESTOF_SH_02	CORRA CONTRA O KAROL NA MELHOR DE 3 EM SANTA MONICA.
+REMINDER_BESTOF_SH_03	VAMOS CORRER NA MELHOR DE 3 EM SANTA MONICA.
+REMINDER_BESTOF_SH_03_LUXURY	VAMOS CORRER NA MELHOR DE 3 COM UM VEÍCULO DE LUXO.
+REMINDER_BESTOF_SH_05	VAMOS CORRER NO CENTRO.  MELHOR DE 3.
+REMINDER_CITY_CHAMP	NÃO ESQUEÇA DE VIR CORRER COMIGO SE QUISER SER O CAMPEÃO DA CIDADE.
+REMINDER_DELIVERY	POR FAVOR, ENTREGUE 5 CARROS DE VOLTA AOS MEUS CLIENTES.
+REMINDER_DISTRICT_CHAMPS	ENFRENTE OS CAMPEÕES DOS DISTRITOS
+REMINDER_DISTRICT_CHAMPS_BEACHES	MELHOR DE 3 EM SANTA MONICA
+REMINDER_DISTRICT_CHAMPS_DOWNTOWN	MELHOR DE 3 NO CENTRO
+REMINDER_DISTRICT_CHAMPS_HILLS	MELHOR DE 3 NAS COLINAS.
+REMINDER_DISTRICT_CHAMPS_HOLLYWOOD	MELHOR DE 3 EM HOLLYWOOD.
+REMINDER_EARN_1MILLION	NÃO ESQUEÇA DE GANHAR UM MILHÃO DE DÓLARES E ME PROCURAR.
+REMINDER_EXOTIC_CHAMP	VAMOS CORRER COM VEÍCULOS EXÓTICOS NA SUNSET.
+REMINDER_EXOTIC_REP	LEMBRE-SE DE GANHAR EXPERIÊNCIA DIRIGINDO VEÍCULOS EXÓTICOS EM CORRIDAS.
+REMINDER_FIND_SH_01	ESTOU CIRCULANDO PELA FIGUEROA ST., NO CENTRO.
+REMINDER_FIND_SH_01B	ENCONTRE O BOOKE NO STANDARD HOTEL, NO CENTRO.
+REMINDER_FIND_SH_02	VAMOS CONVERSAR NO PÍER DE SANTA MONICA.
+REMINDER_FIND_SH_02B	VENHA ME ENCONTRAR NA THIRD STREET PROMENADE, EM SANTA MONICA.
+REMINDER_FIND_SH_02C	VAMOS FALAR DE NEGÓCIOS NO CHATEAU MARMONT.  TRAGA SEU DINHEIRO.
+REMINDER_FIND_SH_03	FALE COM A ANNIE NA BARRACA DE CACHORRO-QUENTE PINK'S, EM HOLLYWOOD.
+SIDEKICK_FIND_SH_03	FALE COM A ANNIE NA BARRACA DE CACHORRO-QUENTE PINK'S, EM HOLLYWOOD.
+REMINDER_FIND_SH_03B	ESTOU NO GEORGIAN HOTEL, EM SANTA MONICA.  NÃO ME FAÇA ESPERAR.
+REMINDER_FIND_SH_04	FALE COM O ANDREW NO ABANDONADO DIAMOND LOT, NO CENTRO.
+SIDEKICK_FIND_SH_04	FALE COM O ANDREW NO ABANDONADO DIAMOND LOT, NO CENTRO.
+SIDEKICK_HANGOUT_PINKSLIP_DOWNTOWN	FALE COM O ANDREW NO ABANDONADO DIAMOND LOT, NO CENTRO.
+REMINDER_FIND_SH_05	VÁ FALAR COM O HUGO NO ENCONTRO DEBAIXO DA GRAND STREET.
+REMINDER_GARAGE_BEACHES	TENHO UM TRABALHO PARA VOCÊ NA GARAGEM DAS PRAIAS.
+REMINDER_GARAGE_HOLLYWOOD	VISITE A GARAGEM EM OLD HOLLYWOOD.
+REMINDER_HANGOUT_PINKSLIP_BEACHES	LESTER ESTÁ CORRENDO POR PINK SLIPS EM SANTA MONICA.
+REMINDER_HANGOUT_PINKSLIP_DOWNTOWN	VÁ FALAR COM O ANDREW NO ABANDONADO DIAMOND LOT, NO CENTRO.
+REMINDER_HANGOUT_PINKSLIP_HILLS	PILOTOS DE PINK SLIP ESTÃO CORRENDO SAINDO DO HOLLYWOOD LOOKOUT.
+REMINDER_HANGOUT_PINKSLIP_HOLLYWOOD	CHUNG HEE AINDA QUER CORRER POR PINKS NO MACK BURGER, EM HOLLYWOOD.
+REMINDER_HANGOUT_SERIES_BEACHES	VÁ CONFERIR O ENCONTRO DO 7-ELEVEN EM SANTA MONICA.
+REMINDER_HANGOUT_SERIES_DOWNTOWN	FALE COM O HUGO NO TERRENO ABANDONADO DEBAIXO DA GRAND ST.
+REMINDER_HANGOUT_SERIES_HILLS	NÃO ESQUEÇA DE CORRER COM OS CARAS QUE FICAM NO LAVA-RÁPIDO DA VENTURA.
+REMINDER_HANGOUT_SERIES_HOLLYWOOD	NÃO ESQUEÇA DE CORRER COM OS CARAS QUE FICAM NO GREAT PALACE, EM W. HOLLYWOOD.
+REMINDER_HANGOUT_SERIES_HOLLYWOODB	NÃO ESQUEÇA DE CORRER COM OS CARAS QUE FICAM NO ESTACIONAMENTO DE BEVERLY HILLS.
+REMINDER_HANGOUT_SERIES_HOLLYWOODC	NÃO ESQUEÇA DE CORRER COM OS CARAS QUE FICAM NAS DOCAS DE CARGA EM CENTURY CITY.
+REMINDER_HANGOUT_WAGER_BEACHES	NÃO ESQUEÇA DE GANHAR APOSTAS EM SANTA MONICA.
+REMINDER_HANGOUT_WAGER_DOWNTOWN	OS CARAS ESTÃO CORRENDO VALENDO DINHEIRO NO ABANDONADO DIAMOND LOT, NO CENTRO.
+REMINDER_HANGOUT_WAGER_HILLS	GANHE ALGUMAS CORRIDAS COM APOSTA NAS COLINAS.
+REMINDER_HANGOUT_WAGER_HOLLYWOOD	NÃO ESQUEÇA DE GANHAR UMA GRANA NO MACK BURGER, EM HOLLYWOOD.
+REMINDER_INSTALL_ABILITY	NÃO ESQUEÇA, PASSE NA MINHA GARAGEM.
+REMINDER_LUXURY_CHAMP	ESTOU ESPERANDO PARA CORRER NO CENTRO.  TRAGA O SEU VEÍCULO DE LUXO.
+REMINDER_LUXURY_REP	GANHE EXPERIÊNCIA CORRENDO COM VEÍCULOS DE LUXO.
+REMINDER_MOTORCYCLE_CHAMP	VAMOS CORRER DE MOTO NA MULHOLLAND DR.
+REMINDER_MOTORCYCLE_REP	GANHE EXPERIÊNCIA CORRENDO DE MOTO.
+REMINDER_MUSCLE_CHAMP	VAMOS NESSA.  TRAGA UM MUSCLE CAR PARA A OCEAN AVE. 
+REMINDER_MUSCLE_REP	ARRANJE UM MUSCLE CAR E GANHE REP.
+REMINDER_PAYBACK	AJUDE O KAROL A SE VINGAR DE ALGUNS CLIENTES NA GARAGEM DA PRAIA.
+REMINDER_PAYBACK_GH_18	PEGUE O GRAND NATIONAL NAS PRAIAS E DANIFIQUE O JIN.
+SIDEKICK_PAYBACK_GH_18	PEGUE O GRAND NATIONAL NAS PRAIAS E DANIFIQUE O JIN.
+REMINDER_PAYBACK_INTRO	AJUDE O KAROL A SE VINGAR DE ALGUNS CLIENTES.
+REMINDER_RACE_GH_02	TREVOR ESTÁ ESPERANDO PARA CORRER NA SUNSET BLVD.
+REMINDER_RACE_GH_06	LEMBRE-SE DE CORRER COM O HENRY NA SUNSET STRIP.
+REMINDER_RACE_SH_01	NÃO ESQUEÇA.  ME ENCONTRE NO CARNEYS.
+REMINDER_RACE_SH_04_MOTORCYCLE	CORRO COM VOCÊ DE MOTO NAS COLINAS.
+REMINDER_RACES_IN_BEACHES	GANHE REP. CORRENDO EM SANTA MONICA.
+SIDEKICK_RACES_IN_BEACHES	GANHE REP. CORRENDO EM SANTA MONICA.
+REMINDER_RACES_IN_DOWNTOWN	GANHE REP. CORRENDO NO CENTRO.
+SIDEKICK_RACES_IN_DOWNTOWN	GANHE REP. CORRENDO NO CENTRO.
+REMINDER_REDLIGHT_GH_01	NÃO ESQUEÇA DE CORRER COM O MARTIN NA SUNSET BLVD.
+REMINDER_REP_ON_HW_STRIP	CONSTRUA A SUA REP. CORRENDO COM OS CARAS NA SUNSET STRIP.
+REMINDER_REPEAT_BESTOF_BEACHES	NÃO ESQUEÇA!  QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A OCEAN AVE.
+REMINDER_REPEAT_BESTOF_DOWNTOWN	NÃO ESQUEÇA!  QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A FIGUEROA ST.
+REMINDER_REPEAT_BESTOF_HILLS	NÃO ESQUEÇA!  QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A VENTURA.
+REMINDER_REPEAT_BESTOF_HOLLYWOOD	NÃO ESQUEÇA!  QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A SUNSET BLVD.
+REMINDER_REPEAT_HANGOUT_WAGER_BEACHES	CORRIDAS COM APOSTA ESTÃO ACONTECENDO NO ESTACIONAMENTO DE SANTA MONICA.
+REMINDER_REPEAT_HANGOUT_WAGER_DOWNTOWN	CORRIDAS COM APOSTA ESTÃO ACONTECENDO NO DIAMOND LOT, NO CENTRO.
+REMINDER_REPEAT_HANGOUT_WAGER_HILLS	GANHE APOSTAS NAS COLINAS.
+SIDEKICK_REPEAT_HANGOUT_WAGER_HILLS	GANHE APOSTAS NAS COLINAS.
+REMINDER_REPEAT_HANGOUT_WAGER_HOLLYWOOD	AS CORRIDAS COM APOSTA DO MACK BURGER ESTÃO ABERTAS.
+REMINDER_REPEAT_TIMETRIAL_BEACHES	REGISTRE UM MELHOR TEMPO EM SANTA MONICA.
+SIDEKICK_REPEAT_TIMETRIAL_BEACHES	REGISTRE UM MELHOR TEMPO EM SANTA MONICA.
+REMINDER_REPEAT_TIMETRIAL_DOWNTOWN	REGISTRE UM MELHOR TEMPO NO CENTRO
+REMINDER_REPEAT_TOURNAMENT_BEACHES	DISPUTE O TORNEIO DA PRAIA DE NOVO.
+REMINDER_REPEAT_TOURNAMENT_DOWNTOWN	DISPUTE O TORNEIO DO CENTRO DE NOVO.
+REMINDER_REPEAT_TOURNAMENT_HILLS	DISPUTE O TORNEIO DAS COLINAS DE NOVO.
+REMINDER_REPEAT_TOURNAMENT_HOLLYWOOD	DISPUTE O TORNEIO DE HOLLYWOOD DE NOVO.
+REMINDER_TIMETRIAL_BEACHES	NÃO ESQUEÇA DE PROCURAR O ANDRE PARA ENTRAR NO CONTRARRELÓGIO DA PRAIA
+REMINDER_TIMETRIAL_BEACHESB	O SEU TEMPO NO CONTRARRELÓGIO DA PRAIA FOI SUPERADO.
+REMINDER_TIMETRIAL_BEACHESC	O SEU TEMPO FOI SUPERADO NAS PRAIAS.  UM BOSS 302 '69 É SEU SE VOCÊ SUPERAR O TEMPO ATUAL.
+REMINDER_TIMETRIAL_DOWNTOWN	PROCURE O MIGUEL PARA ENTRAR NO CONTRARRELÓGIO DO CENTRO.
+REMINDER_TIMETRIAL_DOWNTOWNB	O SEU MELHOR TEMPO FOI SUPERADO NO CENTRO.
+REMINDER_TIMETRIAL_DOWNTOWNC	O SEU TEMPO NO CENTRO FOI SUPERADO.  UM 3000 GT '99 É SEU SE VOCÊ SUPERAR O TEMPO ATUAL.
+REMINDER_TIMETRIAL_HILLS	NÃO ESQUEÇA DE PROCURAR O MARCEL PARA ENTRAR NO CONTRARRELÓGIO DAS COLINAS
+REMINDER_TIMETRIAL_HILLSB	O SEU MELHOR TEMPO FOI SUPERADO NAS COLINAS.
+REMINDER_TIMETRIAL_HILLSC	O SEU TEMPO FOI SUPERADO NAS COLINAS.  UM MIURA SV '71 É SEU SE VOCÊ SUPERAR O TEMPO ATUAL.
+REMINDER_TIMETRIAL_HOLLYWOOD	NÃO ESQUEÇA DE REGISTRAR UM TEMPO NO CONTRARRELÓGIO EM HOLLYWOOD.
+REMINDER_TIMETRIAL_HOLLYWOODB	O SEU MELHOR TEMPO FOI SUPERADO EM HOLLYWOOD.
+REMINDER_TIMETRIAL_HOLLYWOODC	O SEU TEMPO FOI SUPERADO EM HOLLYWOOD.  UM ECLIPSE '99 É SEU SE VOCÊ SUPERAR O TEMPO ATUAL.
+REMINDER_TOURNAMENT_BEACHES	VENÇA O TORNEIO DA PRAIA.
+REMINDER_TOURNAMENT_BEACHESB	UM MERCEDES-BENZ S600 2006 "DUB EDITION" ESTÁ EM JOGO NO TORNEIO "DUB" DA PRAIA.
+REMINDER_TOURNAMENT_DOWNTOWN	VENÇA O TORNEIO DO CENTRO.
+REMINDER_TOURNAMENT_DOWNTOWNB	UM LAMBORGHINI MURCIELAGO 2004 "DUB EDITION" ESTÁ EM JOGO NO TORNEIO "DUB" DO CENTRO.
+REMINDER_TOURNAMENT_HILLS	VENÇA O TORNEIO DAS COLINAS.
+REMINDER_TOURNAMENT_HILLSB	UM DODGE CHALLENGER "DUB EDITION" ESTÁ EM JOGO NO TORNEIO "DUB" DO VALLEY.
+REMINDER_TOURNAMENT_HOLLYWOOD	VENÇA O TORNEIO DE HOLLYWOOD.
+REMINDER_TOURNAMENT_HOLLYWOODB	UM CHEVY CAMARO "DUB EDITION" ESTÁ EM JOGO NO TORNEIO "DUB" DE HOLLYWOOD.
+REMINDER_TUNER_CHAMP	VAMOS CORRER COM UM TUNER NA SUNSET BLVD.
+SIDEKICK_TUNER_CHAMP	VAMOS CORRER COM UM TUNER NA SUNSET BLVD.
+REMINDER_TUNER_REP	GANHE REP. CORRENDO COM O SEU TUNER.
+REP_ON_HW_STRIP_DESC	BOOKE diz para você construir a sua REP. na cidade correndo com os caras da Sunset Strip.  Quanto mais REP. você ganha, mais caras vão querer correr com você.
+REP_ON_HW_STRIP_OBJ1	GANHE REP. NA AVENIDA
+REP_ON_HW_STRIP_TITLE	A AVENIDA
+REPEAT_BESTOF_BEACHES_DESC	Sempre tem caras circulando pela Ocean Ave., em Santa Monica.  Desafie-os e seja o primeiro a vencer duas corridas.
+REPEAT_BESTOF_BEACHES_OBJ_01	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA
+REPEAT_BESTOF_DOWNTOWN_OBJ_01	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA
+REPEAT_BESTOF_HILLS_OBJ_01	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA
+REPEAT_BESTOF_HOLLYWOOD_OBJ_01	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA
+REPEAT_BESTOF_SC_OBJ_01	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA
+REPEAT_BESTOF_BEACHES_TITLE	DUELO NA PRAIA
+REPEAT_BESTOF_DOWNTOWN_DESC	Sempre tem caras circulando pela Figueroa St., no Centro.  Desafie-os e seja o primeiro a vencer duas corridas.
+REPEAT_BESTOF_DOWNTOWN_TITLE	DUELO NO CENTRO
+REPEAT_BESTOF_HILLS_DESC	A Ventura Blvd. sempre atrai pilotos no Valley.  Desafie-os e seja o primeiro a vencer duas corridas.
+REPEAT_BESTOF_HILLS_TITLE	DUELO NO VALLEY
+REPEAT_BESTOF_HOLLYWOOD_DESC	A Sunset Strip atrai pilotos de todo o L.A.  Desafie-os e seja o primeiro a vencer duas corridas.
+REPEAT_BESTOF_HOLLYWOOD_TITLE	DUELO EM HOLLYWOOD
+REPEAT_HANGOUT_WAGER_BEACHES_DESC	Corridas com Aposta sempre acontecem na cobertura do estacionamento em Santa Monica.
+REPEAT_HANGOUT_WAGER_BEACHES_TITLE	COBERTURA DO ESTACIONAMENTO
+REPEAT_HANGOUT_WAGER_DOWNTOWN_DESC	Os caras do Diamond Lot, no Centro, sempre topam apostar numa corrida.
+REPEAT_HANGOUT_WAGER_DOWNTOWN_TITLE	O DIAMOND LOT
+REPEAT_HANGOUT_WAGER_HILLS_DESC	Sempre rolam apostas no Hollywood Lookout, na Mulholland Dr., nas Colinas.
+REPEAT_HANGOUT_WAGER_HILLS_OBJ_01	GANHE ALGUMAS CORRIDAS COM APOSTA NAS COLINAS
+REPEAT_HANGOUT_WAGER_HOLLYWOOD_DESC	Quer ganhar uma grana? Corridas com Aposta sempre acontecem no Mack Burger, em Hollywood.
+REPEAT_HANGOUT_WAGER_HOLLYWOOD_OBJ_01	GANHE APOSTAS EM HOLLYWOOD
+REPEAT_HANGOUT_WAGER_HOLLYWOOD_TITLE	MACK BURGER
+REPEAT_TIMETRIAL_BEACHES_DESC	ANDRE ligou, alguém superou o tempo registrado em Santa Monica.  Encontre o Andre circulando perto da Prefeitura de Santa Monica para correr.
+REPEAT_TIMETRIAL_BEACHES_OBJ_01	SUPERE O TEMPO REGISTRADO
+REPEAT_TIMETRIAL_DOWNTOWN_OBJ_01	SUPERE O TEMPO REGISTRADO
+REPEAT_TIMETRIAL_HILLS_OBJ_01	SUPERE O TEMPO REGISTRADO
+REPEAT_TIMETRIAL_HOLLYWOOD_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_BEACHESB_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_BEACHESC_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_DOWNTOWNB_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_DOWNTOWNC_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_HILLSB_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_HILLSC_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_HOLLYWOODB_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_HOLLYWOODC_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_SCB_OBJ_01	SUPERE O TEMPO REGISTRADO
+TIMETRIAL_SCC_OBJ_01	SUPERE O TEMPO REGISTRADO
+REPEAT_TIMETRIAL_BEACHES_TITLE	CONTRARRELÓGIO DAS PRAIAS
+TIMETRIAL_BE	CONTRARRELÓGIO DAS PRAIAS
+REPEAT_TIMETRIAL_DOWNTOWN_DESC	MIGUEL ligou para avisar que o melhor tempo do Centro foi superado.  Encontre o MIGUEL circulando pela Grande com a Broadway para correr.
+REPEAT_TIMETRIAL_HILLS_DESC	MARCEL avisou que o melhor tempo nas Colinas foi registrado.  Encontre o MARCEL circulando pela Mulholland para correr por um tempo melhor.
+REPEAT_TIMETRIAL_HOLLYWOOD_DESC	OSWALDO ligou para avisar que o tempo de Hollywood foi superado.  Procure o OSWALDO circulando pelo MacArthur Park para correr. 
+REPEAT_TOURNAMENT_BEACHES_DESC	HENRY liga dizendo que o Torneio da Praia está aberto de novo.  Encontre o HENRY circulando por Santa Monica para competir.
+REPEAT_TOURNAMENT_BEACHES_OBJ_01	VENÇA O TORNEIO
+REPEAT_TOURNAMENT_DOWNTOWN_OBJ_01	VENÇA O TORNEIO
+REPEAT_TOURNAMENT_HILLS_OBJ_01	VENÇA O TORNEIO
+REPEAT_TOURNAMENT_HOLLYWOOD_OBJ_01	VENÇA O TORNEIO
+TOURNAMENT_BEACHES_OBJ_01	VENÇA O TORNEIO
+TOURNAMENT_DOWNTOWN_OBJ_01	VENÇA O TORNEIO
+TOURNAMENT_HILLS_OBJ_01	VENÇA O TORNEIO
+TOURNAMENT_HOLLYWOOD_OBJ_01	VENÇA O TORNEIO
+REPEAT_TOURNAMENT_SC_OBJ_01	VENÇA O TORNEIO
+TOURNAMENT_SC_OBJ_01	VENÇA O TORNEIO
+REPEAT_TOURNAMENT_DOWNTOWN_DESC	O Torneio do Centro está rolando de novo.  Para competir, encontre a DORA circulando com o R32 dela em Southpark.
+REPEAT_TOURNAMENT_HILLS_DESC	O Torneio das Colinas está rolando de novo.  Encontre o TOMMY circulando pela Ventura para entrar.
+REPEAT_TOURNAMENT_HOLLYWOOD_DESC	LEON está comandando o Torneio de Hollywood de novo.  Procure por ele circulando por Century City para competir.
+replay_pause_continue_replay	CONTINUAR REPETIÇÃO
+replay_pause_exit_replay	SAIR DA REPETIÇÃO
+replay_pause_restart_replay	REINICIAR REPETIÇÃO
+replay_prompt_disable_camera_cycle	DESATIVAR TROCA DE CÂMERA
+replay_prompt_enable_camera_cycle	ATIVAR TROCA DE CÂMERA
+replay_prompt_hideLegend	OCULTAR LEGENDA
+replay_prompt_next_camera	PRÓXIMA CÂMERA
+replay_prompt_slow	LENTO
+replay_prompt_step	AVANÇAR QUADRO
+REWARD_DELIVERY_LABEL	RECOMPENSA DA ENTREGA
+REWARD_PAYBACK_LABEL	RECOMPENSA DA CONCLUSÃO:
+REWARD_SERIES_LABEL	RECOMPENSA DA CONCLUSÃO:
+REWARD_TOURNAMENT_LABEL	RECOMPENSA DA CONCLUSÃO:
+REWARD_WAGER_LABEL	RECOMPENSA DA CONCLUSÃO:
+Right Analog X Left	ANALÓGICO DIREITO PARA A ESQUERDA
+Right Analog X Right	ANALÓGICO DIREITO PARA A DIREITA
+Right Analog Y Down	ANALÓGICO DIREITO PARA BAIXO
+Right Digital Down	ANALÓGICO DIREITO PARA BAIXO
+Right Analog Y Up	ANALÓGICO DIREITO PARA CIMA
+Right Digital Up	ANALÓGICO DIREITO PARA CIMA
+RL_3rdStreetPromenade	THIRD STREET PROMENADE
+RL_LaurelCanyonVentura	LAUREL CANYON COM VENTURA
+RL_MulhollandVentura	MULHOLLAND COM VENTURA
+RL_SepulvedaVentura	SEPULVEDA COM VENTURA
+RL_SportsCenter	CENTRO ESPORTIVO
+RL_TheCathedral	A CATEDRAL
+RL_TowerRecords	SUNSET MUSIC
+RMR_AverageRating	AVALIAÇÃO MÉDIA
+RMR_CanOthersPurchaseThis	Quer que outros jogadores possam comprar este veículo?
+RMR_CANT_BUY_LOCKED_CAR	Este modelo de veículo está bloqueado.  Jogue a carreira para desbloquear veículos.
+RMR_CANT_BUY_UNPURCHASED_DLC	Você precisa comprar o conteúdo para download para comprar este veículo.
+RMR_CANT_BUY_YOUR_OWN_CAR	Você não pode comprar o seu próprio veículo.
+RMR_ChangeRideConf_desc	Tem certeza de que quer trocar o seu veículo do Avalie Meu Carro?  A classificação atual do seu veículo será perdida.
+RMR_ConfirmAbleToSell	À VENDA?
+Rmr_ConfirmUpload	CONFIRMAR ENVIO
+RMR_desc	Avalie e Veja Carros Online
+RMR_DLC_Vehicle	VEÍCULO PARA DOWNLOAD
+RMR_Exit	SAIR 
+RMR_FailureMsg	FALHOU
+RMR_FILE_ERROR	Erro de Arquivo: Arquivo Não Encontrado
+RMR_Icon_Purchasing	COMPRANDO
+RMR_Icon_Rewarding	RECEBENDO DINHEIRO
+RMR_JudgeScreen	AVALIAR CARRO
+RmrPrompts_PostJudgement	AVALIAR CARRO
+Rmr_LBChangePage	PÁGINA PRÓXIMA/ANTERIOR
+RMR_LoadRideFail_desc	Você precisa comprar o conteúdo para download ou baixar o pacote de compatibilidade para ver este veículo.
+RMR_MoneyEarned	DINHEIRO GANHO
+rmr_msg_MoneyReceived	VOCÊ GANHOU DINHEIRO COM O AVALIE MEU CARRO !
+rmr_msg_VehiclePurchased	VEÍCULO COMPRADO
+RMR_MyStats	ESTATÍSTICAS DO MEU CARRO
+Rmr_NextRide	PRÓXIMO CARRO
+RMR_NO_PROFILE_PROMPT	Você não tem um veículo na exposição do Avalie Meu Carro.  Quer enviar um?
+RMR_NoRecords	SEM REGISTROS
+RMR_NoRecordsDesc	O servidor do Avalie Meu Carro está vazio.
+RMR_NoSalePrice	Não está à Venda
+RMR_NotForPurchase	ESTE VEÍCULO NÃO ESTÁ À VENDA.
+RMR_NumTimesRated	VEZES AVALIADO
+RMR_PostJudgeScreen	VEÍCULO AVALIADO
+RMR_Prev_NextPage	PRÓXIMO/ANTERIOR
+RMR_PurchasePrice	PREÇO DE COMPRA
+RMR_PurchaseString	Tem certeza de que quer comprar este veículo por <D>RMR_PurchasePriceValue</D>?
+RMR_Rate_Rides	AVALIAR CARROS
+RMR_Rating_Menu	AVALIAÇÕES
+RMR_RegisterRide	REGISTRAR CARRO
+RMR_Stats_Model	MODELO
+Rmr_SubmitRating	ENVIAR AVALIAÇÃO
+rmr_takephoto1_title	TIRAR A 1ª FOTO
+rmr_takephoto2_title	TIRAR A 2ª FOTO
+RMR_TimesPurchased	VEZES COMPRADO
+RMR_Toggle_Camera	ALTERNAR CÂMERA
+Rmr_TopRides	MELHORES CARROS
+RMR_TopRidesLongDesc	Veja todos os melhores carros e confira em que posição estão.
+Rmr_Upload	ENVIAR PARA EXIBIÇÃO
+RMR_Upload_My_Vehicle	ENVIAR VEÍCULO
+RMR_View_LeaderBoard	VER RANKINGS
+RMR_View_My_Vehicle	VER MEUS VEÍCULOS
+RMR_View_Vehicle	VER VEÍCULO
+RMR_ViewVehicle	VER VEÍCULO
+RmrSpin_Interior	VISÃO INTERNA/EXTERNA
+RMRSplash_RideUploaded	CARRO ENVIADO
+RMRViewMyUploadedRide	MEU VEÍCULO
+RO_Any	QUALQUER
+RO_BikesOnly	SÓ MOTOS
+RO_CarsOnly	SÓ CARROS
+RO_Disrupter_PowerUp	±PERTURBADOR
+RO_Dynamic	DINÂMICO
+RO_FlagLimit	LIMITE DE PONTOS
+RO_FlagTransfer	BANDEIRA TRANSFERÍVEL
+RO_ForceBalance	EQUIPES EQUILIBRADAS
+RO_HeavyFlag	BANDEIRA PESADA
+RO_Ice_PowerUp	±GELO
+RO_LastManOut	ÚLTIMO FORA
+RO_Mirror_PowerUp	±ESPELHO
+RO_NumberofLaps	NÚMERO DE VOLTAS
+RO_NumberofOpponents	NÚMERO DE OPONENTES
+RO_PrivateSlots	SLOTS PRIVADOS
+RO_Pulse_PowerUp	±PULSO
+RO_Reverse_PowerUp	±DIREÇÃO INVERTIDA
+RO_Shield_PowerUp	±ESCUDO
+RO_SlotCount	MÁXIMO DE JOGADORES
+RO_Stealth_PowerUp	±FURTIVIDADE
+RO_Stop_PowerUp	±PARADA
+RO_TimeLimit	LIMITE DE TEMPO
+RO_Weather	CLIMA
+Roar level 1	ROAR NÍVEL 2
+ROAR_LEVEL_1	ROAR NÍVEL 2
+Roar level 2	ROAR NÍVEL 3
+ROAR_LEVEL_2	ROAR NÍVEL 3
+Save_CreateNewAlbum	CRIAR NOVO ÁLBUM
+Save_CreateNewSave	CRIAR UM NOVO JOGO SALVO
+Save_Deleting_Photo	EXCLUINDO FOTO
+Save_Dialog_AutosaveWarning	Este jogo usa um recurso de salvamento automático, que vem ativado por padrão.  Você pode desativá-lo a qualquer momento no menu de Ajustes do Jogo.
+Save_Dialog_CanceledDeviceSelection	Selecione um dispositivo de armazenamento ou você não conseguirá salvar.  Quer selecionar um dispositivo de armazenamento?
+Save_Dialog_ContentReboot	O conteúdo para download não está mais disponível.
+Save_Dialog_ControllerUnplugged	O seu controle do Xbox 360 foi desconectado, verifique as conexões do controle.
+Save_Dialog_CreateSaveError	Ocorreu um problema ao tentar criar o seu jogo salvo. Quer tentar de novo?
+Save_Dialog_DiscardSnapshotConfirmAndContinue	Você perderá o seu registro atual.  Tem certeza de que quer continuar?
+Save_Dialog_DiscardSnapshotConfirmAndExit	Você perderá o seu registro atual.  Tem certeza de que quer continuar?
+Save_Dialog_DongleError	Esta é uma cópia restrita de MC4 Los Angeles.  Ela exige um dongle de cartão de memória para jogar.
+Save_Dialog_FreeMoreSpace	Abra o painel para liberar mais espaço.
+Save_Dialog_GeneralError	Ocorreu um erro ao acessar o seu dispositivo de armazenamento.
+Save_Dialog_LoadError	O arquivo de jogo salvo parece estar danificado e não pode ser carregado.  Quer tentar de novo?
+Save_Dialog_Loading	Carregando conteúdo.  Não desligue o seu console.
+Save_Loading_Photoalbum	Carregando conteúdo.  Não desligue o seu console.
+Save_Dialog_MultipleGamesFound	Foram encontrados vários jogos salvos.  Selecione qual você quer usar.
+Save_Dialog_NoGamesFound	Não foi possível encontrar um jogo salvo de Midnight Club:  Los Angeles.  O que você quer fazer?
+Save_Dialog_NoSignedInPlayer	Você não está conectado.  Para salvar o progresso, você precisa estar conectado.  Quer se conectar agora?
+Save_Dialog_OverwriteConfirmation	Um jogo salvo de Midnight Club:  Los Angeles foi encontrado neste dispositivo de armazenamento.  Quer sobrescrevê-lo?
+Save_Dialog_OverwriteDamageDataConf	Tem certeza de que quer sobrescrever os seus dados danificados?
+Save_Dialog_PhotoAlbumRemoved	O dispositivo de armazenamento atual foi removido.  Selecione outro dispositivo de armazenamento.
+Save_Dialog_PlayerHasSignedOut	Você voltou à tela de título porque ocorreu uma mudança de conexão.
+Save_Dialog_SaveDisabled	O salvamento automático foi desativado.  Você pode ativá-lo no menu de opções.
+Save_Dialog_SaveDisabledNotSignedIn	O salvamento automático foi desativado.  O seu progresso não será salvo.
+Save_Dialog_SaveError	Ocorreu um problema ao tentar salvar.  Quer tentar de novo?
+Save_Dialog_SaveGameRemoved	O seu dispositivo de armazenamento foi removido.  Você não poderá salvar a menos que o reinsira.  Reinsira o dispositivo de armazenamento.
+Save_Dialog_SaveGameRemovedOnLoad	Não foi possível carregar o seu jogo salvo porque o dispositivo de armazenamento foi removido.
+Save_Dialog_Saving	Salvando conteúdo.  Não desligue o seu console.
+Save_Icon_Creating	Salvando conteúdo.  Não desligue o seu console.
+Save_Dialog_SelectAnotherDevice	Selecione outro dispositivo de armazenamento.
+Save_Dialog_StorageDeviceChanged	O seu dispositivo de armazenamento mudou.  Selecione em qual dispositivo de armazenamento você quer salvar.
+Save_Dialog_UnexpectedLoadError	OCORREU UM ERRO INESPERADO AO TENTAR CARREGAR O JOGO.
+Save_File_Subtitle	Porcentagem da Carreira
+Save_Icon_Deleting	EXCLUINDO
+Save_Icon_GeneratingVinyls	AGUARDE...
+Save_Icon_Saving	SALVANDO... 
+Save_Load_Success	CARREGADO COM SUCESSO
+Save_NoRoomToSavePhotoAlbum	Não há espaço disponível suficiente para salvar.  Libere mais espaço ou troque o dispositivo de armazenamento.
+Save_NotEnoughFreeBlocks	O seu dispositivo de armazenamento atual não tem espaço suficiente para salvar o seu jogo.
+Save_PA_Corrupt	O seu álbum de fotos parece estar danificado e não pode ser usado.  Quer tentar carregar de novo?
+Save_PA_NoAlbumFound	Nenhum álbum de fotos foi encontrado.  Quer criar um novo?
+Save_PA_Overwrite	Tem certeza de que quer sobrescrever a foto selecionada?
+Saving ... 	SALVANDO ... 
+Scale	ESCALA
+Score	PONTUAÇÃO
+sd_1	TESOURA
+Seat	BANCOS DIANTEIROS
+seats_f	BANCOS DIANTEIROS
+SeatsFront	BANCOS DIANTEIROS
+Series_FAILURE	SÉRIE PERDIDA
+Series_SUCCESS	SÉRIE VENCIDA
+SH_02_0_vp_dsn_280z_75	DATSUN 280Z 1975 DO KAROL
+SHIFT_DOWN	REDUZIR MARCHA
+SHIFT_UP	AUMENTAR MARCHA
+side_exhaust	ESCAPAMENTOS LATERAIS
+SIDEKICK_AGRO	O AGRO PERMITE QUE VOCÊ DESCARREGUE A SUA RAIVA POR ALGUNS SEGUNDOS.
+SIDEKICK_AIR_CONTROLS_TIP	USE NOS CONTROLES NO AR PARA NIVELAR O VEÍCULO E MELHORAR SUAS ATERRISSAGENS.
+SIDEKICK_BEAT_FREEWAY	ENCONTRE E CORRA COM PILOTOS DE FREEWAY.
+SIDEKICK_BEAT_SH_02_CCLASS	VAMOS CORRER.  ESTOU CIRCULANDO PELA SUNSET BLVD. EM HOLLYWOOD.
+SIDEKICK_BEAT_SH_02_DCLASS	CORRA COMIGO NA SUNSET BLVD. EM HOLLYWOOD.
+SIDEKICK_BEAT_SH_02_EXOTIC	TRAGA UM VEÍCULO EXÓTICO PARA A THIRD STREET PROMENADE EM SANTA MONICA.
+SIDEKICK_BEAT_SH_03	ESTOU CIRCULANDO PELA OCEAN AVE. EM SANTA MONICA SE VOCÊ QUISER CORRER.
+SIDEKICK_BEAT_SH_03_CCLASS	ESTOU CIRCULANDO PELA OCEAN AVE. EM SANTA MONICA SE VOCÊ QUISER CORRER.
+SIDEKICK_BEAT_SH_03_ACLASS	ESTOU CIRCULANDO PELA OCEAN AVE. NA PRAIA.  TRAGA UM VEÍCULO CLASSE A.
+SIDEKICK_BEAT_SH_04	VENHA CORRER COMIGO.  ESTOU NA FIGUEROA, NO CENTRO.
+SIDEKICK_BEAT_SH_04_BCLASS	VAMOS CORRER SAINDO DA FIGUEROA ST., NO CENTRO.  SÓ VEÍCULOS CLASSE B.
+SIDEKICK_BEAT_SH_04_MOTORCYCLE	CORRA COMIGO DE NOVO, DE MOTO, NAS COLINAS.
+SIDEKICK_BEAT_SH_04B	ESTOU CIRCULANDO PELA FIGUEROA ST., NO CENTRO.  VAMOS CORRER.
+SIDEKICK_BEAT_SH_05	E AÍ, OS MEUS PARCEIROS AQUI DIZEM QUE VOCÊ ESTÁ PRONTO PARA A PRIMEIRA DIVISÃO.  ME ENCONTRE NA FIGUEROA.
+SIDEKICK_BEAT_SH_05_ACLASS	ESTOU CIRCULANDO PELA FIGUEROA ST., NO CENTRO.  TRAGA UM VEÍCULO CLASSE A.
+SIDEKICK_BESTOF_GH_04	CORRA CONTRA O NIKOLAI NA MELHOR DE 3 PELO CAMARO DELE NA SUNSET BLVD.
+SIDEKICK_BESTOF_GH_05	CORRA CONTRA O MARCEL NA MELHOR DE 3 PELO FOCUS SVT '04 DELE NA SUNSET BLVD.
+SIDEKICK_BESTOF_GH_22	CORRA CONTRA O VICTOR, QUE ESTÁ CIRCULANDO PELA FIGUEROA ST., NO CENTRO.
+SIDEKICK_BESTOF_SH_01_MUSCLE	TRAGA O SEU MELHOR MUSCLE E ME ENCONTRE NA AVENIDA.  VAMOS CORRER.
+SIDEKICK_BESTOF_SH_01_TUNER	BELEZA, QUANDO VOCÊ ESTIVER PRONTO, EU CORRO.  ME ENCONTRE NA AVENIDA.
+SIDEKICK_BESTOF_SH_02	MELHOR DE 3 NA OCEAN AVE. EM SANTA MONICA.
+SIDEKICK_BESTOF_SH_03	MELHOR DE 3 NA SUNSET BLVD. EM HOLLYWOOD.
+SIDEKICK_BESTOF_SH_03_LUXURY	VAMOS CORRER COM CARROS DE LUXO.  ME ENCONTRE CIRCULANDO PELA SUNSET EM HOLLYWOOD.
+SIDEKICK_BESTOF_SH_05	VAMOS CORRER NA MELHOR DE 3 NO CENTRO.
+SIDEKICK_BURNOUT_TIP	SEGURE O FREIO DE MÃO E ACELERE PARADO.  SOLTE O FREIO DE MÃO PARA GANHAR IMPULSO.
+SIDEKICK_BURNOUT_TURN_TIP	VOCÊ PODE VIRAR O VEÍCULO PARADO SEGURANDO O FREIO DE MÃO E O ACELERADOR.
+SIDEKICK_CARS_UNLOCK_TIP_01	OS VEÍCULOS ORIGINAIS DO GRUPO 2 JÁ ESTÃO DISPONÍVEIS NA GARAGEM.
+SIDEKICK_CARS_UNLOCK_TIP_02	OS VEÍCULOS ORIGINAIS DO GRUPO 2 JÁ ESTÃO DISPONÍVEIS NA GARAGEM.
+SIDEKICK_CARS_UNLOCK_TIP_03	OS VEÍCULOS DO GRUPO 3 JÁ ESTÃO DISPONÍVEIS NA GARAGEM.
+SIDEKICK_CARS_UNLOCK_TIP_04	OS VEÍCULOS DO GRUPO 4 JÁ ESTÃO DISPONÍVEIS NA GARAGEM.
+SIDEKICK_CARS_UNLOCKING_TIP	GANHE MAIS REP. NA CIDADE E VEJO O QUE POSSO FAZER PARA ARRANJAR CARROS NOVOS.
+SIDEKICK_CARS_WINNING_TIP	OS CARROS PODEM SER GANHOS EM CORRIDAS DE PINK SLIP OU VENCENDO UM TORNEIO OU CONTRARRELÓGIO.
+SIDEKICK_CITY_CHAMP	VAMOS RESOLVER ISSO NO CENTRO, VALENDO TUDO.
+SIDEKICK_COLLECTABLES_TIP	OS COLECIONÁVEIS RENDEM CONQUISTAS E DESBLOQUEIAM CÓDIGOS.
+SIDEKICK_COP_EVASION_TIP	DESPISTE A POLÍCIA SAINDO DO CAMPO DE VISÃO DELA.
+SIDEKICK_DELIVERY	VENHA ME VER NA HOLLYWOOD AUTO PARA UM TRABALHO.
+SIDEKICK_DELIVERY_POST	SE PRECISAR DE GRANA, VOLTE À HOLLYWOOD AUTO E ENTREGUE MAIS VEÍCULOS.
+SIDEKICK_EARN_1MILLION	GANHE UM MILHÃO DE DÓLARES E ENTRE EM CONTATO COMIGO.
+SIDEKICK_EMP	USE O EMP PARA DESACELERAR SEUS OPONENTES: OS SISTEMAS ELETRÔNICOS FICAM EMBARALHADOS POR ALGUNS INSTANTES E ELES PERDEM ACELERAÇÃO. 
+SIDEKICK_ESCAPE_POLICE	A POLÍCIA CHEGOU, SAIA DAQUI E A GENTE RESOLVE ISSO DEPOIS!
+SIDEKICK_EXOTIC_CHAMP	TRAGA O SEU VEÍCULO EXÓTICO PARA A SUNSET BLVD. E A GENTE CORRE.
+SIDEKICK_EXOTIC_REP	GANHE REP. COM CARROS EXÓTICOS.
+SIDEKICK_FIND_SH_01	ME ENCONTRE CIRCULANDO PELA FIGUEROA ST., NO CENTRO.
+SIDEKICK_FIND_SH_01B	FALE COM O BOOKE NO STANDARD HOTEL, NO CENTRO.
+SIDEKICK_FIND_SH_02	VENHA ME ENCONTRAR NO PÍER DE SANTA MONICA.
+SIDEKICK_FIND_SH_02B	PROCURE POR MIM NA THIRD STREET PROMENADE, EM SANTA MONICA.
+SIDEKICK_FIND_SH_02C	TRAGA O SEU MILHÃO PARA O CHATEAU MARMONT E A GENTE CONVERSA.
+SIDEKICK_FIND_SH_03B	VENHA ME ENCONTRAR NO GEORGIAN HOTEL, EM SANTA MONICA.
+SIDEKICK_FIND_SH_05	ENCONTRE O HUGO NO TERRENO ABANDONADO DA LOWER GRAND STREET.
+SIDEKICK_GARAGE_BEACHES	VENHA ME ENCONTRAR NA GARAGEM DA PRAIA.  FICA EM SANTA MONICA.
+SIDEKICK_HANGOUT_PINKSLIP_BEACHES	CORRA CONTRA O LESTER POR PINK SLIPS EM SANTA MONICA.
+SIDEKICK_HANGOUT_PINKSLIP_HILLS	CORRA POR PINK SLIPS NA MULHOLLAND DR.
+SIDEKICK_HANGOUT_PINKSLIP_HOLLYWOOD	CORRA CONTRA O CHUNG HEE POR PINK SLIPS NO MACK BURGER, EM HOLLYWOOD.
+SIDEKICK_HANGOUT_SERIES_BEACHES	VENÇA A CORRIDA DA SÉRIE EM SANTA MONICA.
+SIDEKICK_HANGOUT_SERIES_DOWNTOWN	VENÇA A CORRIDA DA SÉRIE NO CENTRO.
+SIDEKICK_HANGOUT_SERIES_HILLS	VENÇA A CORRIDA DA SÉRIE NAS COLINAS.
+SIDEKICK_HANGOUT_SERIES_HOLLYWOOD	VENÇA A CORRIDA DA SÉRIE EM WEST HOLLYWOOD.
+SIDEKICK_HANGOUT_SERIES_HOLLYWOODB	VENÇA A CORRIDA DA SÉRIE EM BEVERLY HILLS.
+SIDEKICK_HANGOUT_SERIES_HOLLYWOODC	VENÇA A CORRIDA DA SÉRIE EM CENTURY CITY.
+SIDEKICK_HANGOUT_WAGER_BEACHES	GANHE APOSTAS EM SANTA MONICA.
+SIDEKICK_REPEAT_HANGOUT_WAGER_BEACHES	GANHE APOSTAS EM SANTA MONICA.
+SIDEKICK_HANGOUT_WAGER_DOWNTOWN	GANHE APOSTAS NO CENTRO.
+SIDEKICK_REPEAT_HANGOUT_WAGER_DOWNTOWN	GANHE APOSTAS NO CENTRO.
+SIDEKICK_HANGOUT_WAGER_HOLLYWOOD	GANHE APOSTAS EM HOLLYWOOD.
+SIDEKICK_REPEAT_HANGOUT_WAGER_HOLLYWOOD	GANHE APOSTAS EM HOLLYWOOD.
+SIDEKICK_INSTALL_ABILITY	VISITE A GARAGEM E INSTALE UMA HABILIDADE.
+SIDEKICK_LUXURY_CHAMP	VAMOS CORRER.  TRAGA UM VEÍCULO DE LUXO PARA O CENTRO.
+SIDEKICK_LUXURY_REP	GANHE EXPERIÊNCIA CORRENDO COM UM CARRO DE LUXO E DEPOIS ME PROCURE.
+SIDEKICK_MEET_ME_THERE_TIP	DURANTE A CORRIDA ATÉ A LINHA DE LARGADA, PISQUE OS FARÓIS PARA PULAR PARA A CORRIDA.
+SIDEKICK_MOTORCYCLE_CHAMP	TRAGA UMA MOTO PARA A MULHOLLAND E A GENTE CORRE.
+SIDEKICK_MUSCLE_CHAMP	VAMOS CORRER COM MUSCLE CARS NA OCEAN AVE. EM SANTA MONICA.
+SIDEKICK_MUSCLE_REP	GANHE REP. COM UM MUSCLE CAR QUANDO VOCÊ TIVER UM.
+SIDEKICK_NEXT_TARGET	AJUDE O KAROL A RESOLVER MAIS UMA VINGANÇA.
+SIDEKICK_ONLINE_TIP	PASSEIE, CORRA OU BATALHE CONTRA OUTROS OPONENTES ONLINE PARA GANHAR DINHEIRO E DESBLOQUEAR PEÇAS.
+SIDEKICK_OPPONENT_DIFFICULTY_TIP	OS PILOTOS TÊM CORES. OPONENTES MAIS DIFÍCEIS RENDEM MAIS REP. E DINHEIRO.
+SIDEKICK_PAYBACK	PRECISO DA SUA AJUDA.  PASSE NA GARAGEM DAS PRAIAS.
+SIDEKICK_PAYBACK_INTRO	USE O VEÍCULO DA VINGANÇA PARA DANIFICAR CARROS PARA O KAROL.
+SIDEKICK_PAYBACK_NEXT	ME AJUDE A SE VINGAR DE OUTRO CLIENTE E EU PAGO VOCÊ.
+SIDEKICK_PAYBACK_WARNING	AGORA OS CAPANGAS DELE ESTÃO ATRÁS DE VOCÊ. SAIA DAÍ!
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_01	NOVAS PEÇAS DE DESEMPENHO JÁ ESTÃO DISPONÍVEIS NA GARAGEM.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_02	NOVAS PEÇAS DE DESEMPENHO JÁ ESTÃO DISPONÍVEIS NA GARAGEM.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_03	CONFIRA A GARAGEM COM FREQUÊNCIA PARA VER NOVAS PEÇAS E MELHORIAS.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_04	PEÇAS DE DESEMPENHO CHEGAM O TEMPO TODO NA GARAGEM.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_05	NÃO ESQUEÇA DE CONFERIR COM FREQUÊNCIA AS NOVAS PEÇAS DE DESEMPENHO NA GARAGEM.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_06	VOCÊ PODE MELHORAR O SEU VEÍCULO QUANDO CHEGAM NOVAS PEÇAS DE DESEMPENHO NA GARAGEM.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_07	NÃO ESQUEÇA DE MELHORAR O SEU VEÍCULO QUANDO DESBLOQUEAR NOVAS PEÇAS DE DESEMPENHO.
+SIDEKICK_PERFORMANCE_UNLOCK_TIP_08	MELHORE O SEU VEÍCULO QUANDO CHEGAREM NOVAS PEÇAS DE DESEMPENHO NA GARAGEM.
+SIDEKICK_PERFORMANCE_UPGRADE_TIP_01	MELHORE O SEU CARRO INSTALANDO PEÇAS DE DESEMPENHO NA GARAGEM.
+SIDEKICK_PERFORMANCE_UPGRADE_TIP_02	AS PEÇAS DE DESEMPENHO PODEM SER COMPRADAS NA GARAGEM PARA MELHORAR O SEU CARRO.
+SIDEKICK_PROGRESSION_TIP_01	CORRER RENDE REP. NA CIDADE. MISSÕES E EVENTOS FICAM DISPONÍVEIS CONFORME A SUA REP. AUMENTA.
+SIDEKICK_PROGRESSION_TIP_02	VOCÊ FAZ AS PESSOAS NOTAREM VOCÊ GANHANDO REP.  QUANTO MAIOR A SUA REP., MAIS MISSÕES E EVENTOS SE ABREM.
+SIDEKICK_RACE_DIFFICULTY_TIP	OS TRAÇADOS DIFÍCEIS SÃO MAIS ABERTOS, COM MENOS CHECKPOINTS.  VENÇA UMA CORRIDA DIFÍCIL E VOCÊ GANHA MAIS REP. E DINHEIRO.
+SIDEKICK_RACE_EDITOR_TIP	ACHA QUE CONSEGUE CRIAR UM TRAÇADO MELHOR?  CONSTRUA VOCÊ MESMO NO EDITOR DE CORRIDAS.
+SIDEKICK_RACE_GH_02	E AÍ, CARA, TENHO UMA COISA PARA VOCÊ.
+SIDEKICK_RACE_GH_06	VÁ CORRER COM O HENRY NA SUNSET STRIP.
+SIDEKICK_RACE_SH_01	ME ENCONTRE NO CARNEYS
+SIDEKICK_RACE_SH_04_MOTORCYCLE	VAMOS CORRER DE MOTO NAS COLINAS.
+SIDEKICK_RATE_MY_RIDE_TIP	AVALIE OU COMPRE OS CARROS DE OUTRAS PESSOAS ONLINE PELO AVALIE MEU CARRO.
+SIDEKICK_REPEAT_BESTOF_BEACHES	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A OCEAN AVE.
+SIDEKICK_REPEAT_BESTOF_DOWNTOWN	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A FIGUEROA ST.
+SIDEKICK_REPEAT_BESTOF_HILLS	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A VENTURA.
+SIDEKICK_REPEAT_BESTOF_HOLLYWOOD	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A SUNSET BLVD.
+SIDEKICK_REPEAT_TIMETRIAL_DOWNTOWN	PRONTO PARA VER SE CONSEGUE SUPERAR O MELHOR TEMPO?
+SIDEKICK_REPEAT_TIMETRIAL_HILLS	REGISTRE UM MELHOR TEMPO NAS COLINAS.
+SIDEKICK_REPEAT_TIMETRIAL_HOLLYWOOD	REGISTRE UM MELHOR TEMPO NO CONTRARRELÓGIO DE HOLLYWOOD.
+SIDEKICK_REPEAT_TOURNAMENT_BEACHES	O TORNEIO DA PRAIA ESTÁ ABERTO DE NOVO.
+SIDEKICK_REPEAT_TOURNAMENT_DOWNTOWN	O TORNEIO DO CENTRO ESTÁ ABERTO DE NOVO.
+SIDEKICK_REPEAT_TOURNAMENT_HILLS	O TORNEIO DAS COLINAS ESTÁ ABERTO DE NOVO.
+SIDEKICK_REPEAT_TOURNAMENT_HOLLYWOOD	O TORNEIO DE HOLLYWOOD ESTÁ ABERTO DE NOVO.
+SIDEKICK_ROAR	ALTO E ORGULHOSO.  QUANDO QUISER TIRAR VEÍCULOS DO SEU CAMINHO, USE O ROAR PARA CHAMAR A ATENÇÃO DELES.
+SIDEKICK_TICKET_TIP	QUANDO FOR PARADO, VOCÊ PODE PAGAR A MULTA OU DESPISTAR A POLÍCIA.
+SIDEKICK_TIMETRIAL_BEACHES	ENCONTRE O ANDRE CIRCULANDO POR SANTA MONICA PARA ENTRAR NO CONTRARRELÓGIO.
+SIDEKICK_TIMETRIAL_BEACHES_POST	NOVOS VEÍCULOS FORAM ENTREGUES AO CONTRARRELÓGIO DA PRAIA.  VÁ BATER NOVOS RECORDES.
+SIDEKICK_TIMETRIAL_BEACHESB	O SEU TEMPO FOI SUPERADO.  ME ENCONTRE CIRCULANDO POR SANTA MONICA PARA ENTRAR NO CONTRARRELÓGIO DE NOVO.
+SIDEKICK_TIMETRIAL_BEACHESC	ALGUÉM SUPEROU O SEU TEMPO NO CONTRARRELÓGIO DAS PRAIAS DE NOVO.  SUPERE O TEMPO ATUAL E GANHE UM BOSS 302 '69.
+SIDEKICK_TIMETRIAL_DOWNTOWN	ENCONTRE O MIGUEL CIRCULANDO PELO CENTRO PARA ENTRAR NO CONTRARRELÓGIO.
+SIDEKICK_TIMETRIAL_DOWNTOWN_POST	NOVOS VEÍCULOS FORAM ENTREGUES AO CONTRARRELÓGIO DO CENTRO.  VÁ BATER NOVOS RECORDES.
+SIDEKICK_TIMETRIAL_DOWNTOWNB	ALGUÉM SUPEROU O SEU TEMPO.  ME ENCONTRE CIRCULANDO PELO CENTRO PARA ENTRAR NO CONTRARRELÓGIO DE NOVO.
+SIDEKICK_TIMETRIAL_DOWNTOWNC	ALGUÉM SUPEROU O SEU TEMPO DE NOVO NO CONTRARRELÓGIO DO CENTRO.  SUPERE O TEMPO ATUAL E GANHE UM 3000 GT '99.
+SIDEKICK_TIMETRIAL_HILLS	ENCONTRE O MARCEL CIRCULANDO PELA MULHOLLAND PARA ENTRAR NO CONTRARRELÓGIO.
+SIDEKICK_TIMETRIAL_HILLS_POST	NOVOS VEÍCULOS FORAM ENTREGUES AO CONTRARRELÓGIO DAS COLINAS.  VÁ BATER NOVOS RECORDES.
+SIDEKICK_TIMETRIAL_HILLSB	ALGUÉM SUPEROU O SEU TEMPO.  ME ENCONTRE CIRCULANDO PELAS COLINAS PARA ENTRAR NO CONTRARRELÓGIO DE NOVO.
+SIDEKICK_TIMETRIAL_HILLSC	ALGUÉM SUPEROU O SEU TEMPO DE NOVO NO CONTRARRELÓGIO DAS COLINAS.  SUPERE O TEMPO ATUAL E GANHE UM MIURA SV '71.
+SIDEKICK_TIMETRIAL_HOLLYWOOD	ENCONTRE O OSWALDO CIRCULANDO PERTO DA WILSHIRE PARA ENTRAR NO CONTRARRELÓGIO.
+SIDEKICK_TIMETRIAL_HOLLYWOOD_POST	NOVOS VEÍCULOS FORAM ENTREGUES AO CONTRARRELÓGIO DE HOLLYWOOD.  VÁ BATER NOVOS RECORDES.
+SIDEKICK_TIMETRIAL_HOLLYWOODB	O SEU TEMPO FOI SUPERADO.  ME ENCONTRE CIRCULANDO POR HOLLYWOOD PARA ENTRAR NO CONTRARRELÓGIO DE NOVO.
+SIDEKICK_TIMETRIAL_HOLLYWOODC	O SEU TEMPO FOI SUPERADO DE NOVO NO CONTRARRELÓGIO DE HOLLYWOOD.  SUPERE O TEMPO ATUAL E GANHE UM ECLIPSE '99.
+SIDEKICK_TOURNAMENT_BEACHES	O TORNEIO DA PRAIA ESTÁ ABERTO.
+SIDEKICK_TOURNAMENT_BEACHESB	O TORNEIO "DUB" DA PRAIA ESTÁ ABERTO.  UM MERCEDES-BENZ S600 2006 "DUB EDITION" É A RECOMPENSA!
+SIDEKICK_TOURNAMENT_DOWNTOWN	O TORNEIO DO CENTRO ESTÁ ABERTO.
+SIDEKICK_TOURNAMENT_DOWNTOWNB	O TORNEIO "DUB" DO CENTRO ESTÁ ABERTO.  UM LAMBORGHINI MURCIELAGO 2004 "DUB EDITION" É A RECOMPENSA!
+SIDEKICK_TOURNAMENT_HILLS	O TORNEIO DAS COLINAS ESTÁ ABERTO.
+SIDEKICK_TOURNAMENT_HILLSB	O TORNEIO "DUB" DO VALLEY ESTÁ ABERTO.  UM DODGE CHALLENGER "DUB EDITION" É A RECOMPENSA!
+SIDEKICK_TOURNAMENT_HOLLYWOOD	O TORNEIO DE HOLLYWOOD ESTÁ ABERTO.
+SIDEKICK_TOURNAMENT_HOLLYWOODB	O TORNEIO "DUB" DE HOLLYWOOD ESTÁ ABERTO.  UM CHEVY CAMARO "DUB EDITION" É A RECOMPENSA!
+SIDEKICK_TUNER_MUSCLE_REP	FAÇA ALGUMAS CORRIDAS COM UM MUSCLE CAR E UM TUNER.  ISSO VAI DAR UMA BOA NOÇÃO DE COMO CADA CARRO SE COMPORTA. 
+SIDEKICK_TUNER_REP	GANHE REP. CORRENDO COM UM TUNER E UM MUSCLE CAR.
+SIDEKICK_TWO_WHEEL_DRIVING_TIP	DIRIGIR SOBRE DUAS RODAS IMPEDE QUE OUTROS JOGADORES ENTREM NO SEU RASTRO E USEM O SST.
+SIDEKICK_VISUAL_PART_TIP_01	VOCÊ PODE PERSONALIZAR O SEU VEÍCULO COM PEÇAS VISUAIS NA GARAGEM.
+SIDEKICK_VISUAL_PART_TIP_02	VISITE A GARAGEM COM FREQUÊNCIA PARA PERSONALIZAR O VISUAL DO SEU VEÍCULO.
+SIDEKICK_VISUAL_PART_TIP_03	MUDE O VISUAL DO SEU VEÍCULO COM PEÇAS VISUAIS DA GARAGEM.
+SIDEKICK_VISUAL_PART_TIP_04	PEÇAS VISUAIS CHEGAM O TEMPO TODO NA GARAGEM.  LEMBRE-SE DE DAR UMA OLHADA.
+SIDEKICK_WARNING	CUIDADO, AQUELE CARA TEM AMIGOS E ACHO QUE ELES ESTÃO ATRÁS DE VOCÊ.
+SIDEKICK_ZONE	BOA DIREÇÃO, CARA, AGORA VOCÊ APRENDEU O ZONE.  USE-O PARA DESACELERAR O TEMPO E CONTROLAR O SEU VEÍCULO.
+Skew	INCLINAÇÃO
+VE_skew	INCLINAÇÃO
+SL_Host	ANFITRIÃO
+SL_Players	JOGADORES
+sound config	CONFIG. DE SOM
+Sparkle	BRILHO
+speed	VELOCIDADE
+spoiler	AEROFÓLIOS
+spoiler_5	SEM AEROFÓLIO
+SportBike	MOTO ESPORTIVA
+STANDARD_TITLE	O STANDARD HOTEL
+stat_Beat_TargetTime	SUPERE O TEMPO ALVO
+stat_Complete	CONCLUÍDO
+stat_Complete_All	CONCLUA TODOS OS OBJETIVOS
+Stat_Distance_Travled	DISTÂNCIA PERCORRIDA
+stat_g:LO_0	MAIOR CORRIDA
+stat_gAGH_0	TOTAL DE ACERTOS DE AGRO AMBIENTE
+stat_gAGR_0	TOTAL DE HABILIDADES ESPECIAIS AGRO
+stat_gBRN_0	TOTAL DE QUEIMAS DE PNEU
+stat_gCPA_0	TOTAL DE POLICIAIS ATIVADOS
+stat_gCPL_0	TOTAL DE POLICIAIS DESPISTADOS
+stat_gCPR_0	TOTAL DE PRISÕES
+stat_gCWN_0	VITÓRIAS CONSECUTIVAS FORA DA CARREIRA
+stat_gDAM_0	TOTAL DE PONTOS DE DANO
+stat_gDIP_0	TOTAL DE AFOGAMENTOS
+stat_gHOP_0	TOTAL DE OPONENTES ATINGIDOS
+stat_gHPR_0	TOTAL DE OBJETOS ATINGIDOS
+stat_ghTC_0	TOTAL DE HORAS CIRCULANDO
+stat_ghTP_0	TOTAL DE HORAS JOGADAS
+stat_gHTR_0	TOTAL DE VEÍCULOS DO TRÂNSITO ATINGIDOS
+stat_gk2W_0	DISTÂNCIA SOBRE DUAS RODAS
+stat_gkDS_0	DISTÂNCIA TOTAL PERCORRIDA
+stat_gkWL_0	DISTÂNCIA TOTAL EM EMPINADAS
+stat_gmJD_0	DISTÂNCIA MÁX. DE SALTO
+stat_gNIT_0	TOTAL DE NITRO
+stat_gOUT_0	TOTAL DE ELIMINAÇÕES POR DANO
+stat_gRCP_0	CORRIDAS CONCLUÍDAS
+stat_kRCP_0	CORRIDAS CONCLUÍDAS
+stat_gROR_0	TOTAL DE HABILIDADES ESPECIAIS ROAR
+stat_gsAT_0	MAIOR TEMPO NO AR
+stat_gsJT_0	TEMPO TOTAL DE SALTO
+stat_gSST_0	TOTAL DE SST
+stat_gvAS_0	VELOCIDADE MÉDIA
+stat_gvTS_0	VELOCIDADE MÁXIMA
+stat_gWIN_0	NÚMERO TOTAL DE VITÓRIAS
+stat_gWIP_0	TOTAL DE CAPOTAMENTOS
+stat_gZON_0	TOTAL DE HABILIDADES ESPECIAIS ZONE
+Stat_Incomplete	INCOMPLETO
+stat_k$CE_0	TOTAL DE DINHEIRO GANHO
+stat_k$WA_503	VALOR GANHO EM APOSTAS EM HOLLYWOOD
+stat_k$WA_511	VALOR GANHO EM APOSTAS NAS PRAIAS
+stat_k$WA_521	VALOR GANHO EM APOSTAS NAS COLINAS
+stat_k$WA_531	VALOR GANHO EM APOSTAS NO CENTRO
+stat_k%AG_0	PORCENTAGEM CONCLUÍDA
+stat_k2ND_0	NÚMERO DE SEGUNDOS LUGARES
+stat_k3RD_0	NÚMERO DE TERCEIROS LUGARES
+stat_k:TB_0	CONTRARRELÓGIO DE HOLLYWOOD: '99 ECLIPSE
+stat_k:TB_1	CONTRARRELÓGIO DE HOLLYWOOD: '83 GOLF
+stat_k:TB_10	CONTRARRELÓGIO DAS COLINAS:  '79 FIREBIRD
+stat_k:TB_11	CONTRARRELÓGIO DAS COLINAS:  '08 R32
+stat_k:TB_12	CONTRARRELÓGIO DO CENTRO: '99 3000GT
+stat_k:TB_13	CONTRARRELÓGIO DO CENTRO: '70 CHALLENGER
+stat_k:TB_14	CONTRARRELÓGIO DO CENTRO:  '07 SL65 AMG
+stat_k:TB_15	CONTRARRELÓGIO DO CENTRO:  '07 NINJA
+stat_k:TB_2	CONTRARRELÓGIO DE HOLLYWOOD:  '05 MUSTANG
+stat_k:TB_3	CONTRARRELÓGIO DE HOLLYWOOD:  '06 GALLARDO
+stat_k:TB_4	CONTRARRELÓGIO DA PRAIA:  '69 MUSTANG
+stat_k:TB_5	CONTRARRELÓGIO DA PRAIA:  '04 FOCUS
+stat_k:TB_6	CONTRARRELÓGIO DA PRAIA:  CAMARO CONCEPT
+stat_k:TB_7	CONTRARRELÓGIO DA PRAIA:  '08 GT
+stat_k:TB_8	CONTRARRELÓGIO DAS COLINAS:  '71 MIURA SV
+stat_k:TB_9	CONTRARRELÓGIO DAS COLINAS:  '88 SCIROCCO
+stat_kARS_0	MÉDIA DE REINÍCIOS
+stat_kCAR_0	CARROS DESBLOQUEADOS
+stat_kCCW_0	MAIOR SEQUÊNCIA DE VITÓRIAS
+stat_kCDL_0	ENTREGAS
+STAT_KCDL_504	ENTREGAS CONCLUÍDAS
+stat_kCWN_0	VITÓRIAS CONSECUTIVAS NA CARREIRA
+stat_kDLT_0	TOTAL DE ENTREGAS
+stat_kEXW_0	VITÓRIAS COM EXÓTICOS
+stat_kFWN_0	VITÓRIAS NA FREEWAY
+stat_kHOK_0	HOOKMEN VENCIDOS
+stat_khTC_0	HORAS CIRCULANDO
+stat_kLED_0	MAIS TROCAS DE LIDERANÇA
+stat_kLUW_0	VITÓRIAS COM CARROS DE LUXO
+stat_kMOW_0	VITÓRIAS DE MOTO
+stat_kMRS_0	MÁX. DE REINÍCIOS EM UMA CORRIDA
+stat_kMUW_0	VITÓRIAS COM MUSCLES
+stat_kPDS_0	VINGANÇAS DESTRUÍDAS
+stat_kRLW_0	VITÓRIAS NO SINAL VERMELHO
+stat_kSKL_0	HABILIDADE
+stat_kTOU_0	TORNEIOS VENCIDOS
+stat_kTRS_0	TOTAL DE REINÍCIOS
+stat_kTUW_0	VITÓRIAS COM TUNERS
+stat_kWIN_0	NÚMERO DE VITÓRIAS
+Stat_Num_Wins	NÚMERO DE VITÓRIAS
+stat_Min_Damage	DANO MÍNIMO
+stat_Race_Times	TEMPO DA CORRIDA
+Stat_Value	VALOR
+stat_Won_Race	CORRIDA VENCIDA
+STEER_AXIS	DIREÇÃO
+steer_whl	VOLANTES
+Steering_Wheel	VOLANTE DE CORRIDA - AUTOMÁTICO
+Steering_Wheel_Manual	VOLANTE DE CORRIDA - MANUAL
+SteeringWheel	VOLANTE
+Stockpile_FFA	ACÚMULO TODOS CONTRA TODOS
+Stockpile_SplitBase	ACÚMULO
+stormy	CHUVOSO
+style_desc	Escolha uma predefinição ou personalize totalmente
+style_prompt_use	USAR ESTE ESTILO
+Sunrise	NASCER DO SOL
+Sunset	PÔR DO SOL
+t_opponent	OPONENTES
+taillight	LANTERNAS TRASEIRAS
+TailLightMaterial	LANTERNAS TRASEIRAS
+TARGET_TIME_COL_NAME	TEMPO ALVO
+TARGET_TIME_LABEL	TEMPO ALVO
+TARGET_TIME_FORMAT	TEMPO ALVO: <D>TARGET_TIME</D>
+TD_Return_To_Garage	VOLTAR À GARAGEM
+TEAMGAME_LOOSE_TITLE	SUA EQUIPE PERDEU
+TEAMGAME_TIE_TITLE	EQUIPES EMPATADAS
+TEAMGAME_WIN_TITLE	SUA EQUIPE VENCEU
+Test_Next_Race	TESTAR PRÓXIMA CORRIDA
+Throttle_Stick	ANALÓGICO - AUTOMÁTICO
+Throttle_Stick_Manual	ANALÓGICO - MANUAL
+Throttle_Trigger	GATILHO - AUTOMÁTICO
+Throttle_Trigger_Manual	GATILHO - MANUAL
+ticket_desc	Você foi multado.
+ticket_infraction_destruction	DESTRUIÇÃO DE PROPRIEDADE
+ticket_infraction_header	INFRAÇÃO:
+ticket_infraction_reckless	DIREÇÃO IMPRUDENTE
+ticket_infraction_traffic	INFRAÇÃO DE TRÂNSITO
+TIME_LABEL	SEU TEMPO:
+TIME_REMAINING_LABEL	TEMPO RESTANTE:
+TIMETRIAL_BEACHES_DESC	KAROL liga falando de um CONTRARRELÓGIO aberto em Santa Monica.  Procure o ANDRE circulando pela San Vicente Blvd., em Santa Monica.
+TIMETRIAL_BEACHES_OBJ_01	REGISTRE O MELHOR TEMPO
+TIMETRIAL_DOWNTOWN_OBJ_01	REGISTRE O MELHOR TEMPO
+TIMETRIAL_HILLS_OBJ_01	REGISTRE O MELHOR TEMPO
+TIMETRIAL_HOLLYWOOD_OBJ_01	REGISTRE O MELHOR TEMPO
+TIMETRIAL_SC_OBJ_01	REGISTRE O MELHOR TEMPO
+TIMETRIAL_BEACHESB_DESC	ANDRE ligou.  Alguém superou o seu tempo no CONTRARRELÓGIO DA PRAIA.  Procure por ele em Santa Monica.
+TIMETRIAL_BEACHESB_TITLE	TEMPO ESGOTADO
+TIMETRIAL_BEACHESC_DESC	ANDRE avisa que o seu tempo foi superado de novo no CONTRARRELÓGIO DA PRAIA.  Procure por ele em Santa Monica para superar o tempo.
+TIMETRIAL_BEACHESC_TITLE	TEMPO ESGOTADO
+TIMETRIAL_DOWNTOWN_DESC	BOOKE liga avisando sobre um CONTRARRELÓGIO que está abrindo no Centro. Todo mundo usa o mesmo carro, na mesma corrida.  Procure o MIGUEL circulando por Southpark para te colocar nessa.
+TIMETRIAL_DOWNTOWN_TITLE	HORA DE CORRER
+TIMETRIAL_DOWNTOWNB_DESC	MIGUEL liga para dizer que o seu tempo no CONTRARRELÓGIO DO CENTRO foi superado.  Encontre-o circulando por Southpark, no Centro, para correr de novo.
+TIMETRIAL_DOWNTOWNB_TITLE	JÁ ERA HORA
+TIMETRIAL_DOWNTOWNC_DESC	MIGUEL avisa que o seu tempo no Centro foi superado.  Ele está circulando por Southpark, então procure por ele quando estiver pronto.
+TIMETRIAL_DOWNTOWNC_TITLE	O TEMPO ESTÁ CORRENDO
+TIMETRIAL_FAILURE	CONTRARRELÓGIO FALHOU
+TIMETRIAL_HILLS_DESC	ANDREW liga contando sobre um CONTRARRELÓGIO abrindo nas COLINAS. O MARCEL está circulando pela Mulholland.  Todo mundo usa o mesmo carro e a mesma corrida.  Procure por ele e veja se consegue o melhor tempo.
+TIMETRIAL_HILLS_TITLE	SUBINDO A SERRA
+TIMETRIAL_HILLSB_DESC	MARCEL liga e avisa que o seu tempo nas Colinas foi superado.  Encontre-o de novo para registrar um novo tempo.
+TIMETRIAL_HILLSB_TITLE	BATALHA MORRO ACIMA
+TIMETRIAL_HILLSC_DESC	O seu tempo foi superado de novo nas Colinas.  O MARCEL liga para lembrar você de encontrá-lo nas Colinas para registrar o melhor tempo de novo.
+TIMETRIAL_HILLSC_TITLE	NEM TUDO É DESCIDA
+TIMETRIAL_HOLLYWOOD_DESC	KAROL ouviu falar de um CONTRARRELÓGIO acontecendo em Hollywood.  Dizem que o OSWALDO está circulando pelo MacArthur Park, perto da Wilshire Blvd.  Procure por ele.
+TIMETRIAL_HOLLYWOODB_DESC	OSWALDO liga avisando que o seu tempo foi superado no CONTRARRELÓGIO de Hollywood.  Procure por ele se quiser tentar superá-lo.
+TIMETRIAL_HOLLYWOODB_TITLE	15 MINUTOS DE FAMA
+TIMETRIAL_HOLLYWOODC_DESC	O seu tempo foi superado de novo no CONTRARRELÓGIO de Hollywood.  O OSWALDO está atrás de você para registrar outro tempo.
+TIMETRIAL_HOLLYWOODC_TITLE	TEMPO NOS HOLOFOTES
+TIMETRIAL_HOOKMAN_DESC	Registre o seu melhor tempo em um dos veículos abaixo.
+TIMETRIAL_SUCCESS	NOVO TEMPO REGISTRADO
+Tint_10	CHEIO
+Tint_2	NÍVEL 1
+Tint_3	NÍVEL 2
+Tint_4	NÍVEL 3
+Tint_5	NÍVEL 4
+Tint_6	NÍVEL 5
+Tint_7	NÍVEL 6
+Tint_8	NÍVEL 7
+Tint_9	NÍVEL 8
+tir_car_bfg_rta_blkrl	LINHA VERMELHA
+tir_car_bfg_rta_ol	CONTORNO BRANCO
+tir_car_bfg_rta_wht	LETRAS BRANCAS
+tir_car_bfg_rta_whtrl	BRANCO C/ LINHA VERMELHA
+tir_car_bfg_rta_whtw	FAIXA BRANCA
+tir_car_bfg_rta_yel	LETRAS AMARELAS
+title_maintitle	PRINCIPAL
+TopBottom	DE BAIXO PARA CIMA
+TOURNAMENT_BEACHES_DESC	KAROL sabe de um TORNEIO acontecendo em Santa Monica.  O HENRY está circulando pela San Vicente, se você tiver interesse.
+TOURNAMENT_BEACHESB_DESC	O Torneio "DUB" da Praia está aberto em Santa Monica.  Um Mercedes-Benz S600 2006 "DUB Edition" é o prêmio para quem vencer na dificuldade DIFÍCIL.
+TOURNAMENT_BEACHESB_OBJ_01	VENÇA O TORNEIO "DUB" DA PRAIA NA DIFICULDADE DIFÍCIL
+TOURNAMENT_BEACHESB_TITLE	TORNEIO "DUB" DA PRAIA
+tournament_desc	Dispute pontos ao longo de várias corridas.  O piloto com mais pontos vence.
+TOURNAMENT_DOWNTOWN_DESC	DORA sabe de um TORNEIO no CENTRO.  BOOKE liga dizendo para você encontrá-la circulando perto do Centro de Convenções, em Southpark.
+TOURNAMENT_DOWNTOWNB_DESC	O Torneio "DUB" do Centro está aberto no Centro.  Um Lamborghini Murcielago 2004 "DUB Edition" é o prêmio para quem vencer na dificuldade DIFÍCIL.
+TOURNAMENT_DOWNTOWNB_OBJ_01	VENÇA O TORNEIO "DUB" DO CENTRO NA DIFICULDADE DIFÍCIL
+TOURNAMENT_DOWNTOWNB_TITLE	TORNEIO "DUB" DO CENTRO
+Tournament_FAILURE	TORNEIO PERDIDO
+TOURNAMENT_HILLS_DESC	BOOKE liga para avisar de um TORNEIO nas COLINAS comandado pelo TOMMY.  Você pode encontrá-lo circulando pelas COLINAS.
+TOURNAMENT_HILLSB_DESC	O Torneio "DUB" do Valley está aberto em Ventura.  Um Dodge Challenger "DUB Edition" é o prêmio para quem vencer na dificuldade DIFÍCIL.
+TOURNAMENT_HILLSB_OBJ_01	VENÇA O TORNEIO "DUB" DO VALLEY NA DIFICULDADE DIFÍCIL
+TOURNAMENT_HILLSB_TITLE	TORNEIO "DUB" DO VALLEY
+TOURNAMENT_HOLLYWOOD_DESC	KAROL avisa de um TORNEIO em HOLLYWOOD.  Encontre o amigo dele, LEON, circulando pelo shopping em Century City para participar.
+TOURNAMENT_HOLLYWOODB_DESC	O Torneio "DUB" de Hollywood está aberto em Hollywood.  Um Chevy Camaro "DUB Edition" é o prêmio para quem vencer na dificuldade DIFÍCIL.
+TOURNAMENT_HOLLYWOODB_OBJ_01	VENÇA O TORNEIO "DUB" DE HOLLYWOOD NA DIFICULDADE DIFÍCIL
+TOURNAMENT_HOLLYWOODB_TITLE	TORNEIO "DUB" DE HOLLYWOOD
+Tournament_SUCCESS	TORNEIO VENCIDO
+traf_default	NORMAL
+traf_low	BAIXO
+Tuner	TUNER
+TUNER_CHAMP_DESC	JULIAN liga te desafiando para uma corrida com um TUNER.  JULIAN diz que tem o Mitsubishi Evolution mais rápido da cidade e que só corre com outros tuners.
+TUNER_CHAMP_OBJ_01	VENÇA O JULIAN COM UM VEÍCULO TUNER
+tuner_champ_restriction	Você precisa estar dirigindo um veículo TUNER para desafiar o JULIAN.
+TUNER_CHAMP_TITLE	CAMPEÃO DOS TUNERS
+TUNER_REP_DESC	BOOKE liga dizendo para você ganhar experiência dirigindo o seu TUNER.  Ganhe REP. com o seu tuner e ele te arranja um desafio.
+TUNER_REP_OBJ_01	VENÇA 6 CORRIDAS COM UM TUNER
+TUNER_REP_TITLE	TURBINADO
+Tutorial	CORRIDA TUTORIAL
+tutorial_agro_desc	Dirija limpo para carregar o seu AGRO.  Quanto mais o AGRO é usado, mais cargas você ganha.
+tutorial_agro_desc_detailed_page1	Libere a raiva acumulada do trânsito com o AGRO.  O AGRO deixa o seu carro temporariamente invencível, permitindo bater e empurrar outros veículos sem sofrer dano.  A experiência é concedida cada vez que você usa o AGRO. A experiência melhora a habilidade, permitindo armazenar mais unidades.
+tutorial_air_controls_desc_detailed_page1	Quando você está no ar, pode controlar o seu carro com a TRANSFERÊNCIA DE PESO.  Isso permite controlar a inclinação e a guinada do carro para aterrissar os saltos e manter a velocidade.
+tutorial_air_controls_title	CONTROLES NO AR
+tutorial_beat_me_there_desc	Chegue antes do oponente à largada da corrida.  Pisque de novo para encontrar o oponente na largada.  Encontrar o oponente não rende REP.
+tutorial_beat_me_there_desc_detailed_page1	Quando você IGUALA A VELOCIDADE e PISCA OS FARÓIS para um oponente, começa uma corrida até o local de largada que rende REP.  Você pode pular a corrida piscando os faróis de novo, mas não ganha REP.  Você pode correr com o oponente 3 vezes seguidas antes de voltar ao passeio.
+tutorial_burnout_desc_detailed_page1	Segurar o freio de mão enquanto pisa no acelerador faz uma QUEIMA DE PNEUS.  Soltar o freio de mão dá um impulso rápido de velocidade. 
+tutorial_burnout_title	QUEIMA DE PNEUS
+tutorial_challenge_desc	Desafie um piloto igualando a VELOCIDADE dele e piscando os FARÓIS.
+tutorial_challenge_desc_detailed_page1	Desafie um piloto que está circulando IGUALANDO a VELOCIDADE dele e PISCANDO os FARÓIS quando o oponente estiver à FRENTE do seu veículo.
+tutorial_challenge_title	DESAFIAR PILOTO
+tutorial_circuit_race_desc_detailed_page1	CORRIDAS DE CIRCUITO são corridas ordenadas com várias voltas.  O fim de cada volta é marcado por um checkpoint verde.  O número de voltas aparece no HUD. O nitro é reabastecido no início de cada volta (se instalado).  O checkpoint final da última volta é vermelho.
+tutorial_collectables_desc	Você acabou de encontrar um colecionável.  Os colecionáveis podem ser usados para desbloquear códigos.
+tutorial_delivery_desc	Entregue carros dentro do limite de tempo e com o mínimo de dano.
+tutorial_delivery_desc_detailed_page1	ENTREGUE carros da Garagem de Hollywood aos donos deles dentro do TEMPO ALVO para receber o seu pagamento.  Mas cuidado para não DANIFICAR o carro, pois o dano sofrido afeta o valor da entrega.  Uma entrega perfeita dobra o seu pagamento.  Um veículo totalmente danificado não rende nada.
+tutorial_emp_desc	Dirija limpo para carregar o seu EMP.  Quanto mais o EMP é usado, mais cargas você ganha.
+tutorial_emp_desc_detailed_page1	Disparar o EMP desativa temporariamente os sistemas elétricos dos veículos ao seu redor.  Eles entram em curto e perdem aceleração, permitindo que você passe por eles.  A experiência é concedida cada vez que você usa o EMP.  A experiência melhora a habilidade, permitindo armazenar mais unidades.
+tutorial_flash_desc	Pisque os faróis para correr.
+tutorial_flash_title	PISQUE PARA CORRER
+tutorial_freeway_racer_desc	As Corridas de Freeway acontecem nas freeways e começam imediatamente quando você pisca os faróis.
+tutorial_freeway_racer_desc_detailed_page1	As CORRIDAS DE FREEWAY acontecem exclusivamente nas freeways.  IGUALE A VELOCIDADE e PISQUE OS FARÓIS para os pilotos de freeway que estão circulando para começar na hora uma corrida até a chegada.
+tutorial_garage_detailed_page1	Na garagem você pode melhorar e gerenciar seus veículos.  É possível comprar melhorias de desempenho e visuais.  Os veículos também podem ser COMPRADOS e vendidos pela garagem.  Você não pode vender o seu último veículo.  O Karol avisa quando conseguir novas melhorias ou carros novos para você comprar.
+tutorial_gas_station_desc	Nesses POSTOS DE SERVIÇO você pode reparar o seu veículo ou reabastecer o nitro (quando instalado).  Uma carga de NITRO é reabastecida quando você passa em velocidade.
+tutorial_gas_station_desc_detailed_page1	Um POSTO DE SERVIÇO serve para consertar o seu carro e reabastecer o nitro.  Em uma CORRIDA, se você passar por um posto de serviço, uma carga de nitro é reabastecida.  No PASSEIO, você pode fazer o REPARO COMPLETO ou REABASTECER todas as cargas de nitro vazias (quando instalado).
+tutorial_gas_station_title	POSTOS DE SERVIÇO
+tutorial_gps_desc	As corridas e o conteúdo da cidade podem ser vistos e marcados como alvo pelo GPS.
+tutorial_gps_desc_special	O conteúdo de corridas pode ser destacado com o ANALÓGICO ESQUERDO.  Usar o DIRECIONAL pula o cursor para o ícone mais próximo.  Depois de selecionar, aperte A para definir como alvo ou Y para ver os detalhes da missão no diário de missões.
+tutorial_gpsmap_desc_detailed_page1	O GPS é um mapa interativo de toda a cidade.  A localização do CONTEÚDO DE CORRIDAS pode ser vista e definida como ALVO.  As MISSÕES podem ser vistas pelo DIÁRIO DE MISSÕES.  Apertar o botão VOLTAR acessa o mapa do GPS.  
+tutorial_gpsmap_description1	O conteúdo de corridas disponível pode ser visto no Mapa do GPS.  Os ícones podem ser selecionados com o direcional e definidos como alvo apertando o botão A.  Os ícones de missão pulsam.
+tutorial_gpsmap_description2	Os ícones têm cores que representam a dificuldade.  Os verdes são os mais fáceis, os amarelos são médios, os laranjas são difíceis e os vermelhos são os mais difíceis.
+tutorial_mission_log_desc	Você está recebendo uma mensagem no seu SIDEKICK.  Para ver todos os detalhes, acesse o seu diário de missões.
+tutorial_mission_log_desc_detailed_page1	As missões chegam no seu SIDEKICK.  Enquanto recebe uma mensagem do SIDEKICK, apertar o botão VOLTAR acessa o seu DIÁRIO DE MISSÕES.  Durante o passeio, você também pode acessar o DIÁRIO DE MISSÕES apertando o botão Y no mapa do GPS.  No diário de missões, você pode ver as missões ATIVAS e CONCLUÍDAS, além dos TUTORIAIS.  Aperte o botão esquerdo (LB) para ver as missões ativas.
+tutorial_motorcycle_desc	Para aprender sobre transferência de peso e outras habilidades de moto, veja o seu Diário de Tutoriais.
+tutorial_motorcycle_desc_detailed_page1	Ao pilotar uma MOTO, controlar a transferência de peso ajuda a fazer curvas mais fechadas e a controlar o veículo no ar.  Para EMPINAR, use a transferência de peso para puxar o peso do piloto para trás enquanto acelera para a frente.  Você pode fazer um ENDO freando e transferindo o peso do piloto para a frente.
+tutorial_motorcycle_title	MOTOS
+tutorial_nitrous_desc	Você acabou de instalar o Nitro.  Use-o para dar um impulso extra.
+tutorial_nitrous_desc_detailed_page1	Usar o NITRO dá uma explosão de velocidade quando você mais precisa.  Várias cargas de nitro podem ser armazenadas ao mesmo tempo.  Cargas adicionais podem ser compradas na GARAGEM e reabastecidas nos POSTOS DE SERVIÇO.  O nitro é reabastecido no início e no fim das corridas.  O nitro não é reabastecido durante corridas dinâmicas (corridas de Freeway, Chegue-antes-de-mim etc...)
+tutorial_ordered_race_desc_detailed_page1	Nas CORRIDAS ORDENADAS, a rota da corrida é marcada por uma série de sinalizadores amarelos.  Dentro de cada sinalizador há uma seta que aponta na direção do próximo checkpoint.  Os checkpoints precisam ser passados na ordem em que aparecem.  O checkpoint final é vermelho.
+tutorial_payback_desc_detailed_page1	Ajude o Karol a se VINGAR de clientes que não pagaram as contas.  Pegue emprestado o carro velho do Karol na GARAGEM DA PRAIA e cause dano ao veículo do alvo.  Termine antes que o tempo acabe ou esteja pronto para escapar dos amigos do cliente!
+tutorial_pink_slip_desc_detailed_page1	Acontecendo nos Encontros de Aposta, as CORRIDAS DE PINK SLIP permitem apostar o seu veículo contra o do oponente.  Depois que uma CORRIDA DE PINK SLIP é aceita, você não pode desistir nem reiniciar a corrida sem perder o seu veículo.  O vencedor leva os dois veículos.  Se você perder, sempre pode ganhar de volta até 3 dos seus veículos no encontro.
+tutorial_pink_slip_title	CORRIDAS DE PINK SLIP
+tutorial_pinkslip_title	CORRIDAS DE PINK SLIP
+tutorial_pinkslip_desc	Você pode apostar o seu veículo em uma CORRIDA DE PINK SLIP.  O vencedor leva os dois veículos.
+tutorial_police_desc	Cuidado com a Polícia.  O detector de radar avisa quando ela está por perto.
+tutorial_police_desc_detailed_page1	Se a POLÍCIA vir você cometendo uma infração de trânsito, ela vai tentar encostar o seu carro.  Você pode encostar e pagar a multa ou tentar fugir.  Se pegarem você em um racha, vão tentar prender você na hora.  Quanto mais tempo durar a perseguição, mais agressiva a polícia fica ao tentar te parar.  Você pode evitar excesso de velocidade pisando de leve no acelerador para manter uma velocidade constante e ficar abaixo do limite.
+tutorial_police_pursuit_desc	Despiste a polícia saindo da frente dela e depois ficando fora do campo de visão.  Você ganha REP. por despistar a polícia.
+tutorial_police_pursuit_live_desc	Saia da frente dos policiais e fique fora de vista.
+tutorial_prompt_flash	PISQUE OS FARÓIS
+tutorial_quick_fix_desc	O dano pode ser reparado com um REPARO RÁPIDO nos menus de fim de corrida ou com um REPARO COMPLETO nos postos de serviço.
+tutorial_quick_fix_desc_detailed_page1	O dano pode ser reparado com um REPARO RÁPIDO ou REPARO COMPLETO. O REPARO RÁPIDO deixa o seu veículo funcionando entre as corridas.  O REPARO COMPLETO conserta totalmente o veículo, mas você precisa visitar um posto de serviço ou uma garagem.
+tutorial_quick_fix_title	REPARO COMPLETO/RÁPIDO
+tutorial_race_difficulty_desc	A cor do piloto define o quão difícil a corrida será.  Quanto mais difícil a corrida, mais REP. e dinheiro você pode ganhar.
+tutorial_race_difficulty_desc_detailed_page1	A COR do ícone de um piloto indica a DIFICULDADE do PILOTO e do TRAÇADO DA CORRIDA.  A ordem de dificuldade, do mais fácil ao mais difícil, é Verde, Amarelo, Laranja e Vermelho.  A dificuldade se reflete em oponentes mais rápidos e traçados mais desafiadores, que rendem mais dinheiro e mais REP.
+tutorial_race_difficulty_title	DIFICULDADE DA CORRIDA
+tutorial_race_editor_desc_detailed_page1	CRIE e EDITE as suas próprias corridas no EDITOR DE CORRIDAS.  As corridas podem ser salvas e jogadas online.  O editor de corridas está disponível no passeio da carreira e no passeio online.
+tutorial_rate_my_ride_desc_detailed_page1	Envie o seu melhor veículo para o AVALIE MEU CARRO para que todos vejam e avaliem online.  Você pode colocar o seu veículo à venda e, na próxima vez que visitar o AVALIE MEU CARRO, receberá uma taxa por cada vez que ele for vendido.  Você acessa o AVALIE MEU CARRO pela opção Xbox LIVE no menu de pausa.
+tutorial_red_light_racer_desc	As Corridas de Sinal Vermelho começam no CRUZAMENTO mais próximo e vão até um MARCO.
+tutorial_redlight_desc	As Corridas de Sinal Vermelho começam no CRUZAMENTO mais próximo e vão até um MARCO.
+tutorial_red_light_racer_desc_detailed_page1	As CORRIDAS DE SINAL VERMELHO são corridas de um checkpoint que começam no SINAL VERMELHO mais próximo e terminam em um marco do outro lado da cidade.  Iguale a velocidade do piloto que está circulando e pisque os faróis para começar uma corrida.
+tutorial_rep_points_detailed_page1	Vencer corridas aumenta a sua REP. na cidade.  Corridas e missões mais difíceis rendem mais REP.  Ganhar REP. libera mais missões e aumenta o seu NÍVEL.  Peças de desempenho e veículos são desbloqueados quando você aumenta o seu NÍVEL.  A REP. ganha é registrada por tipo de veículo e acompanhada no seu NÍVEL DE TIPO DE VEÍCULO.  A REP. ganha online desbloqueia peças e veículos, mas não faz a sua carreira avançar.
+tutorial_rep_points_title	REPUTAÇÃO
+tutorial_roar_desc	Dirija limpo para carregar o seu ROAR.  Quanto mais o ROAR é usado, mais cargas você ganha.
+tutorial_roar_desc_detailed_page1	Alto e orgulhoso!  O ROAR acelera o seu motor e emite uma onda de choque destrutiva na frente do veículo.  O veículo à sua frente é atingido pela onda sonora.  A experiência é concedida cada vez que você usa o ROAR.  A experiência melhora a habilidade, permitindo armazenar mais unidades.
+tutorial_Series_desc	Os pilotos também podem ser desafiados nos Encontros.  Vença 3 corridas em uma série para vencer o Encontro.
+tutorial_Series_desc_detailed_page1	As CORRIDAS DE SÉRIE são conjuntos de corridas disputadas a partir de ENCONTROS pela cidade.  O primeiro piloto a vencer 3 corridas vence a série.  As corridas individuais de uma série não podem ser reiniciadas, apenas a série inteira.
+tutorial_Series_title	CORRIDAS DE SÉRIE
+tutorial_sidekick_desc	O seu SIDEKICK da T-Mobile vai anunciar as Missões que fazem a sua carreira avançar.  O botão do Mapa Aéreo dispensa o SIDEKICK quando ele está aberto.
+tutorial_sidekick_title	T-Mobile SIDEKICK
+tutorial_slipstream_desc	Ficar no vácuo dos oponentes carrega o Slip Stream Turbo.  Quando estiver cheio, aperte o nitro para ganhar um impulso extra de velocidade.
+tutorial_slipstream_desc_detailed_page1	Ficar no vácuo de outros pilotos carrega o seu SLIP STREAM TURBO.  Quando saem rastros do veículo do oponente, você pode carregar o seu medidor de SST.  Quando o medidor estiver cheio, saia do vácuo e aperte o nitro para ganhar um impulso de velocidade.  Se esperar demais, você perde a carga.  Quanto mais perto do oponente, mais rápido o medidor de SST carrega.  Quando aparecem rastros saindo do seu veículo, é sinal de que outros pilotos estão no seu vácuo.
+tutorial_slipstream_title	SLIP STREAM TURBO
+tutorial_slipstream_use_desc	Aperte o nitro para usar.
+tutorial_slipstream_use_title	SST CHEIO 
+tutorial_special_ability_desc	Você acabou de instalar uma habilidade especial. Vá ao mapa do GPS para mais detalhes.
+tutorial_special_ability_desc_detailed_page1	Desbloqueadas na carreira, as HABILIDADES ESPECIAIS são carregadas dirigindo limpo.  Quanto mais uma habilidade é usada, mais experiência o jogador ganha com ela.  No início, a carga é mais lenta e a duração é mais curta.  Com mais experiência, a carga é mais rápida e a duração é mais longa.  Cada novo nível dá uma carga adicional.
+tutorial_target_desc	Os alvos do GPS aparecem destacados no Minimapa.  A seta direcional aponta na direção do alvo.
+tutorial_target_desc_detailed_page1	No PASSEIO, o MINIMAPA pode ser usado para localizar conteúdo de corridas.  Nas CORRIDAS, o minimapa indica os checkpoints.  Os alvos fora do mapa aparecem no perímetro.  Uma visão de HUD pode ser alternada apertando o direcional para cima.
+tutorial_target_title	MINIMAPA
+tutorial_telephone_challenge_desc	Se você aceitar um desafio por telefone, você escolhe o local e os detalhes da corrida. 
+tutorial_telephone_challenge_desc_detailed_page1	Os DESAFIOS POR TELEFONE chegam no seu SIDEKICK.  Se você aceitar o desafio, define os detalhes e escolhe o traçado de onde correr pelo seu GPS.  O desafiante encontra você lá. 
+tutorial_telephone_challenge_title	DESAFIO POR TELEFONE
+tutorial_time_trial_desc	Pisque os faróis para este piloto para entrar no Contrarrelógio.
+tutorial_time_trial_desc_detailed_page1	Os CONTRARRELÓGIOS são eventos em que o mesmo veículo é usado para registrar o melhor tempo de uma corrida.  Depois os pilotos tentam superar o melhor tempo registrado.  Para iniciar um Contrarrelógio, iguale a velocidade e pisque os faróis para o piloto do Contrarrelógio que está circulando.
+tutorial_time_trial_title	CONTRARRELÓGIOS
+tutorial_tournament_desc	Pisque os faróis para este piloto para entrar no Torneio.
+tutorial_tournament_desc_detailed_page1	Um TORNEIO é um evento de várias corridas em que os pontos são concedidos conforme a colocação de cada oponente.  No fim do Torneio, o piloto com mais pontos vence.  Para iniciar um Torneio, iguale a velocidade e pisque os faróis para o piloto do Torneio que está circulando.  As corridas individuais de um Torneio não podem ser reiniciadas, apenas o Torneio inteiro.
+tutorial_tournament_title	TORNEIOS
+tutorial_two_wheel_driving_detailed_page1	Os oponentes podem usar o Slip Stream Turbo em você ficando no rastro do seu veículo.  Reduza o seu perfil e elimine a capacidade do oponente de pegar o seu vácuo dirigindo sobre duas rodas quando vir rastros saindo do seu veículo.  Você também pode impedir que os oponentes peguem o seu vácuo andando de moto.  As motos podem pegar o vácuo dos carros, mas carros e motos não podem pegar o vácuo e usar SST em motos. 
+tutorial_two_wheel_driving_title	DIREÇÃO SOBRE DUAS RODAS
+tutorial_unordered_race_desc_detailed_page1	Nas CORRIDAS SEM ORDEM, os checkpoints podem ser passados em qualquer ordem.  Quando todos forem passados,  um checkpoint final vermelho aparece.  O primeiro a chegar ao checkpoint final vence.
+tutorial_vehicle_rank_detailed_page1	A REP. ganha é registrada para cada TIPO DE VEÍCULO.  Quando você sobe o NÍVEL DO TIPO DE VEÍCULO, peças visuais são desbloqueadas e ficam disponíveis na garagem para aquele tipo de veículo.
+tutorial_vehicle_rank_title	NÍVEL DO TIPO DE VEÍCULO
+tutorial_wager_desc	Você pode fazer apostas nestes encontros.  Quanto maior a aposta, mais difícil a corrida.
+tutorial_wager_desc_detailed_page1	As CORRIDAS COM APOSTA são uma forma de o jogador apostar dinheiro em corridas.  O valor apostado define a dificuldade da corrida. As corridas com aposta são um contra um.  Depois que o jogador faz a aposta, o dinheiro é retirado dele e entregue no fim da corrida.  Ganhar uma aposta dobra o dinheiro apostado pelo jogador.  As Corridas com Aposta não podem ser reiniciadas sem perder a aposta.
+tutorial_wager_title	CORRIDAS COM APOSTA
+tutorial_zone_desc	Dirija limpo para carregar o seu ZONE.  Quanto mais o ZONE é usado, mais cargas você ganha.
+tutorial_zone_desc_detailed_page1	O ZONE permite que você se concentre no momento da corrida, dando a percepção de que o tempo desacelera.  Com o ZONE ativo, você tem controle aprimorado do veículo e mais aderência.  A experiência é concedida cada vez que você usa o ZONE.  A experiência melhora a habilidade, permitindo armazenar mais unidades.
+tutorial_zone_title	ZONE
+ZONE	ZONE
+TwoTone	DUAS CORES
+UNKNOWN	TIPO DE CORRIDA DESCONHECIDO
+VE_accept_color	ACEITAR COR
+VE_amMftr	PÓS-VENDA
+VE_Animal	ANIMAL
+VE_ApplyPreset	APLICAR
+VE_Auto	AUTO
+VE_change_camHeight	ALTURA DA CÂMERA
+VE_change_color	TROCAR COR
+VE_change_position	TROCAR POSIÇÃO
+VE_change_scale	TROCAR ESCALA
+VE_change_shape	TROCAR FORMA
+VE_changeMask	TROCAR MÁSCARA
+VE_Copy_Group	COPIAR GRUPO
+VE_Copy_Layer	COPIAR CAMADA(S)
+VE_CreateEditVinyls	CRIAR/EDITAR ADESIVOS
+VE_Cut_Layer	RECORTAR CAMADA(S)
+VE_Delete_Layer	EXCLUIR CAMADA(S)
+VE_edit_color	EDITAR SLOT DE COR
+VE_ExitVinylEditor	SAIR DO EDITOR DE ADESIVOS
+VE_Fades	DEGRADÊS
+VE_Flourish	ADORNO
+VE_fontBayer	FONTE 1
+VE_fontRailway	FONTE 2
+VE_fontSDBlack	FONTE 5
+VE_fontSimChimp	FONTE 4
+VE_fontSpace	FONTE 3
+VE_Group_Edit	EDITAR GRUPO
+VE_Group_Options	OPÇÃO DE GRUPO
+VE_Group_Select	ESCOLHER GRUPO
+VE_Hell	MALIGNO
+VE_Hide_Options	OCULTAR AJUSTES
+VE_Icon	ÍCONE
+VE_Insert_Layer	INSERIR CAMADA(S)
+VE_Layer_Edit	EDITAR CAMADA
+VE_Layer_Options	AJUSTES DA CAMADA
+VE_Mark_All_Layers	MARCAR TODAS AS CAMADAS
+VE_Mark_layer	MARCAR/DESMARCAR
+VE_Mftr	FAB.
+VE_MftrTxt	FABRICANTE
+VE_mirror	ESPELHO
+VE_opacity	OPACIDADE
+VE_Paste_Group	COLAR GRUPO
+VE_Paste_Layer	COLAR CAMADA(S)
+VE_Prev_Next_Category	ANT./PRÓX.
+VE_Remove_Group	REMOVER GRUPO
+VE_Remove_Layer	REMOVER CAMADA
+VE_reset_to_default	REDEFINIR SLOT DE COR 
+VE_SaveAsPreset	SALVAR
+VE_SaveAsVinylPackage	SALVAR PACOTES DE ADESIVOS
+VE_SelectVinylPackage	PACOTES DE ADESIVOS
+VE_Shape	FORMAS
+VE_Tattoo	TATUAGEM
+VE_Techno	TECHNO
+VE_Tribal	TRIBAL
+VE_UnMark_All_Layers	DESMARCAR TODAS AS CAMADAS
+VE_Urban	URBANO
+VE_Vinyls	ESCOLHER CAMADA
+VE_Weapons	ARMAS
+Vehicle Restriction	RESTRIÇÃO DE VEÍCULO
+VEHICLE_CLASS_RESTRICTION	RESTRIÇÃO DE CLASSE DE VEÍCULO
+vehicle_Group1	GRUPO 1
+vehicle_Group2	GRUPO 2
+vehicle_Group3	GRUPO 3
+vehicle_Group4	GRUPO 4
+vehicle_PerfClassA	VEÍCULO: CLASSE A
+vehicle_PerfClassA_Short	CLASSE A
+vehicle_PerfClassB	VEÍCULO: CLASSE B
+vehicle_PerfClassB_Short	CLASSE B
+vehicle_PerfClassC	VEÍCULO: CLASSE C
+vehicle_PerfClassC_Short	CLASSE C
+vehicle_PerfClassD	VEÍCULO: CLASSE D
+vehicle_PerfClassD_Short	CLASSE D
+VEHICLE_TYPE_RESTRICTION	RESTRIÇÃO DE TIPO DE VEÍCULO
+View_Friends	VER AMIGOS
+VinylPresetSave	SALVAR ADESIVOS
+VL_Copy	COPIAR
+VL_Paste	COLAR
+VL_Preset	PREDEFINIÇÃO
+voice volume	VOLUME DAS VOZES
+Wager	CORRIDA COM APOSTA
+WAGER_AMOUNT_DESC	Muita gente quer correr valendo DINHEIRO.  Defina a sua DIFICULDADE e o valor que quer apostar.
+WAGER_AMOUNT_TITLE	VALOR DA APOSTA
+WAGER_DESC	Quão bom você é?
+WAGER_FAILURE	APOSTA PERDIDA
+wager_hangout_desc	Selecione o tipo de corrida em que você quer entrar.
+WAGER_SUCCESS	APOSTA GANHA
+warp_to_hangout	IR PARA O ENCONTRO
+WEIGHT_XFER	TRANSFERÊNCIA DE PESO
+Wet	MOLHADO
+WheelBrake	PEDAL ESQUERDO
+WheelGas	PEDAL DIREITO
+WheelPaddleLeft	PALHETA ESQUERDA
+WheelPaddleRight	PALHETA DIREITA
+Wheels And Tires	RODAS E PNEUS
+You own this vehic1e	VOCÊ TEM ESTE VEÍCULO
+YOU WIN!	VOCÊ VENCEU!
+Your Time	SEU TEMPO
+YOUR_DAMAGE_FORMAT	DANO VISUAL SOFRIDO: <D>YOUR_DAMAGE</D>%
+YOUR_TIME_FORMAT	SEU TEMPO: <D>YOUR_TIME</D>
+Zone level 1	ZONE NÍVEL 2
+ZONE_LEVEL_1	ZONE NÍVEL 2
+Zone level 2	ZONE NÍVEL 3
+ZONE_LEVEL_2	ZONE NÍVEL 3
+Zoom In/Out	AUMENTAR/DIMINUIR ZOOM
+downloadable_content_reboot_desc	Obrigado por baixar South Central.  Aguarde enquanto as novas áreas da cidade e o novo conteúdo são carregados.
+BEAT_GH_26_SUV_DESC	DOC quer correr com você no novo Range Rover maneiríssimo dele.  Traga um SUV para Baldwin Hills.
+BEAT_GH_26_SUV_OBJ_01	VENÇA O DOC COM UM SUV
+BEAT_GH_26_SUV_RESTRICTION	Você precisa estar dirigindo um SUV para desafiar o DOC.
+BEAT_GH_26_SUV_TITLE	DE ALTO NÍVEL
+BESTOF_GH_26_DESC	DOC quer correr com você.  Ele está circulando pela Century Blvd. no Malibu '65 old school dele.
+BESTOF_GH_26_OBJ_01	VENÇA O DOC NA MELHOR DE 3
+BESTOF_GH_26_TITLE	VISITA EM DOMICÍLIO
+BESTOF_GH_27_DESC	RAYMOND ligou te desafiando para uma corrida.  Encontre-o circulando pela Century Blvd. ou perto dela.
+BESTOF_GH_27_OBJ_01	VENÇA O RAYMOND NA MELHOR DE 3
+BESTOF_GH_27_TITLE	O LADO SUL
+BESTOF_GH_31_DESC	JESUS ligou para avisar que está circulando por Crenshaw.  Ele corre com você na melhor de 3, se tiver interesse.
+BESTOF_GH_31_OBJ_01	VENÇA O JESUS NA MELHOR DE 3
+BESTOF_GH_31_TITLE	THE SHAW
+DELIVERY_SC	ENTREGA EM SOUTH CENTRAL
+DELIVERY_SC_TITLE	ENTREGA EM SOUTH CENTRAL
+DELIVERY_SC_DESC	DOC precisa que você entregue 5 carros para ele.  Os carros estarão na Oficina de South Central.  Ele vai te avisar onde entregar cada um quando você chegar lá.
+G_ChooseRims_DLC	RODAS DE SOUTH CENTRAL
+GARAGE_SC_DESC	KAROL ligou avisando de um mecânico em South Central.  É um velho amigo que pode conhecer a cena de South Central.
+GARAGE_SC_OBJ_01	ENCONTRE A GARAGEM DO DOC
+GARAGE_SC_TITLE	O MECÂNICO
+HANGOUT_PINKSLIP_SC_DESC	DOC conta sobre um lugar na quebrada onde se corre por PINK SLIPS.  Visite a Fábrica Abandonada em Huntington Park.
+HANGOUT_PINKSLIP_SC_OBJ_01	VENÇA O PONTIAC GTO 66 DA PINKY
+HANGOUT_PINKSLIP_SC_TITLE	COISA ROSA
+HANGOUT_SERIES_SC_DESC	DOC ligou contando sobre uns locais que correm saindo do Kenneth Hahn State Park.  Fica logo depois da Stocker St.  Você não tem como errar.
+HANGOUT_SERIES_SC_OBJ_01	VENÇA A CORRIDA DA SÉRIE EM SOUTH CENTRAL
+HANGOUT_SERIES_SC_TITLE	ENCONTRO EM SOUTH CENTRAL
+HANGOUT_WAGER_SC_DESC	DOC te desafia a ganhar apostas daqueles caras da Fábrica Abandonada.
+HANGOUT_WAGER_SC_OBJ_01	GANHE APOSTAS EM SOUTH CENTRAL
+HANGOUT_WAGER_SC_TITLE	FAZENDO DINHEIRO
+LowRider	LOWRIDER
+LOWRIDER_REP_DESC	DOC ligou dizendo para você ganhar experiência dirigindo um LOWRIDER.  Ganhe REP. com um LOWRIDER e ele te arranja um desafio.
+LOWRIDER_REP_OBJ_01	VENÇA 6 CORRIDAS COM UM LOWRIDER
+LOWRIDER_REP_TITLE	MANTENDO BAIXO
+pause_ol_description_ContentOutofDate	Não é possível entrar porque este jogador não tem o conteúdo para download de South Central nem o pacote de compatibilidade
+RACES_IN_SC_DESC	RAYMOND ligou te desafiando a ganhar algumas corridas em South Central.  Vença 6 corridas na "selva de pedra".
+RACES_IN_SC_OBJ_01	VENÇA 6 CORRIDAS EM SOUTH CENTRAL
+RACES_IN_SC_TITLE	PASSEIO DE DIVERSÃO
+REMINDER_BEAT_GH_26_SUV	NÃO ESQUEÇA, ESTOU CIRCULANDO POR BALDWIN HILLS.  TRAGA UM SUV.
+REMINDER_BESTOF_GH_26	NÃO ESQUEÇA.  MELHOR DE 3. VENHA ME ENCONTRAR.
+REMINDER_BESTOF_GH_27	NÃO ESQUEÇA.  MELHOR DE 3. VENHA ME ENCONTRAR.
+REMINDER_BESTOF_GH_31	NÃO ESQUEÇA, ESTOU CIRCULANDO POR CRENSHAW.
+REMINDER_DELIVERY_SC	TENHO UM TRABALHO PARA VOCÊ.  VENHA ME PROCURAR.
+REMINDER_GARAGE_SC	QUANDO TIVER UM TEMPINHO, VÁ ENCONTRAR O DOC NA GARAGEM DELE EM SOUTH CENTRAL.
+REMINDER_HANGOUT_PINKSLIP_SC	SE VOCÊ SE ACHA O BOM, VÁ PEGAR O PINK SLIP DA PINKY.
+REMINDER_HANGOUT_SERIES_SC	VÁ TESTAR SUA HABILIDADE AO VOLANTE NO KENNETH HAHN STATE PARK.
+REMINDER_HANGOUT_WAGER_SC	VÁ GANHAR UMA GRANA NA FÁBRICA ABANDONADA.
+REMINDER_LOWRIDER_REP	PEGUE AQUELE SEU LOWRIDER E GANHE ALGUMAS CORRIDAS.
+REMINDER_RACES_IN_SC	VÁ GANHAR ALGUMAS CORRIDAS EM SOUTH CENTRAL.
+REMINDER_REPEAT_BESTOF_SC	NÃO ESQUEÇA!  QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA CRENSHAW.
+REMINDER_REPEAT_HANGOUT_WAGER_SC	VOCÊ SEMPRE PODE FAZER UMA APOSTA NA FÁBRICA ABANDONADA.
+REMINDER_REPEAT_TOURNAMENT_SC	DISPUTE O TORNEIO DE SOUTH CENTRAL DE NOVO.
+REMINDER_SUV_REP	MOSTRE PARA AQUELES CARAS DO QUE VOCÊ É CAPAZ E GANHE ALGUMAS CORRIDAS COM UM SUV.
+REMINDER_TIMETRIAL_SC	NÃO ESQUEÇA DE ME PROCURAR PARA ENTRAR NO CONTRARRELÓGIO DE SOUTH CENTRAL.
+REMINDER_TIMETRIAL_SCB	O SEU TEMPO NO CONTRARRELÓGIO DE SOUTH CENTRAL FOI SUPERADO.
+REMINDER_TIMETRIAL_SCC	O SEU TEMPO FOI SUPERADO EM SOUTH CENTRAL.  UM IMPALA '64 É SEU SE VOCÊ SUPERAR O TEMPO ATUAL.
+REMINDER_TOURNAMENT_SC	VENHA ME PROCURAR PARA ENTRAR NO TORNEIO DE SOUTH CENTRAL.
+REMINDER_TOURNAMENT_SCB	UM RANGE ROVER ESTÁ EM JOGO NO TORNEIO "BALLERZ" DE SOUTH CENTRAL.
+REPEAT_BESTOF_SC_DESC	Sempre tem gente circulando pela Crenshaw Blvd., em South Central.  Desafie-os e seja o primeiro a vencer duas corridas.
+REPEAT_BESTOF_SC_TITLE	DUELO EM SOUTH CENTRAL
+REPEAT_HANGOUT_WAGER_SC_DESC	Sempre tem gente por lá querendo fazer uma aposta na Fábrica Abandonada.  Vá até lá quando quiser ação.
+REPEAT_HANGOUT_WAGER_SC_OBJ_01	GANHE ALGUMAS CORRIDAS COM APOSTA EM SOUTH CENTRAL
+REPEAT_HANGOUT_WAGER_SC_TITLE	O ENCONTRO
+REPEAT_TOURNAMENT_SC_DESC	ORO comentou que o Torneio de South Central está aberto de novo.  Encontre-o circulando por South Central para testar suas habilidades de novo.
+REPEAT_TOURNAMENT_SC_TITLE	TORNEIO DE SOUTH CENTRAL
+SC_Tournament	TORNEIO DE SOUTH CENTRAL
+SC_Tournament1	TORNEIO DE SOUTH CENTRAL
+Tournament_SC	TORNEIO DE SOUTH CENTRAL
+TOURNAMENT_SC_TITLE	TORNEIO DE SOUTH CENTRAL
+RL_Crenshaw	CRENSHAW
+RL_LAColliseum	O ESTÁDIO
+RL_RandysDonuts	RANDY'S DONUTS
+RL_ShrineAuditorium	SHRINE AUDITORIUM
+RL_TheHood	A QUEBRADA
+RL_Watts	WATTS
+sc_delivery	ENTREGA 
+sc_delivery_desc	Garagem do Doc
+sc_garage	GARAGEM DO DOC
+sc_garage_desc	Crenshaw
+sc_local_hangout1	KENNETH HAHN STATE PARK
+sc_local_hangout1_desc	Baldwin Hills
+sc_preset_Crimepays	O CRIME COMPENSA
+sc_preset_Gold	DOURADO
+sc_preset_Lowfire	FOGO BAIXO
+sc_preset_Lowtribal	TRIBAL BAIXO
+sc_preset_Magenta	MAGENTA
+sc_preset_Orangeblackfade	DEGRADÊ O.G.
+sc_preset_stripes	QUADRADOS
+sc_preset_Westcoast	COSTA OESTE
+sc_wager_hangout1	FÁBRICA ABANDONADA
+sc_wager_hangout1_desc	Huntington Park
+SIDEKICK_BEAT_GH_26_SUV	ESTOU CIRCULANDO POR BALDWIN HILLS.  TRAGA UM SUV.
+SIDEKICK_BESTOF_GH_26	VAMOS VER DO QUE VOCÊ É CAPAZ.  MELHOR DE 3. VENHA ME ENCONTRAR.
+SIDEKICK_BESTOF_GH_27	MELHOR DE 3. VENHA ME ENCONTRAR.
+SIDEKICK_BESTOF_GH_27_POST	VOCÊ É O MELHOR DE SOUTH CENTRAL. PARABÉNS.
+SIDEKICK_BESTOF_GH_31	ESTOU CIRCULANDO POR CRENSHAW.  TRAGA O SEU MELHOR E VAMOS NESSA.
+SIDEKICK_DELIVERY_SC	ME PROCURE NA OFICINA DE SOUTH CENTRAL QUANDO TIVER UMA CHANCE.
+SIDEKICK_GARAGE_SC	VÁ ENCONTRAR O DOC NA GARAGEM DELE EM SOUTH CENTRAL.
+SIDEKICK_HANGOUT_PINKSLIP_SC	CORRA CONTRA A PINKY PELO PINK SLIP DELA.
+SIDEKICK_HANGOUT_SERIES_SC	VÁ PROCURAR AQUELES CARAS NO KENNETH HAHN STATE PARK.
+SIDEKICK_HANGOUT_WAGER_SC	VÁ TIRAR O DINHEIRO DAQUELES OTÁRIOS NA FÁBRICA ABANDONADA.
+SIDEKICK_LOWRIDER_REP	VÁ GANHAR ALGUMAS CORRIDAS COM UM LOWRIDER.
+SIDEKICK_RACES_IN_SC	VÁ PARA SOUTH CENTRAL E GANHE ALGUMAS CORRIDAS.
+SIDEKICK_REPEAT_BESTOF_SC	QUEM VENCER DUAS CORRIDAS PRIMEIRO GANHA.  VÁ PARA A CRENSHAW BLVD.
+SIDEKICK_REPEAT_HANGOUT_WAGER_SC	GANHE APOSTAS EM SOUTH CENTRAL.
+SIDEKICK_REPEAT_TOURNAMENT_SC	O TORNEIO DE SOUTH CENTRAL ESTÁ ABERTO DE NOVO.
+SIDEKICK_SUV_REP	PEGUE UM SUV E GANHE ALGUMAS CORRIDAS.
+SIDEKICK_TIMETRIAL_SC	QUER ENTRAR NO CONTRARRELÓGIO DE SOUTH CENTRAL?
+SIDEKICK_TIMETRIAL_SC_POST	NOVOS VEÍCULOS FORAM ENTREGUES AO CONTRARRELÓGIO DE SOUTH CENTRAL.  VÁ BATER NOVOS RECORDES.
+SIDEKICK_TIMETRIAL_SCB	O SEU TEMPO FOI SUPERADO.  ME ENCONTRE CIRCULANDO POR HUNTINGTON PARK PARA ENTRAR NO CONTRARRELÓGIO DE NOVO.
+SIDEKICK_TIMETRIAL_SCC	ALGUÉM SUPEROU O SEU TEMPO NO CONTRARRELÓGIO DE SOUTH CENTRAL DE NOVO.  SUPERE O TEMPO ATUAL E GANHE UM IMPALA '64.
+SIDEKICK_TOURNAMENT_SC	O TORNEIO DE SOUTH CENTRAL ESTÁ ABERTO.
+SIDEKICK_TOURNAMENT_SCB	O TORNEIO "BALLERZ" DE SOUTH CENTRAL ESTÁ ABERTO.  UM RANGE ROVER É A RECOMPENSA!
+STAT_K$WA_541	VALOR GANHO EM APOSTAS EM SOUTH CENTRAL
+STAT_K:TB_16	CONTRARRELÓGIO DE SOUTH CENTRAL:  '64 IMPALA
+STAT_K:TB_17	CONTRARRELÓGIO DE SOUTH CENTRAL:  '66 GTO
+STAT_K:TB_18	CONTRARRELÓGIO DE SOUTH CENTRAL:  '08 RANGER ROVER
+STAT_K:TB_19	CONTRARRELÓGIO DE SOUTH CENTRAL:  '08 CLK63 AMG 
+STAT_KLOW_0	VITÓRIAS COM LOWRIDER
+STAT_KSUW_0	VITÓRIAS COM SUV
+SUV_REP_DESC	DOC ligou querendo ver a sua habilidade ao volante com um SUV.
+SUV_REP_OBJ_01	VENÇA 6 CORRIDAS COM UM SUV
+SUV_REP_TITLE	BEBEDORES DE GASOLINA
+TIMETRIAL_SC	CONTRARRELÓGIO DE SOUTH CENTRAL
+TIMETRIAL_SC_TITLE	CONTRARRELÓGIO DE SOUTH CENTRAL
+TIMETRIAL_SC_DESC	O CONTRARRELÓGIO está aberto em South Central.  Procure o MIKEY circulando por Huntington Park.
+TIMETRIAL_SCB_DESC	MIKEY ligou.  Alguém superou o seu tempo no CONTRARRELÓGIO DE SOUTH CENTRAL.  
+TIMETRIAL_SCB_TITLE	VAMOS NESSA
+TIMETRIAL_SCC_DESC	O seu tempo foi superado de novo no CONTRARRELÓGIO DE SOUTH CENTRAL.  Procure o MIKEY em Huntington Park para superar o tempo.
+TIMETRIAL_SCC_TITLE	É ASSIM QUE A GENTE FAZ
+TOURNAMENT_SC_DESC	ORO conta sobre o Torneio de South Central.  Encontre-o circulando por Crenshaw.
+TOURNAMENT_SCB_DESC	ORO ligou dizendo que o último torneio foi tão bom que o próximo foi promovido para "SÓ BALLERZ".  Dê uma passada se você se encaixa nessa categoria.  Um Range Rover Sport novo é o prêmio para quem vencer na dificuldade DIFÍCIL.
+TOURNAMENT_SCB_OBJ_01	VENÇA O TORNEIO "BALLERZ" DE SOUTH CENTRAL NA DIFICULDADE DIFÍCIL
+TOURNAMENT_SCB_TITLE	TORNEIO "BALLERZ" DE SOUTH CENTRAL
+tutorial_hydraulics_desc	Você acabou de instalar a Hidráulica.  Você pode ativar/desativar a Hidráulica apertando o direcional para baixo (configuração padrão). 
+tutorial_hydraulics_desc_detailed_page1	A Hidráulica pode ser ativada apertando o direcional para baixo (configuração padrão).  Aperte de novo para desativar. Com a Hidráulica ativada, use LB, LT, RB e RT para controlar cada roda. 
+SIDEKICK_AVOID_TRAFFIC_TIP	BAIXE O MAPA GRÁTIS PARA CORRER ONLINE EM SOUTH CENTRAL. VISITE WWW.ROCK STARGAMES.COM/MIDNIGHTCLUBLA PARA MAIS INFORMAÇÕES.
+SIDEKICK_SC_COMP_PACK	BAIXE O MAPA GRÁTIS PARA CORRER ONLINE EM SOUTH CENTRAL. VISITE WWW.ROCK STARGAMES.COM/MIDNIGHTCLUBLA PARA MAIS INFORMAÇÕES.
+SIDEKICK_CLEAR_CHECKPOINTS_TIP	OS CHECKPOINTS MARCAM O CAMINHO GERAL, MAS VOCÊ MUITAS VEZES PODE CORTAR CURVAS OU PEGAR ATALHOS E AINDA ASSIM PASSAR POR ELES.
+SIDEKICK_DIFFICULTY_COLORS_TIP	OS EVENTOS TÊM CORES DE DIFICULDADE. VERDE É O MAIS FÁCIL, AMARELO É MÉDIO, LARANJA É DIFÍCIL E VERMELHO É O MAIS DIFÍCIL.
+SIDEKICK_DISMISS_SIDEKICK_TIP	VOCÊ PODE DISPENSAR O SIDEKICK APERTANDO PARA CIMA NO BOTÃO DO MAPA AÉREO.
+SIDEKICK_PHOTOMODE_TIP	TIRE FOTOS MOVENDO O ANALÓGICO DIREITO NO MENU DE PAUSA A QUALQUER MOMENTO. AS FOTOS PODEM SER ENVIADAS PELO ÁLBUM DE FOTOS.
+SIDEKICK_SPECIAL_POWER_TIP	CONFIRA OS POWER-UPS ESPECIAIS QUE VOCÊ PODE ADICIONAR AO SEU CARRO NA GARAGEM.
+SIDEKICK_SPOT_SHORTCUTS_TIP	FIQUE DE OLHO NOS ATALHOS.  VOCÊ PODE VER VÁRIOS NO MINIMAPA E NOTÁ-LOS QUANDO OS OPONENTES OS USAM.
+SIDEKICK_STEERING_TIP	PACOTE PREMIUM DE SOUTH CENTRAL. NOVO CONTEÚDO DE CARREIRA, CORRIDAS, MAPAS DE BATALHA, ENTREGAS E MUITO MAIS. BAIXE AGORA.
+SIDEKICK_TOURNAMENT_COMING_SOON_DESC	PACOTE PREMIUM DE SOUTH CENTRAL. NOVO CONTEÚDO DE CARREIRA, CORRIDAS, MAPAS DE BATALHA, ENTREGAS E MUITO MAIS. BAIXE AGORA.
+SIDEKICK_SC_B_DESC	PACOTE PREMIUM DE SOUTH CENTRAL. NOVO CONTEÚDO DE CARREIRA, CORRIDAS, MAPAS DE BATALHA, ENTREGAS E MUITO MAIS. BAIXE AGORA.
+SIDEKICK_SC_DESC	PACOTE PREMIUM DE SOUTH CENTRAL. NOVO CONTEÚDO DE CARREIRA, CORRIDAS, MAPAS DE BATALHA, ENTREGAS E MUITO MAIS. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_A_DESC	CORRA COM O MITSUBISHI LANCER EVOLUTION X 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_2_DESC	CORRA COM O MITSUBISHI LANCER EVOLUTION X 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_B_DESC	CORRA COM O ASTON MARTIN DB9 2007 E O AUDI S5 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_C_DESC	CORRA COM O MITSUBISHI ECLIPSE GT 2009 E O MERCEDES-BENZ CL 65 AMG NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_1_DESC	CORRA COM O MITSUBISHI ECLIPSE GT 2009 E O MERCEDES-BENZ CL 65 AMG NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_D_DESC	CORRA COM O MITSUBISHI ECLIPSE GT 2009 E O AUDI S5 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_1A_DESC	CORRA COM O MITSUBISHI ECLIPSE GT 2009 E O AUDI S5 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_E_DESC	CORRA COM O MERCEDES-BENZ CL 65 AMG 2008 E O AUDI S5 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_1B_DESC	CORRA COM O MERCEDES-BENZ CL 65 AMG 2008 E O AUDI S5 2008 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+SIDEKICK_VEHICLEPACK_2A_DESC	CORRA COM O ASTON MARTIN DB9 2007 NOS PACOTES DE VEÍCULOS DE SOUTH CENTRAL. BAIXE AGORA.
+@CUSTOM	PERSONALIZADO
+@PLAYER	JOGADOR
+@STOCK	ORIGINAL
+@FIRST IMPRESSIONS	PRIMEIRAS IMPRESSÕES
+@DISTANCE TRAVELED	DISTÂNCIA PERCORRIDA
+@FOUND	ENCONTRADO
+@Music List:	Lista de Músicas:
+@PERCENT COMPLETED	PORCENTAGEM CONCLUÍDA
+@COLLECTABLES	COLECIONÁVEIS
+@OFF	DESLIGADO
+@ARROW	SETA
+@STEERING SENS.	SENSIB. DA DIREÇÃO
+@CONVERTIBLE TOP	CAPOTA CONVERSÍVEL
+@DOWN	BAIXO
+@DEFAULT CAMERA	CÂMERA PADRÃO
+@EDIT	EDITAR
+@BACK	VOLTAR
+@DEFAULTS	PADRÕES
+@PREV/NEXT VEHICLE	VEÍCULO ANT./PRÓX.
+@PREV/NEXT BOARD	QUADRO ANT./PRÓX.
+@PLAY	TOCAR
+@REMOVE FROM PLAYLIST	REMOVER DA LISTA
+@VIEW SONGS	VER MÚSICAS
+@TURN SHUFFLE ON	ATIVAR ALEATÓRIO
+@ADD TO PLAYLIST	ADICIONAR À LISTA
+@TURN SHUFFLE OFF	DESATIVAR ALEATÓRIO
+@ACCEPT	ACEITAR
+@Select Genre:	Escolha o gênero:
+@DAMAGED OUT	ELIMINADO POR DANO
+@PAUSE	PAUSA
+@MODES	MODOS
+@SETTINGS	AJUSTES
+@CHANGE TABS	TROCAR ABAS
+@NORMAL	NORMAL
+@GARAGE	GARAGEM
+@MANAGE VEHICLES	GERENCIAR VEÍCULOS
+@CUSTOMIZE VEHICLE	PERSONALIZAR VEÍCULO
+@VEHICLE SHOWROOM	CONCESSIONÁRIA
+@CUSTOMIZATION	PERSONALIZAÇÃO
+@PERFORMANCE SHOP	LOJA DE DESEMPENHO
+@VINYL EDITOR	EDITOR DE ADESIVOS
+@PAINT SHOP	LOJA DE PINTURA
+@HYDRAULICS/AIR BAGS	HIDRÁULICA/AIR BAGS
+@SPECIAL ABILITIES	HABILIDADES ESPECIAIS
+@EXIT	SAIR
+@PAINT TYPE	TIPO DE PINTURA
+@FADE TYPE	TIPO DE DEGRADÊ
+@PRIMARY COLOR	COR PRIMÁRIA
+@SECONDARY COLOR	COR SECUNDÁRIA
+@PAINT OPTIONS	AJUSTES DE PINTURA
+@COWL	CARENAGEM
+@FRONT BUMPERS	PARA-CHOQUES DIANTEIROS
+@HEADLIGHTS	FARÓIS
+@HOODS	CAPÔS
+@VEHICLE	VEÍCULO
+@WIDEBODY	CARROCERIA LARGA
+@WHEEL	RODA
+@RIMS	RODAS
+@SOUTH CENTRAL RIMS	RODAS DE SOUTH CENTRAL
+@DIMENSIONS	MEDIDAS
+@TIRES	PNEUS
+@BRAKES	FREIOS
+@INTERIOR	INTERIOR
+@STEERING WHEELS	VOLANTES
+@GAUGES	MOSTRADORES
+@FRONT SEATS	BANCOS DIANTEIROS
+@REAR	TRASEIRA
+@TAIL	TRASEIRA
+@LICENSE PLATES	PLACAS
+@REAR BUMPERS	PARA-CHOQUES TRASEIROS
+@SPOILERS	AEROFÓLIOS
+@TAILLIGHTS	LANTERNAS TRASEIRAS
+@EXHAUSTS	ESCAPAMENTOS
+@EXTRA	EXTRA
+@NEON/WINDOW TINT	NEON/PELÍCULA DAS JANELAS
+@TANK	TANQUE
+@SIDESKIRTS	SAIAS LATERAIS
+@DOORS	PORTAS
+@SIDE EXHAUSTS	ESCAPAMENTOS LATERAIS
+@NEON	NEON
+@WINDOW TINT	PELÍCULA DAS JANELAS
+@TINT OPACITY	OPACIDADE DA PELÍCULA
+@AXLE	EIXO
+@RIMS SIZE	TAMANHO DAS RODAS
+@TIRE PROFILE	PERFIL DO PNEU
+@TIRE WIDTH	LARGURA DO PNEU
+@RIDE HEIGHT	ALTURA DO VEÍCULO
+@HYDRAULICS	HIDRÁULICA
+@ZONE	ZONE
+@AGRO	AGRO
+@VINYL PACKAGES	PACOTES DE ADESIVOS
+@CREATE/EDIT VINYLS	CRIAR/EDITAR ADESIVOS
+@REMOVE ALL VINYLS	REMOVER TODOS OS ADESIVOS
+@STORE VINYL PACKAGES	SALVAR PACOTES DE ADESIVOS
+@EXIT VINYL EDITOR	SAIR DO EDITOR DE ADESIVOS
+@COLOR	COR
+@INTERIOR COLORS	CORES INTERNAS
+@INTERIOR NEON	NEON INTERNO
+@GAUGE COLOR A	COR DO MOSTRADOR A
+@GAUGE COLOR B	COR DO MOSTRADOR B
+@INTERIOR COLOR A	COR INTERIOR A
+@INTERIOR COLOR B	COR INTERIOR B
+@INTERIOR COLOR C	COR INTERIOR C
+@INTERIOR COLOR D	COR INTERIOR D
+@INTERIOR COLOR E	COR INTERIOR E
+@SPOKE A	RAIO A
+@SPOKE B	RAIO B
+@LIP	ABA
+@NONE	NENHUM
+@TWO TONE	DUAS CORES
+@ALL PARTS	TODAS AS PEÇAS
+@MAIN BODY	CARROCERIA PRINCIPAL
+@EXIT GARAGE	SAIR DA GARAGEM
+@YES	SIM
+@TRADE IN VALUE:	VALOR DA TROCA:
+@ADD TO CART?	ADICIONAR AO CARRINHO?
+@FULL	CHEIO
+@COLOR PICKER	SELETOR DE COR
+@SAVE	SALVAR
+@APPLY	APLICAR
+@STOCK RIMS	RODAS ORIGINAIS
+@PAY AND CHECK OUT	PAGAR E FINALIZAR
+@REMOVE ITEM	REMOVER ITEM
+@REMOVE ALL ITEMS	REMOVER TODOS OS ITENS
+@ACCEPT COLOR	ACEITAR COR
+@CHANGE COLOR	TROCAR COR
+@CHANGE STATE	TROCAR ESTADO
+@EDIT COLOR SLOT	EDITAR SLOT DE COR
+@RESET COLOR SLOT	REDEFINIR SLOT DE COR
+@RETURN TO CRUISE	VOLTAR AO PASSEIO
+@RACE SERIES AGAIN	CORRER A SÉRIE DE NOVO
+@NEXT RACE IN SERIES	PRÓXIMA CORRIDA DA SÉRIE
+@QUIT SERIES	SAIR DA SÉRIE
+@RESTART SERIES	REINICIAR SÉRIE
+@RESTART TOURNAMENT	REINICIAR TORNEIO
+@CONTINUE TOURNAMENT	CONTINUAR TORNEIO
+@QUIT TOURNAMENT	SAIR DO TORNEIO
+@RESULTS	RESULTADOS
+@CONTINUE	CONTINUAR
+@MISSION LOG	DIÁRIO DE MISSÕES
+@FLASH HEADLIGHTS	PISQUE OS FARÓIS
+@NITROUS	NITRO
+@DELIVERY	ENTREGA
+@PAYBACK	VINGANÇA
+@READY	PRONTO
+@VISUAL DAMAGE TAKEN: <D>YOUR_DAMAGE</D>%	DANO VISUAL SOFRIDO: <D>YOUR_DAMAGE</D>%
+@TIME	TEMPO
+@JUMP TO RACE START	PULAR PARA A LARGADA DA CORRIDA
+@QUIT RACE	SAIR DA CORRIDA
+@FINE:	MULTA:
+@AUTO UPGRADE	MELHORIA AUTOMÁTICA
+@CHANGE BRAND	TROCAR MARCA
+@GPS	GPS
+@SET TO ACTIVE TARGET	DEFINIR COMO ALVO ATIVO
+@VIEW MISSIONS	VER MISSÕES
+@MONEY:	DINHEIRO:
+@EDIT GROUP	EDITAR GRUPO
+@LAYER OPTIONS	OPÇÕES DE CAMADA
+@EDIT LAYER	EDITAR CAMADA
+@CHANGE SHAPE	TROCAR FORMA
+@CAMERA HEIGHT	ALTURA DA CÂMERA
+@HIDE OPTIONS	OCULTAR OPÇÕES
+@TARGET TIME	TEMPO ALVO
+@TOTAL RACES:	TOTAL DE CORRIDAS:
+@DELIVERY REWARD	RECOMPENSA DA ENTREGA
+@COMPLETION REWARD:	RECOMPENSA DA CONCLUSÃO:
+@RACE WINS NEEDED:	VITÓRIAS NECESSÁRIAS:
+@WAGER RACE	CORRIDA COM APOSTA
+@PINKSLIP RACE	CORRIDA DE PINK SLIP
+@DIFFICULTY	DIFICULDADE
+@HIDE HUD	OCULTAR HUD
+@POINTS	PONTOS
+@RED TEAM	EQUIPE VERMELHA
+@BLUE TEAM	EQUIPE AZUL
+@<D>POST_BEAT_ME_THERE_REP_AMOUNT</D> REP	<D>POST_BEAT_ME_THERE_REP_AMOUNT</D> REP
+@Do you want to repair your vehicle before you CONTINUE the series?	Quer reparar o veículo antes de CONTINUAR a série?
+@RANK:	NÍVEL:
+@RANK	NÍVEL
+@TOTAL:	TOTAL:
+@GOAL ATTACK	ATAQUE AO OBJETIVO
+@TOTAL REP:	REPUTAÇÃO TOTAL:
+@NEXT RANK AT	PRÓXIMO NÍVEL EM
+@NAME	NOME
+@TOTAL	TOTAL
+@POS.	POS.
+@WINS	VITÓRIAS
+@MENU	MENU
+@PAN	MOVER
+@ZOOM	ZOOM
+@MAP MODE	MODO DO MAPA
+@INFORMATION	INFORMAÇÕES
+@VIEW RACE	VER CORRIDA
+@START RACE	INICIAR CORRIDA
+@DEFAULT	PADRÃO
+@DAMAGE	DANO
+@SET	DEFINIR
+@VIEW	VER
+@ACTION	AÇÃO
+@BUTTON	BOTÃO
+@PRESS A BUTTON	APERTE UM BOTÃO
+@CHANGE	TROCAR
+@CLEAR	CÉU LIMPO
+@NUMBER OF LAPS	NÚMERO DE VOLTAS
+@NUMBER OF OPPONENTS	NÚMERO DE OPONENTES
+@YOUR TIME:	SEU TEMPO:
+@<D>PLAYER_ELEMINATED</D> ELIMINATED!	<D>PLAYER_ELEMINATED</D> ELIMINADO!
+@TIME EXPIRED	TEMPO ESGOTADO
+@THAT'S HIM, GET HIM!	É ELE, PEGUE ELE!
+@TUNER	TUNER
+@FRONT BUMPER	PARA-CHOQUE DIANTEIRO
+@UNLOCKED	DESBLOQUEADO
+@GROUP 1 VEHICLES: PERFORMANCE LEVEL 1	VEÍCULOS DO GRUPO 1: NÍVEL DE DESEMPENHO 1
+@REWARDED	RECOMPENSADO
+@EASIEST	MAIS FÁCIL
+@MEDIUM	MÉDIO
+@HARD	DIFÍCIL
+@HARDEST	MAIS DIFÍCIL
+@DYNAMIC	DINÂMICO
+@PARTLY CLOUDY	PARCIALMENTE NUBLADO
+@CLOUDY	NUBLADO
+@RAINY	CHUVOSO
+@MIDNIGHT	MEIA-NOITE
+@DAWN	AMANHECER
+@NOON	MEIO-DIA
+@DUSK	ANOITECER
+@LAST MAN OUT	ÚLTIMO FORA
+@POWER UPS	POWER-UPS
+@TRAFFIC	TRÂNSITO
+@WEATHER	CLIMA
+@TIME OF DAY	HORÁRIO DO DIA
+@NITRO	NITRO
+@MIRROR	ESPELHO
+@PRESET {}	PREDEFINIÇÃO {}
+@LIVERY {}	ADESIVO {}
+@LOCKED - NEEDS {} REP	BLOQUEADO - PRECISA DE {} REP
+@NOT ENOUGH CASH - ${} NEEDED	DINHEIRO INSUFICIENTE - FALTAM ${}
+@PURCHASED FOR ${}	COMPRADO POR ${}
+@PARTS FITTED FOR ${}	PEÇAS INSTALADAS POR ${}
+@{}  STAGE {}	{}  ETAPA {}
+@PERFORMANCE UPGRADED FOR ${}	DESEMPENHO MELHORADO POR ${}
+@Street race	Corrida de rua
+@MISSIONS   {}/{}	MISSÕES   {}/{}
+@  NEXT EVENT   {}	  PRÓXIMO EVENTO   {}
+@+ {} MORE	+ {} A MAIS
+@{} ADDED TO FAVORITES	{} ADICIONADA AOS FAVORITOS
+@{} REMOVED FROM FAVORITES	{} REMOVIDA DOS FAVORITOS
+@YOU	VOCÊ
+@{}RACE HENRY	{}CORRA CONTRA O HENRY
+@NEW KID IN TOWN	NOVATO NA CIDADE
+@{}WIN A RACE	{}VENÇA UMA CORRIDA
+@TALK TO HENRY	FALE COM O HENRY
+@PRESS {}	APERTE {}
+@COLLECTABLE  {}	COLECIONÁVEL  {}
+@Your custom playlist is empty.	Sua lista personalizada está vazia.
+@TOTAL REP	REP TOTAL
+@CASH	DINHEIRO
+@{} COLLECTABLES NEEDED	SÃO NECESSÁRIOS {} COLECIONÁVEIS
+@DISPLAY	TELA
+@PERFORMANCE	DESEMPENHO
+@DETAIL LEVEL	NÍVEL DE DETALHES
+@REAR-VIEW MIRROR	RETROVISOR
+@INTRO	INTRODUÇÃO
+@STICK DEAD ZONE	ZONA MORTA DO ANALÓGICO
+@Default Camera	Câmera Padrão
+@QUIT GAME	SAIR DO JOGO
+@LEFT / RIGHT  {}	ESQUERDA / DIREITA  {}
+@ESC  BACK	ESC  VOLTAR
+@{} LAPS	{} VOLTAS
+@POINT TO POINT	PONTO A PONTO
+@{} CHECKPOINTS   {}   {} KM   {} OPPONENTS	{} CHECKPOINTS   {}   {} KM   {} OPONENTES
+@TARGET TIME {}	TEMPO ALVO {}
+@CASH ${}	DINHEIRO ${}
+@WIN ${}	GANHE ${}
+@{} LAYERS	{} CAMADAS
+@ALPHA CUTOUT	RECORTE ALFA
+@NEGATIVE ALPHA CUTOUT	RECORTE ALFA NEGATIVO
+@LEFT / RIGHT  STAGE      ENTER  ACCEPT      ESC  BACK      TOTAL: ${}	ESQUERDA / DIREITA  ETAPA      ENTER  ACEITAR      ESC  VOLTAR      TOTAL: ${}
+@PAINT AREA	ÁREA DE PINTURA
+@NEON COLOR	COR DO NEON
+@LOWERING PATTERN	PADRÃO DE REBAIXAMENTO
+@LOCKED - {} OF {} {} WINS	BLOQUEADO - {} DE {} VITÓRIAS COM {}
+@COLOUR {}	COR {}
+@{} OF {} UPGRADES   ENTER	{} DE {} MELHORIAS   ENTER
+@{}   ENTER TO EDIT	{}   ENTER PARA EDITAR
+@NONE   ENTER TO EDIT	NENHUM   ENTER PARA EDITAR
+@VINYL	ADESIVO
+@FRONT BACK	FRENTE TRÁS
+@LEFT RIGHT	ESQUERDA DIREITA
+@TOP BOTTOM	CIMA BAIXO
+@SECONDARY COLOUR	COR SECUNDÁRIA
+@TINT COLOUR	COR DA PELÍCULA
+@NEON COLOUR	COR DO NEON
+@RIM SIZE	TAMANHO DA RODA
+@{} INCH	{} POL.
+@VEHICLE: -	VEÍCULO: -
+@VEHICLE: {}-CLASS / GROUP {}	VEÍCULO: CLASSE {} / GRUPO {}
+@PRICE:	PREÇO:
+@LEVEL {}	NÍVEL {}
+@PACKAGE {}	PACOTE {}
+@SHOW PLATE	MOSTRAR PLACA
+@HIDE PLATE	OCULTAR PLACA
+@IN YOUR GARAGE	NA SUA GARAGEM
+@LOCKED  {} REP	BLOQUEADO  {} REP
+@PRICE ${}	PREÇO ${}
+@{}  CLASS {}	{}  CLASSE {}
+@MONEY: ${}	DINHEIRO: ${}
+@REP {}      MONEY: ${}	REP {}      DINHEIRO: ${}
+@WINNINGS ${}      REP +{}	GANHOS ${}      REP +{}
+@{}  SKIP	{}  PULAR
+@FINE ${}	MULTA ${}
+@LAP {}/{}	VOLTA {}/{}
+@RACE EDITOR    {} POINTS    {} KM	EDITOR DE CORRIDAS    {} PONTOS    {} KM
+@CASH ${}    REP {}	DINHEIRO ${}    REP {}
+@CAR	CARRO
+@BEST TIME	MELHOR TEMPO
+@REP EARNED:  {}	REP GANHA:  {}
+@MONEY EARNED:  ${}	DINHEIRO GANHO:  ${}
+@Goal Attack	Ataque ao Objetivo
+@KEYBOARD CONTROLS	CONTROLES DO TECLADO
+@KEY	TECLA
+@PRESS A KEY - ESC: CANCEL	APERTE UMA TECLA - ESC: CANCELAR
+@RACING WHEEL	VOLANTE DE CORRIDA
+@{} LEVEL {}	{} NÍVEL {}
+@TARGET TIME:	TEMPO ALVO:
+@ICE	GELO
+@REVERSE STEERING	DIREÇÃO INVERTIDA
+@STEALTH	FURTIVIDADE
+@DISRUPTER	PERTURBADOR
+@SHIELD	ESCUDO
+@STOP	PARADA
+@PULSE	PULSO
+@RANDOM	ALEATÓRIO
+@New best time	Novo melhor tempo
